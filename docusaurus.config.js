@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/m16.png",
-  organizationName: "m16labs", // Usually your GitHub org/user name.
+  organizationName: "anmolmalik97", // Usually your GitHub org/user name.
   projectName: "MetahOS-Guide", // Usually your repo name.
 
   presets: [
@@ -43,6 +43,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: { defaultMode: "dark" },
       navbar: {
         title: "MetahOS",
         logo: {
