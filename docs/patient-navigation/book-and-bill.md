@@ -24,19 +24,23 @@ As you keep keying in MetahOS will bring all the relevant results. Once you have
 ## Click on _Create Navigation_ on the Patient Card
 
 You will be taken to the **Patient Billing Screen**
+
 ![Patient Billing Screen](https://res.cloudinary.com/teleopdassets/image/upload/v1642079724/Guide/Patient_Billing_Screen_in_MetahOS_k7gims.png)
 
 On the top you will notice Advance, Estimates and Consents, these can be activated by clicking on them.
+
 ![Advance, Estimates and Consents](https://res.cloudinary.com/teleopdassets/image/upload/v1642122490/Guide/Patient_Billing_Screen_Consents_Advance_and_Estimates_d2m2a4.png)
 
 ### Next Step is to Enter the relevant information about the patient condition and selecting the necessary fields
 
 Selecting Referral Doc, Prescribing Doctor, Enter Symptoms, Allergies, selecting the contract types, if the patient is a walk-in, etc
+
 ![Selecting Referral Doc, Prescribing Doctor, Enter Symptoms, Allergies, selecting the contract types, if the patient is a walk-in](https://res.cloudinary.com/teleopdassets/image/upload/v1642123155/Guide/Book_and_Bill_for_Services_in_MetahOS_l7svvb.gif)
 
 ### Now key in the services that the patient has requested
 
 For Example Consultation with a Doctor, you can start keying the service line item and the autofill will help you select the required/available service
+
 ![Enter Service Line Items](https://res.cloudinary.com/teleopdassets/image/upload/v1642124297/Guide/Enter_Service_Line_Items_in_MetahOS_sylvuz.gif)
 
 After you key in all the service line items, you can click on **Initiate Navigation** to initiate payments.
