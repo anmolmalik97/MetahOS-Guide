@@ -112,7 +112,8 @@ To Suggest Investigations during the consultation start typing the name of the i
 
 ![Lab Investigations](https://res.cloudinary.com/teleopdassets/image/upload/v1642138067/Guide/Consultation%20Screen/Add-Diagnostic-Investigations_olzeco.gif)
 
-**Adding Procedures**
+## Adding Procedures
+
 To have a procedure performed on the patient, key in the Procedure name in the Procedure widget
 
 ![Adding Procedures](https://res.cloudinary.com/teleopdassets/image/upload/v1642138996/Guide/Consultation%20Screen/Adding-Procedures_ci2bel.gif)

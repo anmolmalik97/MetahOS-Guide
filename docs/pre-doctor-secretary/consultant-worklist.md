@@ -107,6 +107,8 @@ Uploaded filess can then be viewed using the prescription button
 
 Typically **The Clinician/Consultant** will click on **Consult** button to start entering consultation notes.
 
+![complete-consultation](https://res.cloudinary.com/teleopdassets/image/upload/v1642178196/Guide/Screenshot_2022-01-14_at_10.05.53_PM_rez8su.jpg)
+
 ### Edit Completed Consultation
 
 15. _ Edit _ Button in completed worklist will let clinicians to edit a completed consultation.
