@@ -30,7 +30,9 @@ Screening list will show you the list of the patients who have active screenings
 
 ![Create New](https://res.cloudinary.com/teleopdassets/image/upload/v1642094172/Guide/Create%20New.png)
 
-### Camp and Patient Selection![Camp and Patient Selection ](https://res.cloudinary.com/teleopdassets/image/upload/v1642094604/Guide/Camp%20Selection%20Screen.png)
+### Camp and Patient Selection
+
+![Camp and Patient Selection ](https://res.cloudinary.com/teleopdassets/image/upload/v1642094604/Guide/Camp%20Selection%20Screen.png)
 
 ### Camp Selection Dropdown
 
@@ -46,6 +48,7 @@ Search for existing patient on click on the Create New button if patient is not 
 ### Create New
 
 ![Camp and Patient Selection ](https://res.cloudinary.com/teleopdassets/image/upload/v1642095259/Guide/Enter%20Patient%20Details.png)
+
 Fill in the mandatory details and click on save and continue.
 
 ### Fill Up Form
