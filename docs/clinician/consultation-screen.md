@@ -91,6 +91,19 @@ You can also view and load from Previous Prescriptions, MetahOS will prompt you 
 
 You can also manage the Frequencies, special instructions and create your own. If you create your own frequencies then only those frequencies will be available for selection else by default you will get almost all the frequencies and instructions on taking the medications.
 
+Special instructions can be created by Clinicians as per the population that they treat in various languages
+
+```
+English
+ಕನ್ನಡ
+हिन्दी
+मराठी
+বাংলা
+தமிழ்
+```
+
+and any other language that supports Unicode
+
 ![Manage Frequencies and Instructions](https://res.cloudinary.com/teleopdassets/image/upload/v1642137498/Guide/Consultation%20Screen/Manage-Frequencies_-Instructions_xopess.gif)
 
 ## Lab/Radiology Investigations

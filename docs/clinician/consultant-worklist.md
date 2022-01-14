@@ -85,6 +85,10 @@ Eg - system will change the color of worklist line item as per the status of the
 
 ![Upload Rx](https://res.cloudinary.com/teleopdassets/image/upload/v1642129062/Guide/Upload_Rx_in_MetahOS_j0os3n.png)
 
+Uploaded filess can then be viewed using the prescription button
+
+![prescription-button](https://res.cloudinary.com/teleopdassets/image/upload/v1642176008/Screenshot_2022-01-14_at_9.28.13_PM_dzil5n.jpg)
+
 ### Vaccination
 
 12. _ Vaccination _ button is used to log any Vaccinations that are administered by the Clinician or to log a past vaccination
@@ -102,3 +106,12 @@ Eg - system will change the color of worklist line item as per the status of the
 14. _ Complete _ Button will complete the consultation without entering the details.
 
 Typically **The Clinician/Consultant** will click on **Consult** button to start entering consultation notes.
+
+![complete-consultation](https://res.cloudinary.com/teleopdassets/image/upload/v1642178196/Guide/Screenshot_2022-01-14_at_10.05.53_PM_rez8su.jpg)
+
+### Edit Completed Consultation
+
+15. _ Edit _ Button in completed worklist will let clinicians to edit a completed consultation.
+    The system by default logs all modifications in a completed consultation and maintains an Audit Trail.
+
+![edit-consultation](https://res.cloudinary.com/teleopdassets/image/upload/v1642173463/Screenshot_2022-01-14_at_8.47.05_PM_vuwym5.jpg)
