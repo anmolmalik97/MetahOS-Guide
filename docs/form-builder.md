@@ -376,4 +376,5 @@ Medicine selector field.
 - Disable Print: Can be True or False, Avoid this field from printing.
 - Special Field:
   - IP Medications: Only applicable in IP dashboard, If selected, It will get auto populated in with IP medicines.
+
     ![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235729/Guide/Form%20Builder/Medications_gktqiu.png)
