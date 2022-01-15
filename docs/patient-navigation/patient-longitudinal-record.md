@@ -48,3 +48,5 @@ Patients can be easily marked as VIP/Confidentail patients.
 ```
     System will automatically mask demographics of VIP/Confidential Patient
 ```
+
+![vip-patient](https://res.cloudinary.com/teleopdassets/image/upload/v1642258622/Guide/WhatsApp_Image_2022-01-15_at_2.24.10_AM_r8dhiz.jpg)
