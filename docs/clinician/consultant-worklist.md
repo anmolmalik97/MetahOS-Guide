@@ -89,21 +89,27 @@ Uploaded filess can then be viewed using the prescription button
 
 ![prescription-button](https://res.cloudinary.com/teleopdassets/image/upload/v1642176008/Screenshot_2022-01-14_at_9.28.13_PM_dzil5n.jpg)
 
+### Print Barcode
+
+12. _ Barcode _ button on OPD Worklist is used to print any numbers of barcodes.
+
+![prescription-button](https://res.cloudinary.com/teleopdassets/image/upload/v1642179717/Guide/Print-Barcode_zzwuq3.png)
+
 ### Vaccination
 
-12. _ Vaccination _ button is used to log any Vaccinations that are administered by the Clinician or to log a past vaccination
+13. _ Vaccination _ button is used to log any Vaccinations that are administered by the Clinician or to log a past vaccination
 
 ![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642129062/Guide/Vaccination_Log_in_MetahOS_agvuxd.png)
 
 ### Unscheduling
 
-13. _ Unschedule _ button to Unschedule a consultation, this is used by the PRE/Secretary to unschedule a consultation by providing a reason
+14. _ Unschedule _ button to Unschedule a consultation, this is used by the PRE/Secretary to unschedule a consultation by providing a reason
 
 ![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642129061/Guide/Unschedule_a_Consultation_wfe93a.png)
 
 ### Completion
 
-14. _ Complete _ Button will complete the consultation without entering the details.
+15. _ Complete _ Button will complete the consultation without entering the details.
 
 Typically **The Clinician/Consultant** will click on **Consult** button to start entering consultation notes.
 
@@ -111,7 +117,7 @@ Typically **The Clinician/Consultant** will click on **Consult** button to start
 
 ### Edit Completed Consultation
 
-15. _ Edit _ Button in completed worklist will let clinicians to edit a completed consultation.
+16. _ Edit _ Button in completed worklist will let clinicians to edit a completed consultation.
     The system by default logs all modifications in a completed consultation and maintains an Audit Trail.
 
 ![edit-consultation](https://res.cloudinary.com/teleopdassets/image/upload/v1642173463/Screenshot_2022-01-14_at_8.47.05_PM_vuwym5.jpg)

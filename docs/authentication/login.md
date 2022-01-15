@@ -15,6 +15,7 @@ Typically it would be your yourhospital.metahos.com/login
 ### Select User Type
 
 **_Note: Some versions might not have the user type_**
+
 ![Select User Type](https://res.cloudinary.com/teleopdassets/image/upload/v1642118900/Guide/Select_User_Type_vmvbgy.png)
 
 After entering your credential click on login.
