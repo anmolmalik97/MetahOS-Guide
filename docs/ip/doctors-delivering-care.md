@@ -6,15 +6,23 @@ sidebar_position: 1
 
 The EMAR provides all the functionalities for a clinician to deliver care to a patient in the in-patient care setting.
 
-The Clinician can access the IP Worklist by clicking on the IP Worklist under the Worklist Menu
+The Clinician can access the IP Worklist by clicking on the IP Worklist under the
+
+## Worklist Menu
 
 ![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642195383/Guide/IP/IP_Menu_fachwm.png)
 
-In the IP Worklist you can view all the patients assigned to you or your unit/department (depending on the configuration)
+In the IP Worklist you can view all the
+
+## Patients Assigned
+
+to you or your unit/department (depending on the configuration)
 
 ![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642195037/Guide/IP_Worklist_arqkbx.png)
 
-Clicking on EMAR would take you the EMAR Screen
+Clicking on EMAR would take you the
+
+## EMAR Screen
 
 ![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642230052/Guide/IP/IP-EMAR-Screen_mpiccx.gif)
 
