@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Nurses delivering care
 
+## Nursing dashboard
+
 ![Nursing-dashboard](https://res.cloudinary.com/teleopdassets/image/upload/v1642195558/Guide/Screen_Shot_2022-01-15_at_2.29.04_AM_t1lbru.png)
 
 ## Nurses running an Assessment
