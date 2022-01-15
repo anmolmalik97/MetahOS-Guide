@@ -57,6 +57,11 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
+          {
+            label: "API/Webhooks",
+            href: "https://docs.metahos.com",
+            external: true,
+          },
         ],
       },
       footer: {
