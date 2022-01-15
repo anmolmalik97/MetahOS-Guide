@@ -79,3 +79,14 @@ Clicking on EMAR would take you the
 ## View All Diagnosis (Add/Update)
 
 ![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642194186/Guide/diagnosis_utnypl.gif)
+
+## Switching widgets to alternate views
+
+Most of the widgets can be toggled into an alternate view
+
+```
+    Eg - How to toggle between vitals graphical and tabular view
+
+```
+
+![vital-toggle](https://res.cloudinary.com/teleopdassets/image/upload/v1642258300/Guide/Screen_Recording_2022-01-15_at_8.11.48_PM_ee7qou.gif)
