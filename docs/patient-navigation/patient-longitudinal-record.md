@@ -33,6 +33,14 @@ When you click on an Activity it will load a modal with the details
 
 ![Patient Activity Modal](https://res.cloudinary.com/teleopdassets/image/upload/v1642126676/Guide/Patient_Activity_Modal_in_MetahOS_jhs3ed.png)
 
+#### add-record-to-patient-journey
+
+Patient history can also be recorded in a free text or by uploading any file of image and PDF format.
+
+To record in free text use the `History` button, and for uploading files choose the `Upload Files` button.
+
+![Free text patient history](https://res.cloudinary.com/teleopdassets/image/upload/v1642272409/Guide/Screen_Recording_2022-01-16_at_12.13.30_AM_nhawci.gif)
+
 ### Care Team
 
 Click on **Care Team** to view the Care Team involved in Patient Care, you can also see the **_Vitals_** and clicking on the Red Chart icon will load the Chart as well.
