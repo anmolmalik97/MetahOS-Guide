@@ -33,7 +33,7 @@ When you click on an Activity it will load a modal with the details
 
 ![Patient Activity Modal](https://res.cloudinary.com/teleopdassets/image/upload/v1642126676/Guide/Patient_Activity_Modal_in_MetahOS_jhs3ed.png)
 
-#### add-record-to-patient-journey
+### add-record-to-patient-journey
 
 Patient history can also be recorded in a free text or by uploading any file of image and PDF format.
 
