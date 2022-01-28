@@ -2,34 +2,34 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# MetahOS Intro
 
-Let's discover **MetahOS**.
+Let's discover *MetahOS*. The Healthcare Operating System across the continuum of care.
 
-## Getting Started
+Check out our Health stack
+![MetahOS Health Stack](https://res.cloudinary.com/teleopdassets/image/upload/v1643395979/Guide/MetahOS_Health_Stack_mrwpby.jpg)
 
-Get started by **creating a new site**.
+## For Hospitals 
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Check out our Hospital Stack
+![MetahOS Hospital Stack](https://res.cloudinary.com/teleopdassets/image/upload/v1643395978/Guide/Hospital_Stack_h4j50q.jpg)
 
-## Generate a new site
+### Build Your own EMR
+Did you know that as a practicing Doctor you can now build your own EMR using MetahOS, check out the builder in the tutorials.
 
-Generate a new Docusaurus site using the **classic template**:
+## Data Lake
 
-```shell
-npm init docusaurus@latest my-website classic
-```
+MetahOS comes with a full fledge Data Lake to augment and provide additional capabilties to your existing infrastructure. You can integrate every system within your hospital/healthcare institution.
 
-## Start your site
+![Integrate with MetahOS](https://res.cloudinary.com/teleopdassets/image/upload/v1643396139/Guide/MetahOS_with_Built-in_Data_Lake_phbiln.png)
 
-Run the development server:
 
-```shell
-cd my-website
+## Start Today
 
-npx docusaurus start
-```
+contact@m16labs.com
+or 
+visit `[https://metahos.com]
 
-Your site starts at `http://localhost:3000`.
+Meta hOS platform is designed to help healthcare organizations improve patient care, maximize operational efficiency and reduce administrative costs. The system enables providers to focus on treating patients not on technology. This easy-to-use platform is intuitive; enabling caregivers to process the right information at the right time, in the right hands, every time.
 
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+To access these as courses visit [Learn.metahos.com](learn.metahos.com)
