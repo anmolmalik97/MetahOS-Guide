@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "MetahOS",
-  tagline: "Healthcare operating system",
+  tagline: "Healthcare Operating System",
   url: "https://guide.metahos.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -80,8 +80,8 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Learn.metahos",
+                href: "https://learn.metahos.com",
               },
               {
                 label: "Discord",
@@ -89,7 +89,11 @@ const config = {
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/healthcareOS",
+              },
+              {
+                label: "Youtube",
+                href: "https://www.youtube.com/channel/UChqkS-O5YneEnvhSUBi0fVA/videos",
               },
             ],
           },
@@ -98,11 +102,11 @@ const config = {
             items: [
               {
                 label: "Blog",
-                to: "/blog",
+                to: "https://metahos.com/blog/",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Visit Us",
+                href: "https://metahos.com",
               },
             ],
           },

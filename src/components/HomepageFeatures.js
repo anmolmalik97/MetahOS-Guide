@@ -1,43 +1,47 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './HomepageFeatures.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./HomepageFeatures.module.css";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Easy to Use",
+    Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        MetahOS Healthcare Operating System was designed from the ground up to
+        be easily configured, managed and used to get your healthcare
+        institution up and running quickly.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: "Focus on What Matters",
+    Svg: require("../../static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        MetahOS lets you focus on your patients, and the platform takes care of
+        all the chores. Go ahead and move your Healthcare institution to the
+        MetahOS Healthcare Operating System.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: "Powered by Clinicians",
+    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        MetahOS lets you configure and run your Healthcare institution based on
+        your practice and experience, you can build your own EMR, rules engines,
+        reports and everything that you need to run and manage your Healthcare
+        institution.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
       </div>
