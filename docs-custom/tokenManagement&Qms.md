@@ -2,7 +2,7 @@
 sidebar_position: 24
 ---
 
-# Token Management & QMS
+# Token Management & Queue Management System
 
 <iframe 
   src="https://drive.google.com/file/d/1mQkZQtu2PPygjZo-jzM8OZJz3xL11Bh_/preview" 

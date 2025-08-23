@@ -23,7 +23,7 @@ function HomepageHeader() {
           {/* Custom button added here */}
           <Link
             className="button button--secondary button--lg"
-            to="/custom-docs/intro"
+            to="/ksk/intro"
             style={{ marginLeft: "10px" }}
           >
             KSK Tutorial🚀
