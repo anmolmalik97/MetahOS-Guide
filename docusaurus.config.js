@@ -48,7 +48,7 @@ const config = {
       {
         id: "custom-docs",
         path: "docs-custom",
-        routeBasePath: "custom-docs",
+        routeBasePath: "ksk",
         sidebarPath: require.resolve("./sidebars-custom.js"),
         editUrl: "https://github.com/anmolmalik97/MetahOS-Guide/tree/main/",
       },
