@@ -20,14 +20,6 @@ function HomepageHeader() {
           >
             MetahOS Tutorial - 5min ⏱️
           </Link>
-          {/* Custom button added here */}
-          <Link
-            className="button button--secondary button--lg"
-            to="/ksk/intro"
-            style={{ marginLeft: "10px" }}
-          >
-            KSK Tutorial🚀
-          </Link>
         </div>
       </div>
     </header>
