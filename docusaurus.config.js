@@ -41,20 +41,6 @@ const config = {
     ],
   ],
 
-  // Add plugins for the second docs instance
-  plugins: [
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "custom-docs",
-        path: "docs-custom",
-        routeBasePath: "ksk",
-        sidebarPath: require.resolve("./sidebars-custom.js"),
-        editUrl: "https://github.com/anmolmalik97/MetahOS-Guide/tree/main/",
-      },
-    ],
-  ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -66,19 +52,16 @@ const config = {
           src: "img/m16.png",
         },
         items: [
-          // Add navigation to your custom docs
           {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "KSK Tutorial",
-            docsPluginId: "custom-docs", // Reference the custom docs plugin
+            type: "docsVersionDropdown",
+            position: "right",
           },
-          // {
-          //   label: "API/Webhooks",
-          //   href: "https://docs.metahos.com",
-          //   external: true,
-          // },
+
+          {
+            label: "API/Webhooks",
+            href: "https://docs.metahos.com",
+            external: true,
+          },
         ],
       },
       footer: {
@@ -90,10 +73,6 @@ const config = {
               {
                 label: "Tutorial",
                 to: "/docs/intro",
-              },
-              {
-                label: "Custom Docs", // Add link to custom docs in footer
-                to: "/custom-docs/intro",
               },
             ],
           },
