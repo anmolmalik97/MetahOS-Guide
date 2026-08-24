@@ -18,7 +18,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            MetahOS Tutorial - 5min ⏱️
+            Browse the Guide
           </Link>
         </div>
       </div>
@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="MetahOS Guide — complete documentation for the Healthcare Operating System"
     >
       <HomepageHeader />
       <main>

@@ -4,6 +4,9 @@
  * work well for content-centric websites.
  */
 
+/* ---- Lumen typeface (scoped to docs via --ifm-font-family-base below) ---- */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #25c2a0;
@@ -25,4 +28,1192 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* ============================================================================
+   LUMEN v2 — Clinical Calm UI
+   ----------------------------------------------------------------------------
+   A calm, medical-grade reading experience for the MetahOS Guide.
+
+   Scope: every rule below is gated on `body.lumen-docs`, a class the Lumen
+   client module (src/clientModules/lumen.js) adds ONLY on /docs routes.
+   The home page is never affected.
+
+   Design language:
+     • soft clinical palette — teal + sky on airy off-white / deep slate
+     • Inter typeface, generous rhythm, refined heading scale
+     • frosted-glass callouts with a quiet glow
+     • code-window chrome, card-like tables & pagination
+     • gentle fade / slide / blur motion (honours prefers-reduced-motion)
+   ============================================================================ */
+
+/* ---- Palette & tokens : light ------------------------------------------- */
+body.lumen-docs {
+  --lumen-page-bg: #eaf2f7;
+  --lumen-surface: #ffffff;
+  --lumen-surface-2: #f5f9fc;
+  --lumen-surface-3: #eef4f8;
+  --lumen-ink: #18242f;
+  --lumen-ink-soft: #36495a;
+  --lumen-muted: #5e7081;
+  --lumen-border: #e1ebf2;
+  --lumen-border-strong: #cbdbe6;
+  --lumen-accent: #0d9488;
+  --lumen-accent-2: #2f86cf;
+  --lumen-accent-strong: #0b7a70;
+  --lumen-accent-soft: rgba(13, 148, 136, 0.10);
+  --lumen-accent-soft-2: rgba(47, 134, 207, 0.10);
+  --lumen-glass: rgba(255, 255, 255, 0.66);
+  --lumen-glow: 0 0 0 rgba(0, 0, 0, 0);
+  --lumen-shadow-sm: 0 1px 2px rgba(16, 42, 67, 0.05), 0 4px 14px -8px rgba(16, 42, 67, 0.16);
+  --lumen-shadow-md: 0 1px 2px rgba(16, 42, 67, 0.05), 0 16px 36px -18px rgba(16, 42, 67, 0.28);
+  --lumen-shadow-lg: 0 1px 2px rgba(16, 42, 67, 0.05), 0 30px 60px -26px rgba(16, 42, 67, 0.34);
+  --lumen-radius: 18px;
+  --lumen-radius-sm: 11px;
+  --lumen-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --lumen-grad: linear-gradient(100deg, var(--lumen-accent), var(--lumen-accent-2));
+
+  /* Feed calm tokens into Infima so themed components follow along */
+  --ifm-color-primary: var(--lumen-accent);
+  --ifm-color-primary-dark: #0c887d;
+  --ifm-color-primary-darker: #0b8075;
+  --ifm-color-primary-darkest: #096a61;
+  --ifm-color-primary-light: #10a89a;
+  --ifm-color-primary-lighter: #12b3a4;
+  --ifm-color-primary-lightest: #2bc8ba;
+  --ifm-background-color: var(--lumen-page-bg);
+  --ifm-background-surface-color: var(--lumen-surface);
+  --ifm-heading-color: var(--lumen-ink);
+  --ifm-font-color-base: var(--lumen-ink-soft);
+  --ifm-menu-color-active: var(--lumen-accent-strong);
+  --ifm-toc-border-color: transparent;
+  --ifm-toc-link-color: var(--lumen-muted);
+  --ifm-line-height-base: 1.75;
+  --ifm-h1-font-size: 2.5rem;
+  --ifm-blockquote-color: var(--lumen-ink-soft);
+  --ifm-font-family-base: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --ifm-font-family-monospace: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --ifm-breadcrumb-color-active: var(--lumen-accent-strong);
+  --ifm-breadcrumb-item-background-active: var(--lumen-accent-soft);
+  --lumen-code-bar: rgba(15, 42, 67, 0.06);
+  --lumen-code-bar-border: rgba(15, 42, 67, 0.10);
+}
+
+/* ---- Palette & tokens : dark (default mode) -----------------------------
+   NOTE: Docusaurus sets data-theme on <html>, not <body>, so the dark
+   palette must be selected via `html[data-theme='dark'] body.lumen-docs`. */
+html[data-theme='dark'] body.lumen-docs {
+  --lumen-page-bg: #0a141e;
+  --lumen-surface: #101f2c;
+  --lumen-surface-2: #0d1a26;
+  --lumen-surface-3: #13212f;
+  --lumen-ink: #ecf3f9;
+  --lumen-ink-soft: #cddbe7;
+  --lumen-muted: #8da0b2;
+  --lumen-border: #1d2f3e;
+  --lumen-border-strong: #2a4154;
+  --lumen-accent: #2dd4bf;
+  --lumen-accent-2: #57a6ee;
+  --lumen-accent-strong: #5eead4;
+  --lumen-accent-soft: rgba(45, 212, 191, 0.13);
+  --lumen-accent-soft-2: rgba(87, 166, 238, 0.13);
+  --lumen-glass: rgba(16, 31, 44, 0.6);
+  --lumen-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 18px -10px rgba(0, 0, 0, 0.6);
+  --lumen-shadow-md: 0 1px 2px rgba(0, 0, 0, 0.34), 0 20px 44px -20px rgba(0, 0, 0, 0.72);
+  --lumen-shadow-lg: 0 1px 2px rgba(0, 0, 0, 0.34), 0 34px 70px -28px rgba(0, 0, 0, 0.8);
+  --lumen-code-bar: rgba(0, 0, 0, 0.24);
+  --lumen-code-bar-border: rgba(255, 255, 255, 0.06);
+
+  --ifm-color-primary: var(--lumen-accent);
+  --ifm-color-primary-dark: #22c4b0;
+  --ifm-color-primary-darker: #1fb8a5;
+  --ifm-color-primary-darkest: #199587;
+  --ifm-color-primary-light: #45dcc9;
+  --ifm-color-primary-lighter: #5ee3d2;
+  --ifm-color-primary-lightest: #88ecdf;
+  --ifm-background-color: var(--lumen-page-bg);
+  --ifm-background-surface-color: var(--lumen-surface);
+}
+
+/* ---- Page canvas (layered, calm ambient gradients) --------------------- */
+body.lumen-docs {
+  background-color: var(--lumen-page-bg);
+  background-image:
+    radial-gradient(1000px 520px at 88% -160px, var(--lumen-accent-soft), transparent 70%),
+    radial-gradient(900px 480px at -6% 4%, var(--lumen-accent-soft-2), transparent 68%);
+  background-attachment: fixed;
+  color: var(--lumen-ink-soft);
+  font-feature-settings: "cv05", "ss01";
+  scroll-behavior: smooth;
+}
+
+body.lumen-docs ::selection {
+  background: var(--lumen-accent-soft);
+  color: var(--lumen-accent-strong);
+}
+
+/* ---- Custom scrollbars -------------------------------------------------- */
+body.lumen-docs *::-webkit-scrollbar { width: 11px; height: 11px; }
+body.lumen-docs *::-webkit-scrollbar-thumb {
+  background: var(--lumen-border-strong);
+  border-radius: 10px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+body.lumen-docs *::-webkit-scrollbar-thumb:hover { background: var(--lumen-muted); background-clip: content-box; }
+body.lumen-docs *::-webkit-scrollbar-track { background: transparent; }
+
+/* ---- Reading progress bar ---------------------------------------------- */
+.lumen-reading-progress {
+  position: fixed;
+  top: 0; left: 0;
+  height: 3px;
+  width: 0%;
+  z-index: 1000;
+  background: linear-gradient(90deg, var(--lumen-accent), var(--lumen-accent-2));
+  box-shadow: 0 0 12px var(--lumen-accent);
+  border-radius: 0 3px 3px 0;
+  transition: width 0.12s linear, opacity 0.3s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ---- Top navbar (frosted, only while reading docs) --------------------- */
+body.lumen-docs .navbar {
+  background: var(--lumen-glass);
+  -webkit-backdrop-filter: saturate(170%) blur(14px);
+  backdrop-filter: saturate(170%) blur(14px);
+  border-bottom: 1px solid var(--lumen-border);
+  box-shadow: none;
+}
+body.lumen-docs .navbar__title { font-weight: 800; letter-spacing: -0.02em; }
+body.lumen-docs .navbar__link { font-weight: 600; }
+body.lumen-docs .navbar__link:hover { color: var(--lumen-accent-strong); }
+
+/* version dropdown + toggle as soft pills */
+body.lumen-docs .navbar .dropdown > .navbar__link,
+body.lumen-docs .navbar .navbar__items--right > [class*="toggle"] {
+  border-radius: 999px;
+}
+body.lumen-docs .navbar .dropdown > .navbar__link {
+  background: var(--lumen-accent-soft);
+  padding: 0.35rem 0.85rem;
+  color: var(--lumen-accent-strong);
+}
+
+/* ---- Left sidebar ------------------------------------------------------- */
+body.lumen-docs .theme-doc-sidebar-container {
+  border-right: 1px solid var(--lumen-border);
+  background: linear-gradient(180deg, var(--lumen-surface-2), transparent 280px);
+}
+body.lumen-docs .menu { padding: 0.9rem 0.7rem; font-weight: 500; }
+
+body.lumen-docs .menu__list .menu__list { margin-left: 0.35rem; padding-left: 0.55rem; border-left: 1px solid var(--lumen-border); }
+
+body.lumen-docs .menu__link,
+body.lumen-docs .menu__list-item-collapsible {
+  border-radius: var(--lumen-radius-sm);
+  color: var(--lumen-muted);
+  transition: transform 0.22s var(--lumen-ease), background 0.22s ease, color 0.22s ease;
+}
+body.lumen-docs .menu__link { position: relative; }
+body.lumen-docs .menu__link:hover,
+body.lumen-docs .menu__list-item-collapsible:hover {
+  background: var(--lumen-accent-soft);
+  color: var(--lumen-ink);
+  transform: translateX(3px);
+}
+body.lumen-docs .menu__link--active:not(.menu__link--sublist) {
+  background: var(--lumen-accent-soft);
+  color: var(--lumen-accent-strong);
+  font-weight: 700;
+}
+/* animated active indicator */
+body.lumen-docs .menu__link--active:not(.menu__link--sublist)::before {
+  content: "";
+  position: absolute;
+  left: -0.7rem;
+  top: 18%;
+  bottom: 18%;
+  width: 3px;
+  border-radius: 3px;
+  background: var(--lumen-grad);
+  animation: lumenRevealBar 0.42s var(--lumen-ease) both;
+}
+@keyframes lumenRevealBar { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+
+/* ---- Breadcrumbs as an eyebrow ----------------------------------------- */
+body.lumen-docs .breadcrumbs__item { font-size: 0.82rem; }
+body.lumen-docs .breadcrumbs__link {
+  border-radius: 8px;
+  color: var(--lumen-muted);
+  font-weight: 600;
+  transition: background 0.22s ease, color 0.22s ease;
+}
+body.lumen-docs .breadcrumbs__link:hover { background: var(--lumen-accent-soft); color: var(--lumen-accent-strong); }
+body.lumen-docs .breadcrumbs__item--active .breadcrumbs__link {
+  background: var(--lumen-accent-soft);
+  color: var(--lumen-accent-strong);
+}
+
+/* ---- The reading card --------------------------------------------------- */
+body.lumen-docs .theme-doc-markdown {
+  position: relative;
+  background: var(--lumen-surface);
+  border: 1px solid var(--lumen-border);
+  border-radius: var(--lumen-radius);
+  padding: 2.6rem 3rem 2.8rem;
+  box-shadow: var(--lumen-shadow-md);
+  overflow: hidden;
+}
+/* gradient accent ribbon along the top of the card */
+body.lumen-docs .theme-doc-markdown::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: var(--lumen-grad);
+  opacity: 0.9;
+}
+@media (max-width: 996px) {
+  body.lumen-docs .theme-doc-markdown { padding: 1.5rem 1.25rem 1.75rem; }
+}
+
+/* ---- Typography --------------------------------------------------------- */
+body.lumen-docs .markdown { color: var(--lumen-ink-soft); }
+body.lumen-docs .markdown h1:first-child {
+  font-size: var(--ifm-h1-font-size);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.12;
+  color: var(--lumen-ink);
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+body.lumen-docs .markdown h1:first-child::after {
+  content: "";
+  position: absolute;
+  left: 0; bottom: 0;
+  width: 84px; height: 4px;
+  border-radius: 4px;
+  background: var(--lumen-grad);
+}
+body.lumen-docs .markdown h2 {
+  font-weight: 750;
+  font-size: 1.6rem;
+  letter-spacing: -0.012em;
+  color: var(--lumen-ink);
+  margin-top: 2.8rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--lumen-border);
+}
+body.lumen-docs .markdown h3 { font-weight: 700; font-size: 1.22rem; color: var(--lumen-ink); margin-top: 1.9rem; }
+body.lumen-docs .markdown h4 { font-weight: 700; color: var(--lumen-ink); }
+body.lumen-docs .markdown p { color: var(--lumen-ink-soft); }
+body.lumen-docs .markdown strong { color: var(--lumen-ink); font-weight: 700; }
+
+body.lumen-docs .markdown a:not(.card):not(.button):not(.pagination-nav__link) {
+  color: var(--lumen-accent-strong);
+  font-weight: 600;
+  text-decoration: none;
+  background-image: linear-gradient(var(--lumen-accent), var(--lumen-accent));
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1.5px;
+  transition: background-size 0.32s var(--lumen-ease);
+}
+body.lumen-docs .markdown a:not(.card):not(.button):not(.pagination-nav__link):hover { background-size: 100% 1.5px; }
+
+body.lumen-docs .hash-link { opacity: 0; transition: opacity 0.2s ease; }
+body.lumen-docs .markdown h2:hover .hash-link,
+body.lumen-docs .markdown h3:hover .hash-link,
+body.lumen-docs .markdown h4:hover .hash-link { opacity: 1; }
+
+/* lists with calm accent markers */
+body.lumen-docs .markdown ul > li::marker { color: var(--lumen-accent); }
+body.lumen-docs .markdown ol > li::marker { color: var(--lumen-accent); font-weight: 700; }
+body.lumen-docs .markdown li { margin: 0.35rem 0; }
+
+/* ---- Inline + block code ------------------------------------------------ */
+body.lumen-docs .markdown :not(pre) > code {
+  background: var(--lumen-accent-soft);
+  border: 1px solid var(--lumen-border);
+  color: var(--lumen-accent-strong);
+  border-radius: 7px;
+  padding: 0.12rem 0.42rem;
+  font-weight: 600;
+  font-size: 0.86em;
+}
+
+/* code-window chrome */
+body.lumen-docs .theme-code-block {
+  position: relative;
+  border-radius: var(--lumen-radius-sm) !important;
+  border: 1px solid var(--lumen-border);
+  box-shadow: var(--lumen-shadow-md);
+  overflow: hidden;
+}
+body.lumen-docs .theme-code-block pre { padding-top: 2.6rem !important; }
+/* faux title bar with traffic-light dots */
+body.lumen-docs .theme-code-block::before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 0; left: 0; right: 0;
+  height: 2rem;
+  background: var(--lumen-code-bar);
+  border-bottom: 1px solid var(--lumen-code-bar-border);
+}
+body.lumen-docs .theme-code-block::after {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  top: 0.7rem; left: 0.85rem;
+  width: 0.6rem; height: 0.6rem;
+  border-radius: 50%;
+  background: #ff5f57;
+  box-shadow: 1.1rem 0 0 #febc2e, 2.2rem 0 0 #28c840;
+}
+/* keep the copy button above the bar */
+body.lumen-docs .theme-code-block button[class*="copyButton"] { z-index: 4; top: 0.3rem; }
+
+/* ---- Blockquotes -------------------------------------------------------- */
+body.lumen-docs .markdown blockquote {
+  border: 1px solid var(--lumen-border);
+  border-left: 4px solid var(--lumen-accent);
+  background: var(--lumen-surface-2);
+  border-radius: 0 var(--lumen-radius-sm) var(--lumen-radius-sm) 0;
+  padding: 1rem 1.3rem;
+  color: var(--lumen-ink-soft);
+  box-shadow: var(--lumen-shadow-sm);
+}
+
+/* ---- Tables ------------------------------------------------------------- */
+body.lumen-docs .markdown table {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--lumen-border);
+  border-radius: var(--lumen-radius-sm);
+  overflow: hidden;
+  box-shadow: var(--lumen-shadow-sm);
+}
+body.lumen-docs .markdown table thead { background: var(--lumen-accent-soft); }
+body.lumen-docs .markdown table thead th {
+  color: var(--lumen-ink);
+  font-weight: 700;
+  border: none;
+  font-size: 0.83rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+body.lumen-docs .markdown table th,
+body.lumen-docs .markdown table td { border: none; border-bottom: 1px solid var(--lumen-border); }
+body.lumen-docs .markdown table tbody tr { background: var(--lumen-surface); transition: background 0.16s ease; }
+body.lumen-docs .markdown table tbody tr:nth-child(2n) { background: var(--lumen-surface-2); }
+body.lumen-docs .markdown table tbody tr:hover { background: var(--lumen-accent-soft); }
+
+/* ---- Admonitions as frosted glass cards -------------------------------- */
+body.lumen-docs .theme-admonition,
+body.lumen-docs .admonition {
+  position: relative;
+  border: 1px solid var(--lumen-border);
+  border-left: 4px solid var(--lumen-accent);
+  border-radius: var(--lumen-radius-sm);
+  background: var(--lumen-glass);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  box-shadow: var(--lumen-shadow-sm);
+}
+body.lumen-docs .admonition-heading h5,
+body.lumen-docs .theme-admonition .admonitionHeading_node_modules-\@docusaurus { letter-spacing: 0.05em; font-weight: 700; }
+body.lumen-docs .admonition-icon svg { transition: transform 0.38s var(--lumen-ease); }
+body.lumen-docs .theme-admonition:hover .admonition-icon svg { transform: scale(1.18) rotate(-4deg); }
+body.lumen-docs .alert--info { border-left-color: var(--lumen-accent-2); }
+body.lumen-docs .alert--success { border-left-color: #18a957; }
+body.lumen-docs .alert--warning { border-left-color: #e0a32e; }
+body.lumen-docs .alert--danger { border-left-color: #e0556a; }
+body.lumen-docs .alert--secondary { border-left-color: var(--lumen-border-strong); }
+
+/* ---- Doc cards (category index pages) ---------------------------------- */
+body.lumen-docs article .card,
+body.lumen-docs a.card {
+  border: 1px solid var(--lumen-border);
+  border-radius: var(--lumen-radius);
+  background: var(--lumen-surface);
+  box-shadow: var(--lumen-shadow-sm);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s var(--lumen-ease), box-shadow 0.3s ease, border-color 0.3s ease;
+}
+body.lumen-docs a.card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--lumen-grad);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.38s var(--lumen-ease);
+}
+body.lumen-docs a.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--lumen-shadow-lg);
+  border-color: var(--lumen-accent);
+}
+body.lumen-docs a.card:hover::before { transform: scaleX(1); }
+
+/* ---- Pagination (prev / next) ------------------------------------------ */
+body.lumen-docs .pagination-nav__link {
+  border: 1px solid var(--lumen-border);
+  border-radius: var(--lumen-radius);
+  background: var(--lumen-surface);
+  box-shadow: var(--lumen-shadow-sm);
+  transition: transform 0.3s var(--lumen-ease), box-shadow 0.3s ease, border-color 0.3s ease;
+}
+body.lumen-docs .pagination-nav__link:hover {
+  transform: translateY(-3px);
+  border-color: var(--lumen-accent);
+  box-shadow: var(--lumen-shadow-md);
+}
+body.lumen-docs .pagination-nav__sublabel {
+  color: var(--lumen-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+body.lumen-docs .pagination-nav__label { color: var(--lumen-accent-strong); font-weight: 700; }
+
+/* ---- Right-hand table of contents -------------------------------------- */
+body.lumen-docs .table-of-contents {
+  border-left: none;
+  background: var(--lumen-surface);
+  border: 1px solid var(--lumen-border);
+  border-radius: var(--lumen-radius-sm);
+  padding: 0.9rem 0.8rem;
+  box-shadow: var(--lumen-shadow-sm);
+}
+body.lumen-docs .table-of-contents__left-border { border: none; }
+body.lumen-docs .table-of-contents__link {
+  border-radius: 7px;
+  padding: 0.2rem 0.5rem;
+  transition: color 0.22s ease, background 0.22s ease, transform 0.22s var(--lumen-ease);
+}
+body.lumen-docs .table-of-contents__link:hover { color: var(--lumen-accent-strong); transform: translateX(2px); }
+body.lumen-docs .table-of-contents__link--active {
+  color: var(--lumen-accent-strong);
+  font-weight: 700;
+  background: var(--lumen-accent-soft);
+}
+
+/* ---- Buttons & back-to-top --------------------------------------------- */
+body.lumen-docs .button--primary {
+  background: var(--lumen-grad);
+  border: none;
+  box-shadow: var(--lumen-shadow-sm);
+  transition: transform 0.26s var(--lumen-ease), box-shadow 0.26s ease;
+}
+body.lumen-docs .button--primary:hover { transform: translateY(-2px); box-shadow: var(--lumen-shadow-md); }
+body.lumen-docs .theme-back-to-top-button { box-shadow: var(--lumen-shadow-md); }
+
+/* ---- Polish: anchored-heading offset under the sticky navbar ----------- */
+body.lumen-docs .markdown :is(h1, h2, h3, h4),
+body.lumen-docs .anchor { scroll-margin-top: 5rem; }
+
+/* ---- Polish: accessible keyboard focus rings --------------------------- */
+body.lumen-docs a:focus-visible,
+body.lumen-docs button:focus-visible,
+body.lumen-docs .menu__link:focus-visible,
+body.lumen-docs .pagination-nav__link:focus-visible,
+body.lumen-docs .card:focus-visible {
+  outline: 2px solid var(--lumen-accent);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+/* ---- Polish: tighten reading rhythm ------------------------------------ */
+body.lumen-docs .markdown > p { margin: 0 0 1.15rem; }
+body.lumen-docs .markdown img { border-radius: var(--lumen-radius-sm); box-shadow: var(--lumen-shadow-sm); }
+
+/* ============================================================================
+   Consistency pass — components that otherwise fall back to mismatched
+   defaults. All use mode-aware tokens so light & dark stay in sync.
+   ============================================================================ */
+
+/* horizontal rule */
+body.lumen-docs .markdown hr { background: var(--lumen-border); border: 0; height: 1px; margin: 2rem 0; }
+
+/* keyboard keys */
+body.lumen-docs kbd {
+  background: var(--lumen-surface-2);
+  border: 1px solid var(--lumen-border-strong);
+  border-bottom-width: 2px;
+  border-radius: 6px;
+  color: var(--lumen-ink);
+  box-shadow: none;
+  font-family: var(--ifm-font-family-monospace);
+}
+
+/* tabs */
+body.lumen-docs .tabs { border-bottom: 1px solid var(--lumen-border); }
+body.lumen-docs .tabs__item {
+  font-weight: 600;
+  color: var(--lumen-muted);
+  border-radius: var(--lumen-radius-sm) var(--lumen-radius-sm) 0 0;
+  border-bottom: 2px solid transparent;
+  transition: background 0.22s ease, color 0.22s ease;
+}
+body.lumen-docs .tabs__item:hover { background: var(--lumen-accent-soft); color: var(--lumen-ink); }
+body.lumen-docs .tabs__item--active { color: var(--lumen-accent-strong); border-bottom-color: var(--lumen-accent); background: transparent; }
+
+/* collapsible details / summary */
+body.lumen-docs details {
+  background: var(--lumen-surface-2);
+  border: 1px solid var(--lumen-border) !important;
+  border-radius: var(--lumen-radius-sm);
+  box-shadow: var(--lumen-shadow-sm);
+}
+body.lumen-docs details > summary { color: var(--lumen-ink); font-weight: 600; }
+
+/* navbar version dropdown menu (expanded) */
+body.lumen-docs .dropdown__menu {
+  background: var(--lumen-surface);
+  border: 1px solid var(--lumen-border);
+  border-radius: var(--lumen-radius-sm);
+  box-shadow: var(--lumen-shadow-md);
+}
+body.lumen-docs .dropdown__link { border-radius: 8px; color: var(--lumen-ink-soft); }
+body.lumen-docs .dropdown__link:hover,
+body.lumen-docs .dropdown__link--active {
+  background: var(--lumen-accent-soft);
+  color: var(--lumen-accent-strong);
+}
+
+/* mobile slide-in navigation */
+body.lumen-docs .navbar-sidebar { background: var(--lumen-surface); }
+body.lumen-docs .navbar-sidebar__brand { border-bottom: 1px solid var(--lumen-border); }
+body.lumen-docs .navbar-sidebar__back { background: var(--lumen-accent-soft); color: var(--lumen-accent-strong); border-radius: 8px; }
+
+/* search trigger (Algolia DocSearch or local) */
+body.lumen-docs .DocSearch-Button,
+body.lumen-docs .navbar__search-input {
+  background: var(--lumen-surface-2);
+  border: 1px solid var(--lumen-border);
+  border-radius: 999px;
+  color: var(--lumen-muted);
+}
+
+/* version badge + banner */
+body.lumen-docs .theme-doc-version-badge {
+  background: var(--lumen-accent-soft);
+  color: var(--lumen-accent-strong);
+  border: 1px solid var(--lumen-border);
+  border-radius: 999px;
+}
+body.lumen-docs .theme-doc-version-banner {
+  border: 1px solid var(--lumen-border);
+  border-radius: var(--lumen-radius-sm);
+  background: var(--lumen-surface-2);
+}
+
+/* page meta footer (tags, edit link, last updated) */
+body.lumen-docs .theme-doc-footer { border-top: 1px solid var(--lumen-border); margin-top: 2rem; padding-top: 1.5rem; }
+body.lumen-docs .theme-doc-footer-edit-meta-row a { color: var(--lumen-accent-strong); }
+
+/* secondary buttons + badges */
+body.lumen-docs .button--secondary {
+  background: var(--lumen-surface-2);
+  border: 1px solid var(--lumen-border-strong);
+  color: var(--lumen-ink);
+}
+body.lumen-docs .badge { border-radius: 999px; }
+
+/* ---- Suppress raw code blocks before JS upgrades them (prevents flash) --- */
+/* These selectors match the Docusaurus-generated wrapper regardless of the  */
+/* hashed class suffix. Display:none is safe because JS always replaces the  */
+/* element; the failure path in lumen.js restores display if conversion fails.*/
+[class*="codeBlock"]:has(.language-steps),
+.theme-code-block:has(.language-steps),
+pre:has(> code.language-steps),
+[class*="codeBlock"]:has(.language-mermaid),
+.theme-code-block:has(.language-mermaid),
+pre:has(> code.language-mermaid) {
+  display: none !important;
+}
+
+/* ---- Mermaid workflow diagrams ----------------------------------------- */
+body.lumen-docs .lumen-mermaid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.8rem 0;
+  padding: 1.4rem 1.2rem;
+  background:
+    radial-gradient(120% 120% at 50% -20%, var(--lumen-accent-soft), transparent 60%),
+    var(--lumen-surface-2);
+  border: 1px solid var(--lumen-border);
+  border-radius: var(--lumen-radius);
+  box-shadow: var(--lumen-shadow-sm);
+  overflow-x: auto;
+}
+body.lumen-docs .lumen-mermaid svg { max-width: 100%; height: auto; }
+
+/* Premium look for the rendered diagram: rounded nodes, soft depth, calm edges.
+   IMPORTANT: nothing here may change label text WIDTH (font-family, font-weight,
+   icon margins), because Mermaid measures label width before injection and any
+   post-injection width change clips the last word. Width-neutral styles only. */
+body.lumen-docs .lumen-mermaid svg .node rect,
+body.lumen-docs .lumen-mermaid svg .node polygon { rx: 13px; ry: 13px; }
+body.lumen-docs .lumen-mermaid svg .node { filter: drop-shadow(0 5px 12px rgba(16, 42, 67, 0.14)); cursor: help; transition: filter 0.2s ease; }
+html[data-theme='dark'] body.lumen-docs .lumen-mermaid svg .node { filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.5)); }
+body.lumen-docs .lumen-mermaid svg .node:hover rect,
+body.lumen-docs .lumen-mermaid svg .node:hover polygon { stroke-width: 2.2px; }
+body.lumen-docs .lumen-mermaid svg .node:hover { filter: drop-shadow(0 8px 20px rgba(13, 148, 136, 0.35)); }
+
+/* Interactive node tooltip */
+body.lumen-docs .lumen-tip {
+  position: fixed;
+  z-index: 1200;
+  pointer-events: none;
+  max-width: 260px;
+  background: var(--lumen-surface);
+  color: var(--lumen-ink);
+  border: 1px solid var(--lumen-border);
+  border-radius: 11px;
+  padding: 0.55rem 0.7rem;
+  box-shadow: var(--lumen-shadow-md);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.2s ease, transform 0.2s var(--lumen-ease);
+}
+body.lumen-docs .lumen-tip.is-on { opacity: 1; transform: none; }
+body.lumen-docs .lumen-tip strong { display: block; color: var(--lumen-accent-strong); font-weight: 700; margin-bottom: 0.15rem; }
+body.lumen-docs .lumen-tip span { color: var(--lumen-muted); }
+
+/* ============================================================================
+   Interactive walkthrough widget (```steps) — friendly, colourful, one step
+   at a time. Replaces dry flowcharts on workflow pages.
+   ============================================================================ */
+body.lumen-docs .lumen-steps {
+  --c-bg: var(--lumen-accent-soft);
+  --c-accent: var(--lumen-accent);
+  --c-ink: var(--lumen-ink);
+  margin: 1.8rem 0;
+  padding: 1.4rem 1.4rem 1.2rem;
+  background: var(--lumen-surface);
+  border: 1px solid var(--lumen-border);
+  border-radius: var(--lumen-radius);
+  box-shadow: var(--lumen-shadow-md);
+}
+
+/* progress dots */
+body.lumen-docs .lumen-steps__dots { display: flex; gap: 8px; align-items: center; margin-bottom: 1.1rem; flex-wrap: wrap; }
+body.lumen-docs .lumen-dot {
+  width: 11px; height: 11px; padding: 0;
+  border: none; border-radius: 999px; cursor: pointer;
+  background: var(--lumen-border-strong);
+  transition: transform 0.25s var(--lumen-ease), background 0.25s ease, width 0.25s ease;
+}
+body.lumen-docs .lumen-dot:hover { transform: scale(1.25); }
+body.lumen-docs .lumen-dot.done { background: var(--lumen-accent); }
+body.lumen-docs .lumen-dot.on { width: 26px; background: var(--lumen-accent); }
+
+/* the step card */
+body.lumen-docs .lumen-steps__stage { position: relative; }
+body.lumen-docs .lumen-step-card {
+  display: flex; gap: 1.2rem; align-items: center;
+  padding: 1.5rem 1.6rem;
+  border-radius: var(--lumen-radius);
+  background: var(--c-bg);
+  border: 1px solid color-mix(in srgb, var(--c-accent) 22%, transparent);
+  opacity: 0; transform: translateY(14px) scale(0.99);
+  transition: opacity 0.52s var(--lumen-ease), transform 0.52s var(--lumen-ease);
+}
+body.lumen-docs .lumen-step-card.in { opacity: 1; transform: none; }
+/* 3D glossy, floating icon badge */
+body.lumen-docs .lumen-step__badge {
+  flex: 0 0 auto;
+  position: relative;
+  width: 78px; height: 78px;
+  display: grid; place-items: center;
+  animation: lumenFloat 5.2s ease-in-out 0.5s infinite;
+}
+body.lumen-docs .lumen-step__badge::before {
+  content: ""; position: absolute; inset: -7px;
+  border-radius: 26px; background: var(--c-accent);
+  opacity: 0.16; z-index: 0;
+  animation: lumenHalo 3.6s ease-in-out infinite;
+}
+body.lumen-docs .lumen-step__badge-face {
+  position: relative; z-index: 1;
+  width: 100%; height: 100%;
+  border-radius: 22px;
+  display: grid; place-items: center;
+  color: #fff; font-size: 2rem;
+  background: var(--c-accent);
+  background:
+    radial-gradient(circle at 30% 26%, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 46%),
+    linear-gradient(150deg, color-mix(in srgb, var(--c-accent) 72%, #ffffff), var(--c-accent) 52%, color-mix(in srgb, var(--c-accent) 82%, #000000));
+  box-shadow: 0 14px 26px -8px var(--c-accent), inset 0 2px 5px rgba(255, 255, 255, 0.5), inset 0 -5px 10px rgba(0, 0, 0, 0.22);
+  transform-style: preserve-3d;
+  transition: transform 0.38s var(--lumen-ease);
+  animation: lumenPop 0.65s var(--lumen-ease) both;
+}
+body.lumen-docs .lumen-step__badge-face::after {
+  content: ""; position: absolute; top: 9%; left: 15%;
+  width: 52%; height: 32%; border-radius: 50%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0));
+  pointer-events: none;
+}
+body.lumen-docs .lumen-step-card:hover .lumen-step__badge-face {
+  transform: perspective(520px) rotateX(8deg) rotateY(-12deg) translateY(-2px) scale(1.04);
+}
+@keyframes lumenPop {
+  0%   { transform: scale(0.5) rotate(-10deg); opacity: 0; }
+  52%  { transform: scale(1.1) rotate(2deg);   opacity: 1; }
+  70%  { transform: scale(0.96) rotate(-1deg); }
+  86%  { transform: scale(1.02); }
+  100% { transform: none; opacity: 1; }
+}
+@keyframes lumenFloat {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-7px); }
+}
+@keyframes lumenHalo {
+  0%, 100% { transform: scale(1);    opacity: 0.11; }
+  50%       { transform: scale(1.16); opacity: 0.26; }
+}
+
+/* ---- Thematic "what's happening" motion inside the badge --------------- */
+/* Only one badge is on screen at a time (the current step), so these loop
+   gently without being noisy. Each motion mirrors the action of the step. */
+/* Base: every badge icon gets at least a gentle pulse, so none sit still.
+   The thematic rules below (same specificity, declared later) override it. */
+body.lumen-docs .lumen-step__badge-face i.fa { display: inline-block; transform-origin: center; animation: lumenIconPulse 3.6s ease-in-out infinite; }
+@keyframes lumenIconPulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+
+/* time / slots / scheduling — the clock ticks round */
+body.lumen-docs .lumen-step__badge-face i.fa-clock-o,
+body.lumen-docs .lumen-step__badge-face i.fa-refresh,
+body.lumen-docs .lumen-step__badge-face i.fa-cog,
+body.lumen-docs .lumen-step__badge-face i.fa-cogs { animation: lumenTick 6s linear infinite; }
+@keyframes lumenTick { to { transform: rotate(360deg); } }
+
+/* calendar / booking — a soft beat as you pick a date */
+body.lumen-docs .lumen-step__badge-face i.fa-calendar { animation: lumenBeat 3s ease-in-out infinite; }
+
+/* notifications — the bell rings */
+body.lumen-docs .lumen-step__badge-face i.fa-bell { animation: lumenRing 3s ease-in-out infinite; transform-origin: 50% 12%; }
+@keyframes lumenRing { 0%,55%,100% { transform: rotate(0); } 8% { transform: rotate(15deg); } 18% { transform: rotate(-12deg); } 28% { transform: rotate(9deg); } 38% { transform: rotate(-6deg); } 48% { transform: rotate(3deg); } }
+
+/* rider / delivery / transport — drives back and forth */
+body.lumen-docs .lumen-step__badge-face i.fa-truck { animation: lumenDrive 1.8s ease-in-out infinite; }
+@keyframes lumenDrive { 0%,100% { transform: translateX(-3px); } 50% { transform: translateX(3px); } }
+
+/* approvals / health — a happy heartbeat */
+body.lumen-docs .lumen-step__badge-face i.fa-check,
+body.lumen-docs .lumen-step__badge-face i.fa-check-circle,
+body.lumen-docs .lumen-step__badge-face i.fa-thumbs-up,
+body.lumen-docs .lumen-step__badge-face i.fa-heartbeat { animation: lumenBeat 2.4s ease-in-out infinite; }
+@keyframes lumenBeat { 0%,100% { transform: scale(1); } 15% { transform: scale(1.2); } 30% { transform: scale(1); } 45% { transform: scale(1.12); } }
+
+/* money / people / stock / orders — a gentle bob */
+body.lumen-docs .lumen-step__badge-face i.fa-money,
+body.lumen-docs .lumen-step__badge-face i.fa-credit-card,
+body.lumen-docs .lumen-step__badge-face i.fa-bank,
+body.lumen-docs .lumen-step__badge-face i.fa-user,
+body.lumen-docs .lumen-step__badge-face i.fa-users,
+body.lumen-docs .lumen-step__badge-face i.fa-user-md,
+body.lumen-docs .lumen-step__badge-face i.fa-cubes,
+body.lumen-docs .lumen-step__badge-face i.fa-shopping-cart,
+body.lumen-docs .lumen-step__badge-face i.fa-paper-plane,
+body.lumen-docs .lumen-step__badge-face i.fa-share-alt,
+body.lumen-docs .lumen-step__badge-face i.fa-file-text-o { animation: lumenBob 3s ease-in-out infinite; }
+@keyframes lumenBob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+
+/* security / stop / messages — a little shake */
+body.lumen-docs .lumen-step__badge-face i.fa-lock,
+body.lumen-docs .lumen-step__badge-face i.fa-key,
+body.lumen-docs .lumen-step__badge-face i.fa-shield,
+body.lumen-docs .lumen-step__badge-face i.fa-times,
+body.lumen-docs .lumen-step__badge-face i.fa-comment,
+body.lumen-docs .lumen-step__badge-face i.fa-comments,
+body.lumen-docs .lumen-step__badge-face i.fa-bullhorn,
+body.lumen-docs .lumen-step__badge-face i.fa-whatsapp { animation: lumenShake 3.4s ease-in-out infinite; }
+@keyframes lumenShake { 0%,100% { transform: translateX(0); } 20% { transform: translateX(-2px); } 40% { transform: translateX(2px); } 60% { transform: translateX(-2px); } 80% { transform: translateX(2px); } }
+
+/* lab / search / scan — tilt like pouring or scanning */
+body.lumen-docs .lumen-step__badge-face i.fa-flask,
+body.lumen-docs .lumen-step__badge-face i.fa-search,
+body.lumen-docs .lumen-step__badge-face i.fa-filter,
+body.lumen-docs .lumen-step__badge-face i.fa-barcode,
+body.lumen-docs .lumen-step__badge-face i.fa-qrcode { animation: lumenWiggle 3s ease-in-out infinite; }
+@keyframes lumenWiggle { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-10deg); } }
+
+/* location — drops onto the map */
+body.lumen-docs .lumen-step__badge-face i.fa-map-marker,
+body.lumen-docs .lumen-step__badge-face i.fa-location-arrow { animation: lumenMapDrop 2.2s ease-in-out infinite; }
+@keyframes lumenMapDrop { 0%,100% { transform: translateY(-4px); } 50% { transform: translateY(2px); } }
+
+/* phone / OTP — a quick buzz */
+body.lumen-docs .lumen-step__badge-face i.fa-mobile { animation: lumenBuzz 3s ease-in-out infinite; }
+@keyframes lumenBuzz { 0%,86%,100% { transform: translate(0,0) rotate(0); } 89% { transform: translate(1px,-1px) rotate(4deg); } 92% { transform: translate(-1px,1px) rotate(-4deg); } 95% { transform: translate(1px,0) rotate(3deg); } 98% { transform: translate(-1px,0) rotate(-3deg); } }
+
+/* eye — a slow blink */
+body.lumen-docs .lumen-step__badge-face i.fa-eye { animation: lumenBlink 4s ease-in-out infinite; }
+@keyframes lumenBlink { 0%,90%,100% { transform: scaleY(1); } 95% { transform: scaleY(0.45); } }
+
+/* globe — spins like the earth */
+body.lumen-docs .lumen-step__badge-face i.fa-globe { animation: lumenTick 9s linear infinite; }
+
+/* writing / tags — a little wiggle */
+body.lumen-docs .lumen-step__badge-face i.fa-pencil,
+body.lumen-docs .lumen-step__badge-face i.fa-tags { animation: lumenWiggle 3s ease-in-out infinite; }
+
+/* charts / analytics — bars grow */
+body.lumen-docs .lumen-step__badge-face i.fa-line-chart,
+body.lumen-docs .lumen-step__badge-face i.fa-bar-chart,
+body.lumen-docs .lumen-step__badge-face i.fa-pie-chart { animation: lumenGrow 3s ease-in-out infinite; }
+@keyframes lumenGrow { 0%,100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-2px) scale(1.08); } }
+
+/* objects, screens, forms, people-things — a pleasant bob */
+body.lumen-docs .lumen-step__badge-face i.fa-envelope,
+body.lumen-docs .lumen-step__badge-face i.fa-picture-o,
+body.lumen-docs .lumen-step__badge-face i.fa-film,
+body.lumen-docs .lumen-step__badge-face i.fa-list,
+body.lumen-docs .lumen-step__badge-face i.fa-table,
+body.lumen-docs .lumen-step__badge-face i.fa-sitemap,
+body.lumen-docs .lumen-step__badge-face i.fa-hospital-o,
+body.lumen-docs .lumen-step__badge-face i.fa-upload,
+body.lumen-docs .lumen-step__badge-face i.fa-download,
+body.lumen-docs .lumen-step__badge-face i.fa-print,
+body.lumen-docs .lumen-step__badge-face i.fa-desktop,
+body.lumen-docs .lumen-step__badge-face i.fa-tv,
+body.lumen-docs .lumen-step__badge-face i.fa-plus,
+body.lumen-docs .lumen-step__badge-face i.fa-flag,
+body.lumen-docs .lumen-step__badge-face i.fa-star,
+body.lumen-docs .lumen-step__badge-face i.fa-id-card-o,
+body.lumen-docs .lumen-step__badge-face i.fa-medkit,
+body.lumen-docs .lumen-step__badge-face i.fa-stethoscope { animation: lumenBob 3s ease-in-out infinite; }
+body.lumen-docs .lumen-step__meta {
+  font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em;
+  font-weight: 800; color: var(--c-accent); margin-bottom: 0.25rem;
+}
+body.lumen-docs .lumen-step__title { margin: 0 0 0.3rem; font-size: 1.4rem; font-weight: 800; line-height: 1.2; color: var(--lumen-ink); }
+body.lumen-docs .lumen-step__desc { margin: 0; font-size: 1rem; line-height: 1.55; color: var(--lumen-ink-soft); }
+
+/* navigation */
+body.lumen-docs .lumen-steps__nav { display: flex; align-items: center; justify-content: space-between; margin-top: 1.1rem; gap: 1rem; }
+body.lumen-docs .lumen-steps__count { font-weight: 700; color: var(--lumen-muted); font-size: 0.85rem; }
+body.lumen-docs .lumen-btn {
+  border: 1px solid var(--lumen-border-strong);
+  background: var(--lumen-surface);
+  color: var(--lumen-ink);
+  font-weight: 700; font-family: inherit; font-size: 0.92rem;
+  padding: 0.55rem 1.1rem; border-radius: 999px; cursor: pointer;
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  transition: transform 0.22s var(--lumen-ease), box-shadow 0.22s ease, background 0.22s ease, opacity 0.22s ease;
+}
+body.lumen-docs .lumen-btn:hover { transform: translateY(-2px); box-shadow: var(--lumen-shadow-sm); }
+body.lumen-docs .lumen-btn.lumen-next { background: var(--lumen-grad); color: #fff; border-color: transparent; }
+body.lumen-docs .lumen-btn:disabled { opacity: 0.4; cursor: default; transform: none; box-shadow: none; }
+body.lumen-docs .lumen-steps.celebrate .lumen-step__badge { animation: lumenCheer 0.85s var(--lumen-ease) 2; }
+@keyframes lumenCheer { 0%,100% { transform: none; } 25% { transform: scale(1.18) rotate(-8deg); } 75% { transform: scale(1.18) rotate(8deg); } }
+
+/* six cheerful colour themes (light) */
+body.lumen-docs .lumen-step-card.c-teal { --c-bg: #e6f6f3; --c-accent: #0d9488; }
+body.lumen-docs .lumen-step-card.c-blue { --c-bg: #e8f1fb; --c-accent: #2f86cf; }
+body.lumen-docs .lumen-step-card.c-purple { --c-bg: #efecfb; --c-accent: #6d5fd0; }
+body.lumen-docs .lumen-step-card.c-pink { --c-bg: #fbecf2; --c-accent: #d4537e; }
+body.lumen-docs .lumen-step-card.c-amber { --c-bg: #fbf1df; --c-accent: #cf8a1b; }
+body.lumen-docs .lumen-step-card.c-green { --c-bg: #edf6e2; --c-accent: #4e9a2f; }
+
+/* dark-mode theme tints */
+html[data-theme='dark'] body.lumen-docs .lumen-step-card.c-teal { --c-bg: #0f2a28; --c-accent: #2dd4bf; }
+html[data-theme='dark'] body.lumen-docs .lumen-step-card.c-blue { --c-bg: #0f2233; --c-accent: #57a6ee; }
+html[data-theme='dark'] body.lumen-docs .lumen-step-card.c-purple { --c-bg: #1c1b33; --c-accent: #9a8bf0; }
+html[data-theme='dark'] body.lumen-docs .lumen-step-card.c-pink { --c-bg: #2a1622; --c-accent: #ef84ad; }
+html[data-theme='dark'] body.lumen-docs .lumen-step-card.c-amber { --c-bg: #2a2010; --c-accent: #e0a83a; }
+html[data-theme='dark'] body.lumen-docs .lumen-step-card.c-green { --c-bg: #16270f; --c-accent: #7bc24f; }
+html[data-theme='dark'] body.lumen-docs .lumen-step__badge { color: #07140f; }
+
+@media (max-width: 700px) {
+  body.lumen-docs .lumen-step-card { flex-direction: column; text-align: center; }
+}
+body.lumen-docs .lumen-mermaid svg .edgePath .path,
+body.lumen-docs .lumen-mermaid svg .flowchart-link { stroke-width: 1.7px; }
+body.lumen-docs .lumen-mermaid svg .cluster rect {
+  rx: 16px; ry: 16px;
+  fill: var(--lumen-surface-3) !important;
+  stroke: var(--lumen-border) !important;
+}
+/* Font Awesome icons: semantic colours + gentle motion (no margin/width change).
+   Colour & transform are width-neutral, so they never affect Mermaid's measured
+   label width — only layout-affecting properties are forbidden here. */
+body.lumen-docs .lumen-mermaid svg i.fa {
+  color: var(--lumen-accent-strong);
+  transition: transform 0.28s var(--lumen-ease), filter 0.28s ease;
+}
+body.lumen-docs .lumen-mermaid svg .node:hover i.fa { transform: scale(1.22); filter: brightness(1.15); }
+body.lumen-docs .lumen-mermaid svg i.fa-check,
+body.lumen-docs .lumen-mermaid svg i.fa-check-circle,
+body.lumen-docs .lumen-mermaid svg i.fa-thumbs-up { color: #1aa260; }
+body.lumen-docs .lumen-mermaid svg i.fa-times,
+body.lumen-docs .lumen-mermaid svg i.fa-ban { color: #e0556a; }
+body.lumen-docs .lumen-mermaid svg i.fa-money,
+body.lumen-docs .lumen-mermaid svg i.fa-credit-card,
+body.lumen-docs .lumen-mermaid svg i.fa-bank { color: #d99421; }
+body.lumen-docs .lumen-mermaid svg i.fa-bell { color: #d99421; }
+body.lumen-docs .lumen-mermaid svg i.fa-clock-o,
+body.lumen-docs .lumen-mermaid svg i.fa-calendar,
+body.lumen-docs .lumen-mermaid svg i.fa-truck,
+body.lumen-docs .lumen-mermaid svg i.fa-map-marker { color: var(--lumen-accent-2); }
+body.lumen-docs .lumen-mermaid svg i.fa-lock,
+body.lumen-docs .lumen-mermaid svg i.fa-key,
+body.lumen-docs .lumen-mermaid svg i.fa-shield { color: #8b7fe8; }
+body.lumen-docs .lumen-mermaid svg i.fa-flask,
+body.lumen-docs .lumen-mermaid svg i.fa-barcode,
+body.lumen-docs .lumen-mermaid svg i.fa-heartbeat { color: #d6457f; }
+
+/* Admonition icons: subtle colour-aware pop on hover */
+body.lumen-docs .admonition-icon svg { transition: transform 0.38s var(--lumen-ease); }
+body.lumen-docs .theme-admonition:hover .admonition-icon svg { transform: scale(1.18) rotate(-5deg); }
+
+/* Inline-code icon accents already themed; respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  body.lumen-docs .lumen-mermaid svg i.fa,
+  body.lumen-docs .admonition-icon svg { transition: none !important; transform: none !important; }
+}
+/* Safety net: never clip a label even if a measurement is a pixel short */
+body.lumen-docs .lumen-mermaid svg foreignObject { overflow: visible; }
+body.lumen-docs .lumen-mermaid svg .nodeLabel,
+body.lumen-docs .lumen-mermaid svg .edgeLabel,
+body.lumen-docs .lumen-mermaid svg foreignObject > div,
+body.lumen-docs .lumen-mermaid svg foreignObject span { white-space: nowrap; overflow: visible; }
+body.lumen-docs .lumen-mermaid-error {
+  color: var(--lumen-muted);
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  font-size: 0.85rem;
+}
+/* while a mermaid block is still a raw code fence (pre-render), keep it calm */
+body.lumen-docs pre.language-mermaid { opacity: 0.5; }
+
+/* ============================================================================
+   Motion : entrance reveal + cascade
+   ============================================================================ */
+.lumen-reveal {
+  opacity: 0;
+  transform: translateY(13px);
+  filter: blur(3px);
+  transition: opacity 0.65s var(--lumen-ease), transform 0.65s var(--lumen-ease), filter 0.65s var(--lumen-ease);
+  will-change: opacity, transform, filter;
+}
+.lumen-reveal.lumen-in { opacity: 1; transform: none; filter: none; }
+
+body.lumen-docs .theme-doc-sidebar-container .menu { animation: lumenFadeIn 0.65s var(--lumen-ease) both; }
+body.lumen-docs .table-of-contents { animation: lumenFadeIn 0.78s var(--lumen-ease) both; }
+@keyframes lumenFadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  body.lumen-docs *,
+  .lumen-reveal {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+    filter: none !important;
+    opacity: 1 !important;
+    scroll-behavior: auto !important;
+  }
+  .lumen-reading-progress { display: none; }
+}
+
+/* ============================================================================
+   LUMEN v3 — Protocol Polish
+   Sprint-70 enhancement pass. Builds on v2 tokens; never touches the homepage.
+   All colour values use existing CSS custom properties.
+   ============================================================================ */
+
+/* ── Navbar brand: gradient text on the product name ──────────────────────── */
+body.lumen-docs .navbar__title {
+  background: var(--lumen-grad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Protocol section numbering — the signature design choice ──────────────
+   MetahOS is a Healthcare OS. Its docs should read like clinical procedure
+   manuals: every h2 section gets a zero-padded monospace reference number
+   above it, exactly as SOPs and hospital protocols are numbered. The number
+   sits on its own line, small and recessive, giving the heading authority
+   without competing with it.
+   ──────────────────────────────────────────────────────────────────────────── */
+body.lumen-docs .theme-doc-markdown { counter-reset: lumen-proto; }
+body.lumen-docs .markdown h2 { counter-increment: lumen-proto; }
+body.lumen-docs .markdown h2::before {
+  content: counter(lumen-proto, decimal-leading-zero);
+  display: block;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.67rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  color: var(--lumen-accent);
+  opacity: 0.68;
+  margin-bottom: 0.28rem;
+  line-height: 1;
+}
+
+/* ── h3: blue-accent left bar for subsection depth ─────────────────────── */
+body.lumen-docs .markdown h3 {
+  position: relative;
+  padding-left: 0.88rem;
+}
+body.lumen-docs .markdown h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.14em;
+  bottom: 0.1em;
+  width: 3px;
+  border-radius: 3px;
+  background: var(--lumen-accent-2);
+}
+
+/* ── Lead paragraph: first p after the page h1 reads slightly larger ────── */
+body.lumen-docs .markdown h1:first-child + p {
+  font-size: 1.09rem;
+  line-height: 1.72;
+}
+
+/* ── Table of contents: "On this page" eyebrow label ───────────────────── */
+body.lumen-docs .table-of-contents::before {
+  content: "On this page";
+  display: block;
+  font-size: 0.66rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--lumen-muted);
+  margin-bottom: 0.65rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--lumen-border);
+}
+
+/* ── TOC active item: glowing bullet as position indicator ──────────────── */
+body.lumen-docs .table-of-contents__link--active {
+  position: relative;
+  padding-left: 1.1rem !important;
+}
+body.lumen-docs .table-of-contents__link--active::before {
+  content: "";
+  position: absolute;
+  left: 0.28rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--lumen-accent);
+  box-shadow: 0 0 7px var(--lumen-accent);
+}
+
+/* ── Breadcrumbs: JetBrains Mono gives the OS/protocol register ─────────── */
+body.lumen-docs .breadcrumbs {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.77rem;
+}
+
+/* ── Admonitions: type-specific left-edge glow for at-a-glance reading ──── */
+body.lumen-docs .alert--info    { box-shadow: var(--lumen-shadow-sm), -3px 0 18px -5px rgba(47,  134, 207, 0.26); }
+body.lumen-docs .alert--success { box-shadow: var(--lumen-shadow-sm), -3px 0 18px -5px rgba(24,  169,  87, 0.26); }
+body.lumen-docs .alert--warning { box-shadow: var(--lumen-shadow-sm), -3px 0 18px -5px rgba(224, 163,  46, 0.24); }
+body.lumen-docs .alert--danger  { box-shadow: var(--lumen-shadow-sm), -3px 0 18px -5px rgba(224,  85, 106, 0.28); }
+
+/* ── Images: hover lift invites the user to look closer ─────────────────── */
+body.lumen-docs .markdown img {
+  transition: transform 0.4s var(--lumen-ease), box-shadow 0.4s ease;
+  cursor: zoom-in;
+}
+body.lumen-docs .markdown img:hover {
+  transform: translateY(-4px) scale(1.006);
+  box-shadow: var(--lumen-shadow-lg);
+}
+
+/* ── Version badge: monospace makes it read as a system reference ────────── */
+body.lumen-docs .theme-doc-version-badge {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+/* ── Pagination: gradient wash fades in on hover ─────────────────────────── */
+body.lumen-docs .pagination-nav__link {
+  position: relative;
+  overflow: hidden;
+}
+body.lumen-docs .pagination-nav__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: calc(var(--lumen-radius) - 1px);
+  background: var(--lumen-grad);
+  opacity: 0;
+  transition: opacity 0.36s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+body.lumen-docs .pagination-nav__link:hover::after { opacity: 0.07; }
+body.lumen-docs .pagination-nav__sublabel,
+body.lumen-docs .pagination-nav__label { position: relative; z-index: 1; }
+
+/* ── Back-to-top: gradient pill ──────────────────────────────────────────── */
+body.lumen-docs .theme-back-to-top-button {
+  background: var(--lumen-grad) !important;
+  border: none !important;
+  transition: transform 0.28s var(--lumen-ease), box-shadow 0.28s ease !important;
+}
+body.lumen-docs .theme-back-to-top-button:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 10px 30px rgba(13, 148, 136, 0.4) !important;
+}
+body.lumen-docs .theme-back-to-top-button svg { fill: #fff !important; }
+
+/* ── Search: focus ring on hover ─────────────────────────────────────────── */
+body.lumen-docs .DocSearch-Button:hover {
+  border-color: var(--lumen-accent) !important;
+  box-shadow: 0 0 0 3px var(--lumen-accent-soft) !important;
+}
+
+/* ── Reading card: inner glass highlight in dark mode ────────────────────── */
+html[data-theme='dark'] body.lumen-docs .theme-doc-markdown {
+  box-shadow: var(--lumen-shadow-lg), inset 0 1px 0 rgba(255, 255, 255, 0.045);
+}
+
+/* ── Steps widget: monospace numeral for the step counter ────────────────── */
+body.lumen-docs .lumen-steps__count {
+  font-family: var(--ifm-font-family-monospace);
+  letter-spacing: 0.05em;
+}
+
+/* ── Sidebar: category titles slightly stronger than leaf links ──────────── */
+body.lumen-docs .menu__link--sublist {
+  color: var(--lumen-ink-soft);
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+/* ── Mobile refinements ──────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  body.lumen-docs .markdown h1:first-child { font-size: 2rem; }
+  body.lumen-docs .markdown h2 { font-size: 1.35rem; }
+  body.lumen-docs .breadcrumbs { font-size: 0.7rem; }
 }

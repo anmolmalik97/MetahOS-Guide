@@ -13,8 +13,12 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/m16.png",
-  organizationName: "anmolmalik97", // Usually your GitHub org/user name.
-  projectName: "MetahOS-Guide", // Usually your repo name.
+  organizationName: "anmolmalik97",
+  projectName: "MetahOS-Guide",
+
+  // Lumen — Clinical Calm UI: behaviour layer (reading progress, scroll reveal,
+  // and the `lumen-docs` body scope) for internal documentation pages only.
+  clientModules: [require.resolve("./src/clientModules/lumen.js")],
 
   presets: [
     [
@@ -24,15 +28,11 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           includeCurrentVersion: false,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/anmolmalik97/MetahOS-Guide/edit/master/",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/anmolmalik97/MetahOS-Guide/edit/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -48,7 +48,7 @@ const config = {
       navbar: {
         title: "MetahOS",
         logo: {
-          alt: "My Site Logo",
+          alt: "MetahOS",
           src: "img/m16.png",
         },
         items: [
@@ -83,11 +83,7 @@ const config = {
                 label: "Learn.metahos",
                 href: "https://learn.metahos.com",
               },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
+{
                 label: "Twitter",
                 href: "https://twitter.com/healthcareOS",
               },
