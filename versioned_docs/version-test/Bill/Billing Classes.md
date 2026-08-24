@@ -21,11 +21,11 @@ with the patient’s financial responsibilities and insurance policies.
 -
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717993154/Screenshot_2024-06-10_095355_ol1gdy.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_095355_ol1gdy.png)
 
 Click on **Billing Classes**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717993871/Screenshot_2024-06-10_095946_ihavb7.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_095946_ihavb7.png)
 
 - **Refresh Button -** The refresh button updates the current view or report with the latest available data.
 - **Name:** The name of the billing class.
@@ -36,7 +36,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717993871/Screensh
 
 Click on **Add Tag**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717994459/Screenshot_2024-06-10_095846_tb9fim.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_095846_tb9fim.png)
 
 - **Name:** The name of the billing class.
 - **Bill Class Type -** The categorization of the billing class based on specific criteria such as patient type, service type, or payment method.
@@ -48,22 +48,22 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717994459/Screensh
 
 Click on **Bill Classes**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718000795/Screenshot_2024-06-10_095905_qb0vbq.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_095905_qb0vbq.png)
 
 - **Bill Class Type -** The categorization of the billing class based on specific criteria such as patient type, service type, or payment method.
 
 To edit the patient class status - click on patient navigation  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718686407/Screenshot_2024-06-18_102335_bbrliu.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-18_102335_bbrliu.png)
 
 By clicking on Patient Navigation the landing page for the patient will be
 seen -  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718686507/Screenshot_2024-06-18_102403_emnjs3.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-18_102403_emnjs3.png)
 
 Clicking on create navigation will open the details of the patient where we
 can change the billing class of the patient.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718686666/Screenshot_2024-06-18_102419_ntj7f6.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-18_102419_ntj7f6.png)  
 The categorization of the billing class based on criteria like none and
 general class.

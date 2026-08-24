@@ -9,7 +9,7 @@ sidebar_position: 1
 graphs, bar graphs.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717059274/Screenshot_2024-05-30_142404_xu6jy5.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-30_142404_xu6jy5.png)  
 In camp dashboard, user can see the data in in different visualizations like
 graphs, pie charts, bar graphs.  
 Camps dashboard data is an invaluable tool for enhancing the efficiency,

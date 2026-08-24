@@ -12,16 +12,16 @@ benefits, risks, and alternatives to the proposed treatments, and it protects
 both the patient’s rights and the medical provider’s legal interests.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718021187/Screenshot_2024-06-10_173547_lg8oqu.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_173547_lg8oqu.png)
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718073066/Screenshot_2024-06-11_080030_abgrjc.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-11_080030_abgrjc.png)
 
 After clicking on Add consent form we can see the below screen in this we can
 customize the consent form what
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718073156/Screenshot_2024-06-11_080214_tghpvd.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-11_080214_tghpvd.png)
 
 - **Key:** Unique identifier of that particular field.
 - **Label:** A label for the input box.

@@ -9,12 +9,12 @@ Agent Report
 Click on Agent Report
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717140389/Screenshot_2024-05-31_130100_sxftsa.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_130100_sxftsa.png)
 
 - The agents include patient coordinators, call center staff, or any personnel involved in patient interactions and administrative tasks.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717144502/Screenshot_2024-05-31_140953_f3sgfi.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_140953_f3sgfi.png)
 
 - **Refresh Button -** The **Refresh** button is used to update the data displayed on the screen.
 
@@ -27,7 +27,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717144502/Screensh
 - **Download Option -** The download option enables users to export the generated agent report in various formats, commonly CSV, PDF, or Excel.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717147051/Screenshot_2024-05-31_145144_bu798j.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_145144_bu798j.png)
 
 - **Agent Name** \- It refers to the name or identifier of the staff member (such as a call center agent, administrative staff, or healthcare provider) who is handling specific tasks or interactions within the hospital software.
 

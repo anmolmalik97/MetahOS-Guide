@@ -7,12 +7,12 @@ sidebar_position: 4
 ## Completed Referrals
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717152073/Screenshot_2024-05-31_160953_wetkce.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_160953_wetkce.png)
 
 In Completed Referrals List, all referral patients whose care journey is
 completed and which are marked as resolved are shown.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717152206/Screenshot_2024-05-31_161248_wibhob.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_161248_wibhob.png)
 
 In completed referrals we can see created name contact referred by referred to
 symptoms department info.

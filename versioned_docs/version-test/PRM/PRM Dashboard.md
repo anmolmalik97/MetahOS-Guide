@@ -11,12 +11,12 @@ sidebar_position: 1
 - Click PRM and **Go to Dashboard**
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717062098/Screenshot_2024-05-30_151608_re4tyr.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-30_151608_re4tyr.png)
 
 - Dashboard will open.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717064508/Screenshot_2024-05-30_152212_ow3j0u.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-30_152212_ow3j0u.png)
 
 - **Calls Over Period -** This metric tracks the number of calls made or received over a specified period. It helps in understanding the volume of communication activity and trends over time
 
@@ -30,7 +30,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717064508/Screensh
 
 Sub Options provided in Call Over Period  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717065181/Screenshot_2024-05-30_160743_ubhqu4.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-30_160743_ubhqu4.png)
 
 - **Zoom In** \- Allows users to enlarge a specific section of a chart or graph within the dashboard. This is particularly useful for examining detailed data points more closely.
 

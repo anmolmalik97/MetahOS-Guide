@@ -9,13 +9,13 @@ Call Details
 - Click on Call Details -
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717066654/Screenshot_2024-05-30_162532_kszpdt.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-30_162532_kszpdt.png)
 
 Call Details in Patient Relationship Management (PRM) provides comprehensive
 information about each call made or received.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717067217/Screenshot_2024-05-30_164131_ge1zyd.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-30_164131_ge1zyd.png)
 
 - **Refresh Button** \- It is used to update the display with the latest call data. This ensures that users have access to the most current information.
 
@@ -27,11 +27,11 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717067217/Screensh
 
 Click on **Show All**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717152173/Screenshot_2024-05-31_161733_xm5n6k.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_161733_xm5n6k.png)
 
 By clicking on Show All -  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717068120/Screenshot_2024-05-30_165641_jmgxox.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-30_165641_jmgxox.png)
 
 - **Created At -** The exact date and time when the call record was created in the system.
 

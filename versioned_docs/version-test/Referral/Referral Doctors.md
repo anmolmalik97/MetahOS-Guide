@@ -7,11 +7,11 @@ sidebar_position: 5
 ## Referral Doctors
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717152845/Screenshot_2024-05-31_162302_d0fnse.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_162302_d0fnse.png)  
 This section contains list of referral doctors that are registered on the
 platform.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717152922/Screenshot_2024-05-31_162502_sj4wqd.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_162502_sj4wqd.png)  
 we can see name department qualification contact status call edit
 enable/disable.
 
@@ -40,7 +40,7 @@ details of the referral doctor, such as their name contact email qualification
 clinic name address unit bio registration number speciality dob joining date
 department external id profile picture.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717153323/Screenshot_2024-05-31_163148_z5pbkj.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_163148_z5pbkj.png)
 
 **Enable/Disable** : This setting allows the hospital administration to
 activate or deactivate a referral doctor’s profile in the system. When
@@ -51,11 +51,11 @@ vacations, leaves, or other situations.
 
 To add doctor  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717153689/Screenshot_2024-05-31_163747_q0mn08.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_163747_q0mn08.png)  
 by Clicking add doctor tab we need to enter the doctor details like Doctor
 name contact email qualification clinic name address unit bio registration
 number speciality dob joining date department external id profile picture.  
-![](https://res.cloudinary.com/teleopdassets/image/upload/v1717153323/Screenshot_2024-05-31_163148_z5pbkj.png)  
+![](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_163148_z5pbkj.png)  
 After entering all the doctor details we need to click on **Register** button
 .  
 After it will be populated in Referral doctors list.

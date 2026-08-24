@@ -9,10 +9,10 @@ In orders we can see the what are the orders placed like lab medicine
 procedure ip
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717997504/Screenshot_2024-06-10_110114_gnl4yo.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_110114_gnl4yo.png)
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717997602/Screenshot_2024-06-10_110303_knhj5f.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_110303_knhj5f.png)
 
 **Refresh** : This action updates the report to include the most recent data.
 It ensures that all entries, transactions, and payments are up to date as of

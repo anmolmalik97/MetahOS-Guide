@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ### Hover over the Camps Button and Click on Screening List
 
-![Camps Menu](https://res.cloudinary.com/teleopdassets/image/upload/v1642093254/Guide/Camps%20Menuu.png)
+![Camps Menu](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Camps%20Menuu.png)
 
 ## Screening List
 
@@ -28,29 +28,29 @@ Screening list will show you the list of the patients who have active screenings
 
 #### Click on the green button to create a new screening.
 
-![Create New](https://res.cloudinary.com/teleopdassets/image/upload/v1642094172/Guide/Create%20New.png)
+![Create New](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Create%20New.png)
 
 ### Camp and Patient Selection
 
-![Camp and Patient Selection ](https://res.cloudinary.com/teleopdassets/image/upload/v1642094604/Guide/Camp%20Selection%20Screen.png)
+![Camp and Patient Selection ](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Camp%20Selection%20Screen.png)
 
 ### Camp Selection Dropdown
 
-![Camp and Patient Selection ](https://res.cloudinary.com/teleopdassets/image/upload/v1642094890/Guide/Camp%20Selection%20Dropdown.png)
+![Camp and Patient Selection ](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Camp%20Selection%20Dropdown.png)
 Select the relevant camp.
 
 ### Patient Selection
 
-![Camp and Patient Selection ](https://res.cloudinary.com/teleopdassets/image/upload/v1642095102/Guide/Select%20Patient.png)
+![Camp and Patient Selection ](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Select%20Patient.png)
 
 Search for existing patient on click on the Create New button if patient is not already in the database.
 
 ### Create New
 
-![Camp and Patient Selection ](https://res.cloudinary.com/teleopdassets/image/upload/v1642095259/Guide/Enter%20Patient%20Details.png)
+![Camp and Patient Selection ](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Enter%20Patient%20Details.png)
 
 Fill in the mandatory details and click on save and continue.
 
 ### Fill Up Form
 
-![Camp and Patient Selection ](https://res.cloudinary.com/teleopdassets/image/upload/v1642095448/Guide/Fill%20up%20Camp%20Form.png)Fill up form and Click next.
+![Camp and Patient Selection ](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Fill%20up%20Camp%20Form.png)Fill up form and Click next.

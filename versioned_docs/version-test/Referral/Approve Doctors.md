@@ -7,14 +7,14 @@ sidebar_position: 6
 **Approve Doctors**
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717154091/Screenshot_2024-05-31_164436_v4bqzr.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_164436_v4bqzr.png)
 
 **Approve Doctors List**  
 Any referral-doctor which register themselves are needed to be approved by an
 internal member/user of hospital.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717154264/Screenshot_2024-05-31_164726_lcln3y.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_164726_lcln3y.png)
 
 in this landing page we can see name department qualification contact call
 approve .

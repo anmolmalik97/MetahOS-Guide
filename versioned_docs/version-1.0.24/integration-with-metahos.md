@@ -25,7 +25,7 @@ The built-in connectors can understand and transform Data Formats and Data Trans
 
 For Example the following illustrations show various scenarios executed by MetahOS Middleware.​​
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642252199/Guide/Integration/MetahOS_for_Hospitals_Pitch_Deck_f4hrpm.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Integration/MetahOS_for_Hospitals_Pitch_Deck_f4hrpm.png)
 
 MetahOS Middleware has the ability to connect the Data Lake to various systems and not limited to a specific hospital. MetahOS Middleware can connect and acquire data from HIS, EMRs, HIEs and other systems,
 

@@ -27,7 +27,7 @@ After logining in go to Macros from the Care Menu and Click on Macros, The Macro
 
 To Edit the Macro click on the Edit Macro button and the UI will load where you can add/remove/modify Medications, Suggested Investigations, Follow Up Investigations and Notes
 
-![Edit Macros](https://res.cloudinary.com/teleopdassets/image/upload/v1642170598/Guide/Macros%20and%20Care%20Protocols/Editing_a_Macro_er1jvq.png)
+![Edit Macros](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Macros%20and%20Care%20Protocols/Editing_a_Macro_er1jvq.png)
 
 ## How to Create, Edit and Trigger Care Plans/Protocol
 
@@ -39,7 +39,7 @@ After logining in go to Care Plans from the Care Menu
 
 Click on List Care Configuration, The Care Plans list will load
 
-![Care Plan List](https://res.cloudinary.com/teleopdassets/image/upload/v1642169841/Guide/Macros%20and%20Care%20Protocols/List_of_Care_Protocols_pxs9ur.png)
+![Care Plan List](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Macros%20and%20Care%20Protocols/List_of_Care_Protocols_pxs9ur.png)
 
 #### New Care Segment
 
@@ -51,7 +51,7 @@ Give a name to the care segment, select the clasification either Anatomy or Orga
 
 To Add Medications, Investigations and Followup Investigations click on the Yellow buttons with respective labels, it will also show how many items are added in each.
 
-![Add meds, Investigations in Care Plans](https://res.cloudinary.com/teleopdassets/image/upload/v1642171788/Guide/Macros%20and%20Care%20Protocols/Add_Meds_Investigations_in_Care_Plan_hhu51r.png)
+![Add meds, Investigations in Care Plans](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Macros%20and%20Care%20Protocols/Add_Meds_Investigations_in_Care_Plan_hhu51r.png)
 
 #### New Care Plan
 

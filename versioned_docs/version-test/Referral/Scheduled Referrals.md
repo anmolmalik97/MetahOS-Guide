@@ -6,13 +6,13 @@ sidebar_position: 3
 
 **Scheduled Referrals**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717147716/Screenshot_2024-05-31_145812_xddyvm.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_145812_xddyvm.png)
 
 In Scheduled Referrals List, all referral patients for whom a consultation or
 investigation is scheduled are shown. This list helps to track referral
 patient care journey.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717147851/Screenshot_2024-05-31_145956_kziekr.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_145956_kziekr.png)
 
 In this we can see created name contact symptoms created by referred by
 referred type info call option.  

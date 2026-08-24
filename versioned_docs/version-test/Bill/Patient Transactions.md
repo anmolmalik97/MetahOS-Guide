@@ -26,10 +26,10 @@ Total Change
 Total Pending  
 Payment Total  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718074983/Screenshot_2024-06-11_083101_xbg3m2.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-11_083101_xbg3m2.png)
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718075444/Screenshot_2024-06-11_084016_q9pjx6.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-11_084016_q9pjx6.png)
 
 In the above image we need to select start date end date doctor Assigning
 authority then we will get the bill details

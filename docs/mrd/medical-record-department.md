@@ -6,4 +6,4 @@ To Scan and attac files it is easier to do it on the phone so we have enabled Mo
 
 ## Upload File(s) to Patient Record
 
-![Upload Files to a Patient Record](https://res.cloudinary.com/teleopdassets/image/upload/v1642175019/Guide/MRD/MRD-file-Upload_basirx.gif)
+![Upload Files to a Patient Record](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/MRD/MRD-file-Upload_basirx.gif)

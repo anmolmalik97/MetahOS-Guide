@@ -18,13 +18,13 @@ MetahOS is a Healthcare Operating System that runs across the **continuum of car
 
 Check out our health stack:
 
-![MetahOS Health Stack](https://res.cloudinary.com/teleopdassets/image/upload/v1643395979/Guide/MetahOS_Health_Stack_mrwpby.jpg)
+![MetahOS Health Stack](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/MetahOS_Health_Stack_mrwpby.jpg)
 
 ### For hospitals
 
 A single platform for OPD, IPD, OT, diagnostics, pharmacy, HR, inventory, billing and more:
 
-![MetahOS Hospital Stack](https://res.cloudinary.com/teleopdassets/image/upload/v1643395978/Guide/Hospital_Stack_h4j50q.jpg)
+![MetahOS Hospital Stack](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Hospital_Stack_h4j50q.jpg)
 
 ### Build your own EMR
 
@@ -34,7 +34,7 @@ As a practising doctor you can build your own EMR on MetahOS — arrange the con
 
 MetahOS ships with a full Data Lake so you can integrate every existing system in your institution and augment it with new capabilities — no rip-and-replace required.
 
-![Integrate with MetahOS](https://res.cloudinary.com/teleopdassets/image/upload/v1643396139/Guide/MetahOS_with_Built-in_Data_Lake_phbiln.png)
+![Integrate with MetahOS](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/MetahOS_with_Built-in_Data_Lake_phbiln.png)
 
 ## The platform at a glance
 

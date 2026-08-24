@@ -7,12 +7,12 @@ sidebar_position: 2
 **Pending Referrals**
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717136370/Screenshot_2024-05-31_114919_xosycz.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_114919_xosycz.png)
 
 In Pending Referrals List, all referral patients which are yet to be treated
 can be found.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717136830/Screenshot_2024-05-31_115656_plvyjp.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_115656_plvyjp.png)  
 in this pending referrals list we can see contact name symptoms created
 created by referral doctor name referral by name.
 
@@ -44,7 +44,7 @@ Name.” However, in certain contexts, it might refer to the entity (such as a
 clinic, healthcare organization, or another doctor) that made the referral.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717140245/Screenshot_2024-05-31_125346_tslvwc.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_125346_tslvwc.png)  
 in this we get know info call notes edit patient schedule complete clear  
 **Info** -In this we can see name contact age gender referred by suggested
 investigations.  
@@ -64,7 +64,7 @@ patient is seen in a timely manner and that all necessary resources are
 available for their care.  
 in this we can create new patient health record.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717147029/Screenshot_2024-05-31_144628_oetyq7.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_144628_oetyq7.png)
 
 we need to add details like first name last name gender age dob blood group
 mobile number secondary contact number telephone spouse/guardian name mothers
@@ -82,11 +82,11 @@ addressed, and the referral is ready to proceed without any pending issues.
 
 Add New Referral Patient  
 ![Add Referral
-Patient](https://res.cloudinary.com/teleopdassets/image/upload/v1642185114/Screenshot_from_2022-01-15_00-01-31_ascubr.png)  
+Patient](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_from_2022-01-15_00-01-31_ascubr.png)  
 To create a new referral click on **Add Patient**. Patient Referral form opens
 up, in this form patient name, mobile number, age are mandatory fields to
 create a new referral. Here a specific field or a specific doctor can be
 selected. If a admin or call-coordinator fills the form system detects that
 and shows the Referred-By Doctor field which needs to be selected.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717138034/Screenshot_2024-05-31_121701_g0006x.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_121701_g0006x.png)

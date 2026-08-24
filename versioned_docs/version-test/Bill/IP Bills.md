@@ -9,10 +9,10 @@ IP bills is the Inpatient billing involves the charges and associated costs
 for patients who are admitted to the hospital. These bills cover a wide range
 of services provided during the patient’s stay.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718015092/Screenshot_2024-06-10_155411_vw7gsj.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_155411_vw7gsj.png)
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718015175/Screenshot_2024-06-10_155553_mxrxcc.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_155553_mxrxcc.png)
 
 **Created At** : This refers to the date and time when the bill was generated.
 It helps in tracking the billing history and organizing records
@@ -65,7 +65,7 @@ progress and payment status.
 patient’s insurance claim. It includes insurance policy details, claim forms,
 and correspondence with the insurance provider.
 
-![](https://res.cloudinary.com/teleopdassets/image/upload/v1718009411/Screenshot_2024-06-10_141823_wyxzsv.png)
+![](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_141823_wyxzsv.png)
 
 ### Consent
 
@@ -73,7 +73,7 @@ Consent typically refers to the patient’s or guardian’s agreement to the ter
 of treatment and associated costs. This indicates that the patient has
 provided their authorization for the treatment and acknowledges the costs
 involved. It is an essential step before any billing or treatment can proceed.  
-![](https://res.cloudinary.com/teleopdassets/image/upload/v1718772409/Screenshot_2024-06-19_101351_j9tcj0.png)
+![](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-19_101351_j9tcj0.png)
 
 ### Edit
 
@@ -81,7 +81,7 @@ To make changes or modifications to existing information. This allows
 authorized personnel to modify or correct information on a bill. This could
 include changes to the patient’s personal information, the services provided,
 or the cost of those services.  
-![](https://res.cloudinary.com/teleopdassets/image/upload/v1718772742/Screenshot_2024-06-19_102141_yph4xp.png)
+![](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-19_102141_yph4xp.png)
 
 ### Details
 
@@ -90,7 +90,7 @@ to the comprehensive information about a patient’s bill, including itemized
 charges for treatments, medications, and other services rendered. It provides
 a full breakdown of all charges.
 
-![](https://res.cloudinary.com/teleopdassets/image/upload/v1718772820/Screenshot_2024-06-19_102324_bvyife.png)
+![](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-19_102324_bvyife.png)
 
 ### Edit Payment
 
@@ -99,7 +99,7 @@ to update or correct payment details. This could involve changing the payment
 method, adjusting the amount paid, or correcting any errors in the payment
 records.
 
-![](https://res.cloudinary.com/teleopdassets/image/upload/v1718772960/Screenshot_2024-06-19_102534_g0lqlf.png)
+![](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-19_102534_g0lqlf.png)
 
 ### Print Bill
 
@@ -109,7 +109,7 @@ claims. It includes all details of the charges and payments associated with
 the patient’s treatment.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718949625/Screenshot_2024-06-21_113002_oi3q2x.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-21_113002_oi3q2x.png)
 
 ### Cancel Bill
 

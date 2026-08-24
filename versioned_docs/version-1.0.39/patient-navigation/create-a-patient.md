@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### Click on Patient Navigation
 
-![Patient Navigation](https://res.cloudinary.com/teleopdassets/image/upload/v1642078199/Guide/Patient_Navigation_dyfbwb.png)
+![Patient Navigation](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Patient_Navigation_dyfbwb.png)
 
 First Search For Patient
 ![enter image description here](/img/SearchPatient.png)
@@ -23,16 +23,16 @@ As you keep keying in MetahOS will bring all the relevant results.
 
 #### If and when you don't find an existing patient you can click on
 
-### Create New ![Create New](https://res.cloudinary.com/teleopdassets/image/upload/v1642079260/Guide/Create_New_Patient_in_MetahOS_huzymq.png)
+### Create New ![Create New](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Create_New_Patient_in_MetahOS_huzymq.png)
 
 It will load the screen to create a **New Patient**
 ![Creating a new patient in MetahOS](/img/NewPatientCreation.png)
 
 #### The Fields marked with \* are mandatory and once you have entered the fields you can click on Create New
 
-![Create New](https://res.cloudinary.com/teleopdassets/image/upload/v1642079260/Guide/Create_New_Patient_in_MetahOS_huzymq.png)
+![Create New](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Create_New_Patient_in_MetahOS_huzymq.png)
 
 Once the Patient is sucessfully created You will be taken to the **Patient Billing Screen**
 
 On the Billing Screen You will see the message
-![Patient Created Succesfully](https://res.cloudinary.com/teleopdassets/image/upload/v1642079724/Guide/Record_Create_Successfully_in_MetahOS_meccte.png)
+![Patient Created Succesfully](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Record_Create_Successfully_in_MetahOS_meccte.png)

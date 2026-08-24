@@ -16,7 +16,7 @@ Typically it would be your yourhospital.metahos.com/login
 
 **_Note: Some versions might not have the user type_**
 
-![Select User Type](https://res.cloudinary.com/teleopdassets/image/upload/v1642118900/Guide/Select_User_Type_vmvbgy.png)
+![Select User Type](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Select_User_Type_vmvbgy.png)
 
 After entering your credential click on login.
 You will be directed to Assigning Authorites Page.
@@ -34,4 +34,4 @@ After click onto the default authority you would be directed to main page
 
 ### Follow the onscreen instructions
 
-![Reset Password](https://res.cloudinary.com/teleopdassets/image/upload/v1642118900/Guide/Reset_Password_vncdqi.png)
+![Reset Password](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Reset_Password_vncdqi.png)

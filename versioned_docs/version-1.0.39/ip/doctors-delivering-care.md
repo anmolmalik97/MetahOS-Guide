@@ -24,7 +24,7 @@ Clicking on EMR would take you the
 
 ## EMR Screen
 
-<!-- ![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642230052/Guide/IP/IP-EMAR-Screen_mpiccx.gif) -->
+<!-- ![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/IP/IP-EMAR-Screen_mpiccx.gif) -->
 
 <video
   controls
@@ -41,13 +41,13 @@ Clicking on EMR would take you the
 
 ## Left Navigation
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642194708/Guide/navigation-menu_cpnirb.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/navigation-menu_cpnirb.png)
 
 ## Initial Assessment(s)
 
 ### Initial Assessment by Doctor
 
-<!-- ![Initial Assessment by Doctor](https://res.cloudinary.com/teleopdassets/image/upload/v1642191954/Initial_Assessment_saszkp.gif) -->
+<!-- ![Initial Assessment by Doctor](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Initial_Assessment_saszkp.gif) -->
 
 <video
   controls
@@ -64,11 +64,11 @@ Clicking on EMR would take you the
 
 ## Working Diagnosis
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642192909/WorkingDiagnosis_esgei2.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/WorkingDiagnosis_esgei2.png)
 
 ## Doctor Adding Progress Notes
 
-<!-- ![Doctor Adding Progress Notes](https://res.cloudinary.com/teleopdassets/image/upload/v1642192131/ProgressNotes_j0njsb.gif) -->
+<!-- ![Doctor Adding Progress Notes](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/ProgressNotes_j0njsb.gif) -->
 
 <video
   controls
@@ -85,15 +85,15 @@ Clicking on EMR would take you the
 
 ## Doctor Prescribing using the consult button
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642191687/Consult_1_zi5i0s.gif)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Consult_1_zi5i0s.gif)
 
 ## Doctor prescribing using the Drug Chart
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642191242/drugChart_odlhgq.gif)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/drugChart_odlhgq.gif)
 
 ## How to View Summary of the patient
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642192957/Summary_ufu5x9.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Summary_ufu5x9.png)
 
 ## How to View Tasks
 
@@ -101,11 +101,11 @@ Clicking on EMR would take you the
 
 ## View Med Report
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642193126/Guide/med_report_csgnpm.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/med_report_csgnpm.png)
 
 ## View Investigation Reports
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642193292/Guide/Screenshot_2022-01-15_at_2.17.51_AM_qwkrhw.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Screenshot_2022-01-15_at_2.17.51_AM_qwkrhw.png)
 
 ## View IP Journey
 
@@ -113,11 +113,11 @@ Clicking on EMR would take you the
 
 ## View Scheduled and Completed Procedures
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642193161/Guide/PrescribedProcedure_zcvlk4.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/PrescribedProcedure_zcvlk4.png)
 
 ## View All Diagnosis (Add/Update)
 
-<!-- ![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642194186/Guide/diagnosis_utnypl.gif) -->
+<!-- ![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/diagnosis_utnypl.gif) -->
 
 <video
   controls
@@ -141,4 +141,4 @@ Most of the widgets can be toggled into an alternate view
 
 ```
 
-![vital-toggle](https://res.cloudinary.com/teleopdassets/image/upload/v1642258300/Guide/Screen_Recording_2022-01-15_at_8.11.48_PM_ee7qou.gif)
+![vital-toggle](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Screen_Recording_2022-01-15_at_8.11.48_PM_ee7qou.gif)

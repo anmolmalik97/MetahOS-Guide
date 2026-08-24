@@ -8,16 +8,16 @@ sidebar_position: 7
 In Booking we can book the appointments and we can edit the patient data if
 any field is missing.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718016191/Screenshot_2024-06-10_161249_e9seuq.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_161249_e9seuq.png)
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718016284/Screenshot_2024-06-10_161417_buhjrz.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_161417_buhjrz.png)
 
 if we click on create new it will pop up one form we need to fill that
 information
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718016386/Screenshot_2024-06-10_161601_vjxy1x.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_161601_vjxy1x.png)
 
 we need to fill the necessary information like first name last name gender age
 blood group mobile number secondary contact number spouse/guardian name mother
@@ -27,7 +27,7 @@ be created.
 
 after creating in screen it will be showing like below image.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718016675/Screenshot_2024-06-10_162048_dv1wmv.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_162048_dv1wmv.png)
 
 in this we can see profile ,edit patient ,deposit advance ,add/edit tags,
 create navigation.
@@ -41,7 +41,7 @@ then updated with new information over time, such as medical records,
 treatment plans, and appointment history.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718774481/Screenshot_2024-06-19_105030_tpohvj.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-19_105030_tpohvj.png)
 
 **Edit Patient:**  
 This function allows hospital staff to update or modify the information in a
@@ -50,7 +50,7 @@ new medical information that needs to be added to their records, hospital
 staff can use the “edit patient” function to update the existing profile.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718774584/Screenshot_2024-06-19_105240_uwscol.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-19_105240_uwscol.png)
 
 **Deposit Advance:**  
 This feature allows patients to make an advance payment towards their medical
@@ -60,7 +60,7 @@ policy. This payment is recorded in the system, ensuring the patient’s account
 reflects the advance payment.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718774702/Screenshot_2024-06-19_105430_ocxwfo.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-19_105430_ocxwfo.png)
 
 **Add/Edit Tags:**  
 Tags are keywords or labels that can be added to a patient’s profile to
@@ -72,7 +72,7 @@ patient”). Hospital staff can add or edit these tags as needed to ensure
 accurate and quick access to important patient information.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718774984/Screenshot_2024-06-19_105909_lgh0nl.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-19_105909_lgh0nl.png)
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718774833/Screenshot_2024-06-19_105555_l7uyz9.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-19_105555_l7uyz9.png)
