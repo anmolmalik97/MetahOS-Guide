@@ -7,11 +7,11 @@ sidebar_position: 3
 All Patients  
 Click on **All Patients**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717130555/Screenshot_2024-05-31_101644_vwgpxd.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_101644_vwgpxd.png)
 
 - This module offers healthcare providers a comprehensive view of all patients.  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717130911/Screenshot_2024-05-31_102220_ekjaum.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_102220_ekjaum.png)
 
 - **Refresh Button -** This button is used to update the data displayed on the screen.
 
@@ -22,7 +22,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717130911/Screensh
 - **All Authorities -** The **All Authorities** section lists all users.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717132571/Screenshot_2024-05-31_104907_szu2xm.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_104907_szu2xm.png)
 
 - **UHID -** (Unique Health Identification Number) - Unique identifier assigned to each patient in the hospital management system which ensures that each patient’s records are accurately and uniquely identifiable within the system.
 

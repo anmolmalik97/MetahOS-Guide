@@ -8,13 +8,13 @@ Let's discover _MetahOS_. The Healthcare Operating System across the continuum o
 
 Check out our Health stack
 
-![MetahOS Health Stack](https://res.cloudinary.com/teleopdassets/image/upload/v1643395979/Guide/MetahOS_Health_Stack_mrwpby.jpg)
+![MetahOS Health Stack](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/MetahOS_Health_Stack_mrwpby.jpg)
 
 ## For Hospitals
 
 Check out our Hospital Stack
 
-![MetahOS Hospital Stack](https://res.cloudinary.com/teleopdassets/image/upload/v1643395978/Guide/Hospital_Stack_h4j50q.jpg)
+![MetahOS Hospital Stack](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Hospital_Stack_h4j50q.jpg)
 
 ### Build Your own EMR
 
@@ -24,7 +24,7 @@ Did you know that as a practicing Doctor you can now build your own EMR using Me
 
 MetahOS comes with a full fledge Data Lake to augment and provide additional capabilties to your existing infrastructure. You can integrate every system within your hospital/healthcare institution.
 
-![Integrate with MetahOS](https://res.cloudinary.com/teleopdassets/image/upload/v1643396139/Guide/MetahOS_with_Built-in_Data_Lake_phbiln.png)
+![Integrate with MetahOS](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/MetahOS_with_Built-in_Data_Lake_phbiln.png)
 
 ## Start Today
 

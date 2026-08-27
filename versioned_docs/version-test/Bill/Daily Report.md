@@ -10,12 +10,12 @@ Daily report is the reports of all the department wise like all Consultation
 Lab Pharmacy Procedure Package Rad Surgery.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717742139/Screenshot_2024-06-07_120504_zsz20q.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-07_120504_zsz20q.png)
 
 On this land page if we click on Daily report
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717742404/Screenshot_2024-06-07_120921_ex6a3p.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-07_120921_ex6a3p.png)
 
 Refresh, Start date ,End date, Report Group, Report Type, Doctor, Assigning
 Authority.
@@ -37,12 +37,12 @@ report.
 combinedly
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717751149/Screenshot_2024-06-07_143425_ruh2la.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-07_143425_ruh2la.png)
 
 if we select report by header it will shows by separate Department wise
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717751235/Screenshot_2024-06-07_143440_atfo3r.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-07_143440_atfo3r.png)
 
 **Report Type** : by selecting on of these filter of report type we will get
 information about that filter used.  

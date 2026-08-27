@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ### Click on Patient Navigation
 
-![Patient Navigation](https://res.cloudinary.com/teleopdassets/image/upload/v1642078199/Guide/Patient_Navigation_dyfbwb.png)
+![Patient Navigation](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Patient_Navigation_dyfbwb.png)
 
 Search For The Patient or Scan Their QR Code
 ![enter image description here](/img/PatientSearchBilling.png)

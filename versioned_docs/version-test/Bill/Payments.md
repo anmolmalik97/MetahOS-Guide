@@ -8,12 +8,12 @@ sidebar_position: 3
 Payments is the how all the payments are done by either cash card online
 cheque upi or any other mode.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717993465/Screenshot_2024-06-10_095050_dfij0k.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_095050_dfij0k.png)
 
 we can see the landing page of Payments
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717994118/Screenshot_2024-06-10_100425_d2z8ni.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_100425_d2z8ni.png)
 
 Start Date End Date Collected by Assigning Authority Department Doctor Store
 
@@ -51,7 +51,7 @@ equipment are stored and dispensed. It includes details of any items that were
 issued to the patient and need to be billed accordingly.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717996199/Screenshot_2024-06-10_103932_ac6uy8.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_103932_ac6uy8.png)
 
 **Refresh** : This action updates the report to include the most recent data.
 It ensures that all entries, transactions, and payments are up to date as of
@@ -63,10 +63,10 @@ payments received and disbursed by the hospital to ensure the cash balance is
 accurate.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718775262/Screenshot_2024-06-19_110402_hfc6mk.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-19_110402_hfc6mk.png)
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718775772/Screenshot_2024-06-19_111221_jdmof3.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-19_111221_jdmof3.png)
 
 **Show pharmacy** : This option filters the report to display transactions
 related to the pharmacy department. It includes payments for medications,

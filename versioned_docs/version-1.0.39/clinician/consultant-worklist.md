@@ -36,7 +36,7 @@ On the Worklist you can perform multiple actions
 
 3.  Modifying the _ Current status _ of the patient will help you manage the patients queue (The PRE/Secretary can do a manual check-in, or the patient can self check-in when they enter the department)
 
-    ![Check-in A Patient in MetahOS](https://res.cloudinary.com/teleopdassets/image/upload/v1642128363/Guide/Check-in_A_Patient_in_MetahOS_z3shyy.png)
+    ![Check-in A Patient in MetahOS](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Check-in_A_Patient_in_MetahOS_z3shyy.png)
 
 Eg - system will change the color of worklist line item as per the status of the consultation
 
@@ -52,7 +52,7 @@ Eg - system will change the color of worklist line item as per the status of the
 
 5.  Click on _ Assessments _ to run in-person or remote assessments (Depending on the department the Nurses/Clinicians can run various assessments for example: Antenatal Assessment which is typically used in OBG/GYN)
 
-![Assessments in MetahOS](https://res.cloudinary.com/teleopdassets/image/upload/v1642128513/Guide/Assessments_in_MetahOS_ybh9c4.png)
+![Assessments in MetahOS](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Assessments_in_MetahOS_ybh9c4.png)
 
 <video controls width="100%">
   <source src="/videos/AssessmentsRecord.mp4" type="video/mp4" />
@@ -91,7 +91,7 @@ Eg - system will change the color of worklist line item as per the status of the
 
 11. _ Upload Rx _ is used to upload hand written consultations by the PRE/Secretary
 
-![Upload Rx](https://res.cloudinary.com/teleopdassets/image/upload/v1642129062/Guide/Upload_Rx_in_MetahOS_j0os3n.png)
+![Upload Rx](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Upload_Rx_in_MetahOS_j0os3n.png)
 
 Uploaded filess can then be viewed using the prescription button
 
@@ -101,7 +101,7 @@ Uploaded filess can then be viewed using the prescription button
 
 12. _ Barcode _ button on OPD Worklist is used to print any numbers of barcodes.
 
-![prescription-button](https://res.cloudinary.com/teleopdassets/image/upload/v1642179717/Guide/Print-Barcode_zzwuq3.png)
+![prescription-button](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Print-Barcode_zzwuq3.png)
 -->
 
 ### Vaccination
@@ -122,7 +122,7 @@ Uploaded filess can then be viewed using the prescription button
 
 Typically **The Clinician/Consultant** will click on **Consult** button to start entering consultation notes.
 
-![complete-consultation](https://res.cloudinary.com/teleopdassets/image/upload/v1642178196/Guide/Screenshot_2022-01-14_at_10.05.53_PM_rez8su.jpg)
+![complete-consultation](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Screenshot_2022-01-14_at_10.05.53_PM_rez8su.jpg)
 
 <!--
 ### Edit Completed Consultation
@@ -130,5 +130,5 @@ Typically **The Clinician/Consultant** will click on **Consult** button to start
 16. _ Edit _ Button in completed worklist will let clinicians to edit a completed consultation.
     The system by default logs all modifications in a completed consultation and maintains an Audit Trail.
 
-![edit-consultation](https://res.cloudinary.com/teleopdassets/image/upload/v1642173463/Screenshot_2022-01-14_at_8.47.05_PM_vuwym5.jpg)
+![edit-consultation](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2022-01-14_at_8.47.05_PM_vuwym5.jpg)
 -->

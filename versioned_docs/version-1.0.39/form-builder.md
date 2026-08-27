@@ -14,7 +14,7 @@ Based on the access that provided to you, you will see the options from which yo
 
 The followin example shows how to build a care plan, the same can be applied for the rest of the document types mentioned above.
 
-<!-- ![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642197476/Guide/Screen_Recording_2022-01-15_at_2.43.07_AM_zyzj5w.gif) -->
+<!-- ![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Screen_Recording_2022-01-15_at_2.43.07_AM_zyzj5w.gif) -->
 <video
   controls
   autoplay
@@ -74,7 +74,7 @@ labels are simple texts.
 - Large Size: Size of that field in Screen of screen size greater than or equal to 997px.
 - Disable Print: Can be True or False, Avoid this field from printing.
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235731/Guide/Form%20Builder/Label_ibype5.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Label_ibype5.png)
 
 #### SPACE
 
@@ -89,7 +89,7 @@ To make fields alignment better,emtpy space can be used.
 - Large Size: Size of that field in Screen of screen size greater than or equal to 997px.
 - Disable Print: Can be True or False, Avoid this field from printing.
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235731/Guide/Form%20Builder/Space_vcwouv.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Space_vcwouv.png)
 
 #### TEXT
 
@@ -103,7 +103,7 @@ It provides input field for text.
 All Common Properties.
 ```
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235731/Guide/Form%20Builder/Text_n9cnw2.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Text_n9cnw2.png)
 
 #### TEXT AREA
 
@@ -117,7 +117,7 @@ It provides input field for long text.
 All Common Properties.
 ```
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235731/Guide/Form%20Builder/Text_Area_zy0a9n.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Text_Area_zy0a9n.png)
 
 #### NUMBER
 
@@ -134,7 +134,7 @@ All Common Properties.
 - Min: Minimum valid value.
 - Max: Maximum valid value.
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235730/Guide/Form%20Builder/Number_iyr6ej.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Number_iyr6ej.png)
 
 #### RADIO
 
@@ -152,7 +152,7 @@ All Common Properties.
 - Special Field:
   - IP DEATH CONTROLLER : Boolean, Use to indicated if patient is dead or not.
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235730/Guide/Form%20Builder/Radio_t7szlu.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Radio_t7szlu.png)
 
 #### DROPDOWN :
 
@@ -171,7 +171,7 @@ All Common Properties.
 - Hide Initial Options: Can be True or False, If True, It will only show options, when user enter something to search else no options will be shown.
 - Multiple Selection: Can be True or False, Allow multiple selections if true.
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235731/Guide/Form%20Builder/Dropdwon_o63hsr.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Dropdwon_o63hsr.png)
 
 #### CHECK BOX
 
@@ -190,7 +190,7 @@ All Common Properties.
 - Special Field:
   - IP DEATH CONTROLLER : Boolean, Use to indicated if patient is dead or not.
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235730/Guide/Form%20Builder/Checkbox_j4oc1z.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Checkbox_j4oc1z.png)
 
 #### DATE
 
@@ -209,7 +209,7 @@ All Common Properties.
   - IP DATE OF DISCHARGE: if selected, then this date will be treated as the date of discharge.
   - IP DEATH DATE: if selected, than this date will be treated as the date of death of the patient.
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235731/Guide/Form%20Builder/Date_yn3pnc.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Date_yn3pnc.png)
 
 #### TIME
 
@@ -223,7 +223,7 @@ A Date field allow user to select time.
 All Common Properties.
 ```
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235730/Guide/Form%20Builder/Time_tljaiy.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Time_tljaiy.png)
 
 #### DIVIDER
 
@@ -231,7 +231,7 @@ All Common Properties.
 A horizontal separator line.
 ```
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235730/Guide/Form%20Builder/Divider_fqscg9.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Divider_fqscg9.png)
 
 #### HEADER
 
@@ -252,7 +252,7 @@ A Header is a Text field, which can be used as Heading or Paragraph.
 - Large Size: Size of that field in Screen of screen size greater than or equal to 997px.
 - Disable Print: Can be True or False, Avoid this field from printing.
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235730/Guide/Form%20Builder/Header_ad7vk8.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Header_ad7vk8.png)
 
 #### DRAW
 
@@ -275,7 +275,7 @@ This field provides a space to draw,it is generally used for signature purpose.
 - Background Image Url: Can give a valid url of image, which will be show in the background of draw field.
 - Background Color: Background color of the draw field.
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235729/Guide/Form%20Builder/Draw_qnuiby.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Draw_qnuiby.png)
 
 #### ANNOTATION
 
@@ -293,7 +293,7 @@ Annotation field is used when we need some notes on sections of an image.
 - Large Size: Size of that field in Screen of screen size greater than or equal to 997px.
 - Disable Print: Can be True or False, Avoid this field from printing.
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235730/Guide/Form%20Builder/Annotation_k3xbbo.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Annotation_k3xbbo.png)
 
 #### MARKDOWN
 
@@ -308,7 +308,7 @@ Provide rich text in the form.
 - Large Size: Size of that field in Screen of screen size greater than or equal to 997px.
 - Disable Print: Can be True or False, Avoid this field from printing.
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235730/Guide/Form%20Builder/Markdown_j9dv4d.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Markdown_j9dv4d.png)
 
 #### ATTACH IMAGE
 
@@ -325,7 +325,7 @@ All Common Properties.
 - Allow Upload: Can be True or False, If True this field would be used as Image Input Field.
 - Image: Required when Allow Upload is False, This image will be shown in form.
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235729/Guide/Form%20Builder/Attach_Image_bojuck.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Attach_Image_bojuck.png)
 
 #### ATTACH FILE
 
@@ -347,7 +347,7 @@ All Common Properties.
 - Enable Send Report: If enable, it will ask your to send report to the patient.
 - Auto Send: If true, report will be sent automatically.
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235729/Guide/Form%20Builder/Attach_File_fdorpo.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Attach_File_fdorpo.png)
 
 #### VITALS
 
@@ -363,7 +363,7 @@ All Common Properties expect label.
 
 - Add Vital: Add Vital from the given vitals list.
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235730/Guide/Form%20Builder/Vitals_ufviox.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Vitals_ufviox.png)
 
 #### VIDEO
 
@@ -381,7 +381,7 @@ All Common Properties.
 - Button Label: Label of button, that will be shown when file is attached.
 - Button Color: Color of button, that will be shown when file is attached.
 
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235729/Guide/Form%20Builder/Video_vqdhil.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Video_vqdhil.png)
 
 #### Medications
 
@@ -401,4 +401,4 @@ Medicine selector field.
 - Special Field:
   - IP Medications: Only applicable in IP dashboard, If selected, It will get auto populated in with IP medicines.
 
-    ![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642235729/Guide/Form%20Builder/Medications_gktqiu.png)
+    ![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Medications_gktqiu.png)

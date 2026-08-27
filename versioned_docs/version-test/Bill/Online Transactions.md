@@ -16,11 +16,11 @@ patient billing, insurance claims, and other financial activities.
 - Enabling patients to make payments, view statements, and manage accounts through self-service portals.
 - Tracking payments in real-time to provide up-to-date financial status to patients and hospital administrators.  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718021080/Screenshot_2024-06-10_173934_ag3a0j.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_173934_ag3a0j.png)  
   Click on **Online Transactions**
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718021127/Screenshot_2024-06-10_173909_vsxmdf.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_173909_vsxmdf.png)
 
 - **Refresh Button -** The **Refresh** button is used to update the data displayed on the screen.
 - **Export CSV -** CSV(Comma-Separated Values) files can be opened and edited in various spreadsheet applications like Microsoft Excel, Google Sheets, or other data analysis tools.
@@ -45,5 +45,5 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1718021127/Screensh
 
 Click on **Status**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718022205/Screenshot_2024-06-10_175758_g5x2ri.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_175758_g5x2ri.png)  
 The current status of the transaction (e.g., pending, completed, failed).

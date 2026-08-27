@@ -10,14 +10,14 @@ Cash Counter is the mainly used to tally the amount came from different
 payments like by cash upi internet banking card or any other source
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718858638/Screenshot_2024-06-20_101242_memcys.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-20_101242_memcys.png)  
 after clicking cash counter we can this screen.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718858894/Screenshot_2024-06-20_101748_jkf7oq.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-20_101748_jkf7oq.png)
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718859070/Screenshot_2024-06-20_102016_b9jis4.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-20_102016_b9jis4.png)
 
 on the above screen we can see the refresh option and selecting assigning
 authority and creating new counter
@@ -30,14 +30,14 @@ included.
 **Assigning Authority** : it could indicate who authorized the treatment or
 service that is being billed. This is crucial for ensuring that all services
 billed are properly authorized and documented.  
-![](https://res.cloudinary.com/teleopdassets/image/upload/v1718859244/Screenshot_2024-06-20_102027_ok3ak0.png)
+![](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-20_102027_ok3ak0.png)
 
 **Add Counter**  
 after clicking add counter we can see below screen there we need to enter the
 details like counter name code user name and assigning authority.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718859376/Screenshot_2024-06-20_102600_ft5sh8.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-20_102600_ft5sh8.png)
 
 In a hospital cash counter, these terms refer to various pieces of information
 related to financial transactions and administrative details. Here’s an
@@ -72,7 +72,7 @@ records are reconciled with the hospital’s bank accounts.
 **View Shift**
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718861425/Screenshot_2024-06-20_105936_svmokm.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-20_105936_svmokm.png)
 
 In view shift we can add the details like start date end date collected by
 department doctor store after entering all the details we can see the data of
@@ -83,4 +83,4 @@ reason we can add that one also so that admin can see the what could be the
 reason or any other issues.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718861439/Screenshot_2024-06-20_105907_vopcld.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-20_105907_vopcld.png)

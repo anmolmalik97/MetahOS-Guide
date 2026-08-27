@@ -6,15 +6,15 @@ sidebar_position: 2
 
 - Upon successful **“Login”** , user will be directed to the “ _**Landing Page**_ ”.  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717154858/Screenshot_2024-05-31_165702_q5cok8.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_165702_q5cok8.png)
 
 - Click the _**"Worklist"**_ module button on the landing page.  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717155031/Screenshot_2024-05-31_165914_quak9s.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_165914_quak9s.png)
 
 - Choosing from a dropdown menu- _**"Leads"**_  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717155122/Screenshot_2024-05-31_170119_yof3hj.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_170119_yof3hj.png)
 
 - The **“Leads screen”** will present user with a visual overview of key information.  
   -The Leads Frame provides a centralized view of the current leads and their details.  
@@ -28,7 +28,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717155122/Screensh
 
 - Cleared/ Uncleared Leads  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717155412/Screenshot_2024-05-31_170625_xdnjnu.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_170625_xdnjnu.png)
 
 - Selecting _**"Lead Types"**_ in the **Leads Frame**  
   -Leads Frame might categorize leads based on various criteria in Dropdown Menu, include:
@@ -44,7 +44,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717155412/Screensh
 9. **Camp Follow-Up:** Leads generated or requiring follow-up through marketing campaigns (specific to the system).
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717155524/Screenshot_2024-05-31_170819_ecktfz.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_170819_ecktfz.png)
 
 - _**"Due Filter"**_ Options in the **Leads Frame**  
   -This section explains the functionality of the “Due Filter” dropdown menu within the Leads Frame.  
@@ -56,7 +56,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717155524/Screensh
 
 - Over due  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717156464/Screenshot_2024-05-31_172352_wrwyln.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_172352_wrwyln.png)
 
 - _**"Resolved Filter"**_ Options in the **Leads Frame**  
   -Here’s a breakdown of the typical options user might encounter:
@@ -66,18 +66,18 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717156464/Screensh
 3. **Resolved:** This option displays leads that have been marked as completed, either through successful conversion, disqualification, or another finalized state.
 
 ![
-](https://res.cloudinary.com/teleopdassets/image/upload/v1717156701/Screenshot_2024-05-31_172802_wppj3p.png)
+](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_172802_wppj3p.png)
 
 - Select the “ _**Crossed Box**_ ” for the **\*“Cleared and Uncleared Leads”  
   -A square box with an **“X” mark\*\* through it can visually indicate that the leads have been cleared or removed from the active list.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717157208/Screenshot_2024-05-31_173543_y3useb.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_173543_y3useb.png)
 
 - **Lead List:**  
   -This section will display a list of all the current leads.  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717157396/Screenshot_2024-05-31_173902_frixhi.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_173902_frixhi.png)
 
 - **Each lead entry might include information such as:**  
   1.Contact Information (Email, Phone Number)  
@@ -94,7 +94,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717157396/Screensh
   12.Schedule
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717157803/Screenshot_2024-05-31_174613_ba12zs.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_174613_ba12zs.png)
 
 - Clicking on a _**"Lead Info"**_ within the Leads Frame will display a **pop-up window** containing detailed information about the lead.  
   -This pop-up serves as a quick reference for essential details relevant to the lead.
@@ -111,7 +111,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717157803/Screensh
 
 - **Doctor :** If a doctor has been assigned to the lead, their name might be displayed here.  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717157948/Screenshot_2024-05-31_174812_rxfhgj.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_174812_rxfhgj.png)
 
 - _**Adding Notes to Leads**_  
   -Steps included:  
@@ -122,7 +122,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717157948/Screensh
   5.Notes will be updated
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717158064/Screenshot_2024-05-31_175027_fwyv3e.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_175027_fwyv3e.png)
 
 - **Rescheduling Leads**  
   -There might be situations where you need to reschedule an appointment or follow-up action associated with a lead.  
@@ -134,7 +134,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717158064/Screensh
   5.Click “Submit”
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717158175/Screenshot_2024-05-31_175221_tyieos.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_175221_tyieos.png)
 
 - Adding _**Follow-Ups**_ to Leads  
   -Follow-up tasks help you stay organized and ensure timely communication with your leads.  
@@ -146,7 +146,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717158175/Screensh
   6.Click “Add Follow-Up”
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717158305/Screenshot_2024-05-31_175433_qtkgr1.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_175433_qtkgr1.png)
 
 - **Scheduling Lead Activities**  
   -The scheduling feature allows the user to set reminders, plan follow-up actions, and manage the interactions with leads.  
@@ -157,12 +157,12 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717158305/Screensh
 3. “+” Button to create New Schedules
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717397558/Screenshot_2024-06-03_122126_kkptmk.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-03_122126_kkptmk.png)
 
 - Click **“+” Button to Create New Schedules**  
   -Enter the details and select your preferences, click the button labeled “Create New” to confirm and schedule the activity  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717482935/Screenshot_2024-06-04_120214_uqxusj.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-04_120214_uqxusj.png)
 
 - **Clearing Leads**  
   -There might be situations where leads need to be removed from the active list.  
@@ -173,7 +173,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717482935/Screensh
   4.Enter Reason  
   5.Click “Submit”  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717397935/Screenshot_2024-06-03_122713_jstban.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-03_122713_jstban.png)
 
 - **Resolving Leads**  
   -The _**"Resolve"**_ function allows the user to mark a lead as complete.  
@@ -184,7 +184,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717397935/Screensh
   4.Enter Reason  
   5.Click “Submit”  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717397980/Screenshot_2024-06-03_122739_ch1qtw.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-03_122739_ch1qtw.png)
 
 - **Navigating Lead Pages**  
   -Look for the pagination controls in the lower right corner of the Leads Frame  
@@ -192,4 +192,4 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717397980/Screensh
   -An arrow pointing right ( “>” or similar) typically represents the “Next Page” option.
 
 ![
-](https://res.cloudinary.com/teleopdassets/image/upload/v1717398055/Screenshot_2024-06-03_123027_mdxgo7.png)
+](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-03_123027_mdxgo7.png)

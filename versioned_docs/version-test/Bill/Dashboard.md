@@ -10,11 +10,11 @@ dashboards where can see the daily weekly and yearly progress of that
 particular dashboards.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718084380/Screenshot_2024-06-11_110743_hvgp5z.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-11_110743_hvgp5z.png)
 
 in Dashboard we can see operational dashboard  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718084502/Screenshot_2024-06-11_111112_humzzx.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-11_111112_humzzx.png)  
 In operational dashboard we can see the OPD consultation and med orders lab
 
 In OPD consultation shows How many patients visit the outpatient department.  
@@ -43,7 +43,7 @@ in, zoomed out, or panned around and want to quickly return to the initial
 overview.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718084865/Screenshot_2024-06-11_111707_zrt4uc.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-11_111707_zrt4uc.png)
 
 **Download SVG -** **(Scalable Vector Graphics)** SVG files are vector-based,
 meaning they can be scaled to any size without losing quality, making them
@@ -60,7 +60,7 @@ Sheets.
 **Diagnostics**
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718087240/Screenshot_2024-06-11_115656_fo3i93.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-11_115656_fo3i93.png)
 
 In Diagnostics we can see Sample collected reports generated reports send
 pending progress of daily weekly and yearly.
@@ -68,7 +68,7 @@ pending progress of daily weekly and yearly.
 **Financial**
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718087313/Screenshot_2024-06-11_115803_iram7s.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-11_115803_iram7s.png)
 
 In financial we can see the daily weekly and yearly of OPD consultation med
 orders lab dashboard we can see the progress

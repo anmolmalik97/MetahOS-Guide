@@ -21,7 +21,7 @@ You can also access the Patient Longitudinal Record by clicking on the Profile B
 
 Click on the Green Profile Button to view the Patient Longitudinal Record
 
-![Patient Profile Button](https://res.cloudinary.com/teleopdassets/image/upload/v1642126333/Guide/Profile_Button_on_Patient_Card_nob6rz.png)
+![Patient Profile Button](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Profile_Button_on_Patient_Card_nob6rz.png)
 
 ### Patient Journey
 
@@ -39,7 +39,7 @@ Patient history can also be recorded in a free text or by uploading any file of 
 
 To record in free text use the `History` button, and for uploading files choose the `Upload Files` button.
 
-![Free text patient history](https://res.cloudinary.com/teleopdassets/image/upload/v1642272409/Guide/Screen_Recording_2022-01-16_at_12.13.30_AM_nhawci.gif)
+![Free text patient history](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Screen_Recording_2022-01-16_at_12.13.30_AM_nhawci.gif)
 
 ### SmartCard Preview
 When you click on the Print ID button , You can see the Smartcard and can be printed or saved.

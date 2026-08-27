@@ -8,22 +8,22 @@ sidebar_position: 12
 After the login, the user reaches the landing page.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717654592/Screenshot_2024-06-06_114615_eflhs2.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_114615_eflhs2.png)
 
 Click on **Worklist:**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717654739/Screenshot_2024-06-06_114842_bktjob.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_114842_bktjob.png)
 
 Click on **Appointments:**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717656603/Screenshot_2024-06-06_121947_bzrbqq.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_121947_bzrbqq.png)  
 Appointments in hospital software refer to the scheduling, management, and
 tracking of patient visits to healthcare providers. This functionality is
 crucial for ensuring efficient operation, reducing wait times, and improving
 patient care.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717656678/Screenshot_2024-06-06_122100_fnihrs.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_122100_fnihrs.png)
 
 - **Name -** The title or type of appointment, which could refer to the reason for the visit or the kind of service requested.
 - **Patient Name -** The full name of the patient scheduled for the appointment.
@@ -41,7 +41,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717656678/Screensh
 - **Cancel -** An option to cancel a scheduled appointment.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717656745/Screenshot_2024-06-06_122212_uqk0ma.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_122212_uqk0ma.png)
 
 - **Refresh -** An option to update the appointment list to show the latest information.
 - **Download CSV -** An option to download the appointment data in CSV (Comma-Separated Values) format.
@@ -51,7 +51,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717656745/Screensh
 
 Click on Search button on left side corner -  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717656856/Screenshot_2024-06-06_122354_px9lku.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_122354_px9lku.png)
 
 - **Department** \- The specific department or unit within the hospital where the patient was treated.
 - **Doctor Name -** The name of the doctor with whom the appointment is scheduled.
@@ -59,32 +59,32 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717656856/Screensh
 - **To Date -** An input field or filter that allows users to specify the ending date of a date range for viewing scheduled procedures.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717656995/Screenshot_2024-06-06_122610_m7u83w.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_122610_m7u83w.png)
 
 - ** Status -** A detailed status indicator for each appointment.
 
 Click on **Authority -**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717657059/Screenshot_2024-06-06_122720_q0mxm8.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_122720_q0mxm8.png)
 
 - ** Authority -** This allows users to select the hospital branch or authority over certain tasks.  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717657149/Screenshot_2024-06-06_122850_xnk2c8.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_122850_xnk2c8.png)  
   On selecting Calendar View:  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717657222/Screenshot_2024-06-06_123003_takeub.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_123003_takeub.png)
 
 - **Calendar View -** A visual representation of appointments in a calendar format.
 
 Click on **Edit -**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717657360/Screenshot_2024-06-06_123222_szml9u.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_123222_szml9u.png)
 
 - **Edit -** An option to modify the details of an existing appointment.
 
 - Edit:  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717657425/Screenshot_2024-06-06_123331_u3wamz.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_123331_u3wamz.png)
 
 - **Service -** The type of service rendered to patient.
 
@@ -102,7 +102,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717657425/Screensh
 
 Click on **Bill** :  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717657496/Screenshot_2024-06-06_123434_xfxs2q.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_123434_xfxs2q.png)
 
 - **Class of Patient -** The classification or category of the patient.
 - **Book Appointment -** The process of scheduling a patient’s visit to a healthcare provider.
@@ -135,5 +135,5 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717657496/Screensh
 
 Click on **Cancel -**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717657559/Screenshot_2024-06-06_123542_yugygg.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_123542_yugygg.png)  
 An option to cancel a scheduled appointment with the given reason.

@@ -8,7 +8,7 @@ sidebar_position: 6
 
 This dashboard gives complete insights about referral module. It shows count of referral-doctors and referral-patients registered on platform along with top departmental referrals.
 
-![Referral Dashboard](https://res.cloudinary.com/teleopdassets/image/upload/v1642185807/Screenshot_from_2022-01-15_00-13-02_cxv7qm.png)
+![Referral Dashboard](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_from_2022-01-15_00-13-02_cxv7qm.png)
 
 ## Pending Referrals
 
@@ -28,7 +28,7 @@ To create a new referral click on **Add Patient**. Patient Referral form opens u
 
 In Scheduled Referrals List, all referral patients for whom a consultation or investigation is scheduled are shown. This list helps to track referral patient care journey.
 
-![Scheduled Referrals List](https://res.cloudinary.com/teleopdassets/image/upload/v1642187822/Screenshot_from_2022-01-15_00-23-46_saifrz.png) -->
+![Scheduled Referrals List](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_from_2022-01-15_00-23-46_saifrz.png) -->
 
 ## Completed Referrals
 
@@ -50,7 +50,7 @@ This section contains list of referral doctors that are registered on the platfo
 
 ## Add New Referral Doctor
 
-![Add Doctor](https://res.cloudinary.com/teleopdassets/image/upload/v1642188282/Screenshot_from_2022-01-15_00-31-42_bwftf4.png)
+![Add Doctor](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_from_2022-01-15_00-31-42_bwftf4.png)
 
 To create a new referral-doctor click on **Add Doctor**. Referral Doctor form opens up, in this form doctor name,mobile number and registration no. are mandatory fields to create a new referral-doctor.
 

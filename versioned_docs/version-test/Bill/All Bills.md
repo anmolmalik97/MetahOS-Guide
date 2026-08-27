@@ -8,10 +8,10 @@ sidebar_position: 5
 All Bills is the bills of all Consultation Lab Pharmacy Procedure Package Rad
 Surgery Other charges is mentioned.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717998531/Screenshot_2024-06-10_111816_hubfll.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_111816_hubfll.png)
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718000852/Screenshot_2024-06-10_115656_bz8mlx.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_115656_bz8mlx.png)
 
 **Refresh** : This command updates the current view or data set to display the
 most recent information. It ensures that all displayed data, such as bills and
@@ -52,7 +52,7 @@ hospital for at least one overnight stay.
 created or modified on the current date.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718002937/Screenshot_2024-06-10_123119_mgmbxx.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_123119_mgmbxx.png)
 
 **Created At** : This refers to the date and time when the bill was generated.
 It helps in tracking the billing history and organizing records
@@ -106,7 +106,7 @@ patient’s insurance claim. It includes insurance policy details, claim forms,
 and correspondence with the insurance provider.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718009411/Screenshot_2024-06-10_141823_wyxzsv.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_141823_wyxzsv.png)
 
 ### Consent
 
@@ -115,7 +115,7 @@ of treatment and associated costs. This indicates that the patient has
 provided their authorization for the treatment and acknowledges the costs
 involved. It is an essential step before any billing or treatment can proceed.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718772409/Screenshot_2024-06-19_101351_j9tcj0.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-19_101351_j9tcj0.png)  
 We can send the consent forms to patient or guardian to fill it
 
 ### Edit
@@ -126,7 +126,7 @@ include changes to the patient’s personal information, the services provided,
 or the cost of those services.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718772742/Screenshot_2024-06-19_102141_yph4xp.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-19_102141_yph4xp.png)
 
 ### Details
 
@@ -136,7 +136,7 @@ charges for treatments, medications, and other services rendered. It provides
 a full breakdown of all charges.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718772820/Screenshot_2024-06-19_102324_bvyife.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-19_102324_bvyife.png)
 
 ### Edit Payment
 
@@ -146,7 +146,7 @@ method, adjusting the amount paid, or correcting any errors in the payment
 records.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718772960/Screenshot_2024-06-19_102534_g0lqlf.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-19_102534_g0lqlf.png)
 
 ### Print Bill
 

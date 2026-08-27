@@ -10,17 +10,17 @@ Upon successful **“Login”** , user will be directed to the “ _**Landing
 Page**_ ”.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717654592/Screenshot_2024-06-06_114615_eflhs2.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_114615_eflhs2.png)
 
 Click the _**"Worklist"**_ module button on the landing page.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717654739/Screenshot_2024-06-06_114842_bktjob.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_114842_bktjob.png)
 
 Choosing from a dropdown menu- _**"Discharge Log Reports"**_
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717665409/Screenshot_2024-06-06_144334_ju6skm.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_144334_ju6skm.png)
 
 - The **“Discharge Log Reports”** will present user with a visual overview of key information.  
   -The Discharge Log Reports provides a centralized view of the current Discharge report and their details.  
@@ -40,7 +40,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717665409/Screensh
 12. **Current Status** : The present status of the discharge process (e.g., scheduled, in progress, completed).
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717665482/Screenshot_2024-06-06_144744_d525nm.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_144744_d525nm.png)
 
 The status section of the discharge log report will include the following
 details:
@@ -52,7 +52,7 @@ details:
 5. **Completed** : The date and time when the discharge process has been finalized and the patient has officially been discharged.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717665633/Screenshot_2024-06-06_145012_bsr5u9.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_145012_bsr5u9.png)
 
 To retrieve data for a particular month, the discharge log report will include
 a date filter with the following details:
@@ -65,7 +65,7 @@ data is required, ensuring that only the relevant records within the specified
 date range are included in the report.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717665556/Screenshot_2024-06-06_144901_nbgwrp.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_144901_nbgwrp.png)
 
 The discharge log report will include an event type filter with the following
 options:
@@ -78,7 +78,7 @@ to include only specific types of events, ensuring a more focused and relevant
 data set.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717665683/Screenshot_2024-06-06_145111_nok087.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_145111_nok087.png)
 
 The discharge log report will include a state filter with the following
 options:
@@ -94,15 +94,15 @@ These state filter options allow users to refine the discharge log report
 based on the current status of the discharge process.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717665773/Screenshot_2024-06-06_145234_hs2ycf.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_145234_hs2ycf.png)
 
 The _**"Show Hidden"**_ option will reveal the hidden appointment details.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717665844/Screenshot_2024-06-06_145342_rtdyss.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_145342_rtdyss.png)
 
 The _**"Show Hidden"**_ option will reveal hidden appointment details, with
 filters such as scheduled, checked in, next, in progress, and completed.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717665928/Screenshot_2024-06-06_145512_n4zs9a.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_145512_n4zs9a.png)

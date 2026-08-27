@@ -10,11 +10,11 @@ their guarantors before the delivery of medical services. During the patient
 registration or admission process, advance payments can be collected as a
 deposit.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718002247/Screenshot_2024-06-10_122334_ifsd4p.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_122334_ifsd4p.png)
 
 Click on **Advance Payments -**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718004851/Screenshot_2024-06-10_122745_fxcpuc.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_122745_fxcpuc.png)
 
 - **Created At -** The exact date and time when the call record was created in the system.
 - **Created By -** The user or staff member who initiated or recorded the payment transaction in the hospital software.
@@ -27,6 +27,6 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1718004851/Screensh
 
 Click on **All Transactions**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1718009678/Screenshot_2024-06-10_142936_j6gcyk.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-10_142936_j6gcyk.png)  
 It manages the variety of financial transactions to ensure accurate billing,
 proper resource allocation, and financial transparency.

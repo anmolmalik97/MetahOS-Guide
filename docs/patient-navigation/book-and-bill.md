@@ -6,10 +6,10 @@ sidebar_position: 2
 
 ### Click on Patient Navigation
 
-![Patient Navigation](https://res.cloudinary.com/teleopdassets/image/upload/v1642078199/Guide/Patient_Navigation_dyfbwb.png)
+![Patient Navigation](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Patient_Navigation_dyfbwb.png)
 
 Search For The Patient or Scan Their QR Code
-![enter image description here](https://res.cloudinary.com/teleopdassets/image/upload/v1642079090/Guide/Search_Patient_in_MetahOS_m6b8fm.png)
+![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Search_Patient_in_MetahOS_m6b8fm.png)
 
 ## Remember You Can Search by
 
@@ -25,11 +25,11 @@ As you keep keying in MetahOS will bring all the relevant results. Once you have
 
 You will be taken to the **Patient Billing Screen**
 
-![Patient Billing Screen](https://res.cloudinary.com/teleopdassets/image/upload/v1642079724/Guide/Patient_Billing_Screen_in_MetahOS_k7gims.png)
+![Patient Billing Screen](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Patient_Billing_Screen_in_MetahOS_k7gims.png)
 
 On the top you will notice Advance, Estimates and Consents, these can be activated by clicking on them.
 
-![Advance, Estimates and Consents](https://res.cloudinary.com/teleopdassets/image/upload/v1642122490/Guide/Patient_Billing_Screen_Consents_Advance_and_Estimates_d2m2a4.png)
+![Advance, Estimates and Consents](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Patient_Billing_Screen_Consents_Advance_and_Estimates_d2m2a4.png)
 
 ### Next Step is to Enter the relevant information about the patient condition and selecting the necessary fields
 

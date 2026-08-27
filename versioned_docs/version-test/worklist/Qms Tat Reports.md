@@ -8,15 +8,15 @@ sidebar_position: 14
 
 After the login, the user reaches the landing page.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717654592/Screenshot_2024-06-06_114615_eflhs2.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_114615_eflhs2.png)
 
 Click on **Worklist:**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717654739/Screenshot_2024-06-06_114842_bktjob.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_114842_bktjob.png)
 
 Click on **Qms Tat Reports:**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717663400/Screenshot_2024-06-06_141259_gmauvd.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_141259_gmauvd.png)  
 A Quality Management System (QMS) Turnaround Time (TAT) report in hospital
 software is a crucial tool for monitoring and improving the efficiency of
 various processes within a healthcare facility. The QMS TAT report provides
@@ -24,7 +24,7 @@ insights into the duration of various clinical and administrative tasks,
 helping to identify bottlenecks and areas for improvement.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717663475/Screenshot_2024-06-06_141418_obugy8.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_141418_obugy8.png)
 
 - **Specialty** \- The medical specialty of the doctor (e.g., cardiology, orthopedics).
 - **Doctor Name** \- The full name of the doctor.
@@ -66,13 +66,13 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717663475/Screensh
 - **Admitted** \- Indicates if the patient was admitted to the hospital.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717663571/Screenshot_2024-06-06_141542_rbudl2.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_141542_rbudl2.png)
 
 - **Refresh Button -** The refresh button updates the current view or report with the latest available data.
 
 Click on **Search Icon:**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717663645/Screenshot_2024-06-06_141702_yryyva.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_141702_yryyva.png)
 
 - **Department** \- The hospital department where the appointment or treatment will take place.
 - **Doctor -** The healthcare provider responsible for the patient’s care.
@@ -81,24 +81,24 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717663645/Screensh
 
 Click on **Assigning Authority -**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717663708/Screenshot_2024-06-06_141808_fdhh6b.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_141808_fdhh6b.png)
 
 - **Assigning Authority -** This allows users to select the hospital branch or authority over certain tasks.
 
 Click on **Status -**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717663787/Screenshot_2024-06-06_141928_skxh6l.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_141928_skxh6l.png)
 
 - **Status -** This allows user to know the status of the queue.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717663881/Screenshot_2024-06-06_142103_pykoto.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_142103_pykoto.png)
 
 - **Download CSV Button -** Provides the ability to export data from the software into a CSV (Comma-Separated Values) file format.
 
 Click on **Send Via Mail:**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717663939/Screenshot_2024-06-06_142203_attja5.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_142203_attja5.png)
 
 - **Start Date** \- An input field or filter that allows users to specify the beginning date of a date range for viewing scheduled procedures.
 - **End Date -** An input field or filter that allows users to specify the ending date of a date range for viewing scheduled procedures.

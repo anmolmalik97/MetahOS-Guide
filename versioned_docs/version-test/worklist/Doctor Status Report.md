@@ -8,15 +8,15 @@ sidebar_position: 15
 
 After the logging in, the user reaches the landing page.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717654592/Screenshot_2024-06-06_114615_eflhs2.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_114615_eflhs2.png)
 
 Click on **Worklist:**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717654739/Screenshot_2024-06-06_114842_bktjob.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_114842_bktjob.png)
 
 Click on **Doctor Status Report:**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717664353/Screenshot_2024-06-06_142853_lm2mbk.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_142853_lm2mbk.png)  
 A doctor status report in hospital software is a feature that provides an
 overview of the current status, activities, and performance of doctors within
 a hospital. This report is used for operational management, patient care
@@ -25,7 +25,7 @@ medical staff by providing a clear view of each doctor’s status and
 availability.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717664532/Screenshot_2024-06-06_143154_shxnpo.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_143154_shxnpo.png)
 
 - **Created At** \- The timestamp indicating when the status report or a specific entry was created.
 - **Doctor Name** \- The full name of the doctor.
@@ -40,32 +40,32 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717664532/Screensh
 - **Created By** \- The name or identifier of the person who created or updated the status report entry.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717664591/Screenshot_2024-06-06_143257_pljth8.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_143257_pljth8.png)
 
 - **Start Date** \- An input field or filter that allows users to specify the beginning date of a date range for viewing scheduled procedures.
 - **End Date -** An input field or filter that allows users to specify the ending date of a date range for viewing scheduled procedures.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717664660/Screenshot_2024-06-06_143405_dllk3r.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_143405_dllk3r.png)
 
 - **Department** \- The specific department or unit within the hospital where the patient needs to be treated.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717664726/Screenshot_2024-06-06_143508_nhpomd.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_143508_nhpomd.png)
 
 - **Doctor -** The healthcare provider responsible for the patient’s care.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717664807/Screenshot_2024-06-06_143602_unwcfi.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_143602_unwcfi.png)
 
 - **Assigning Authority -** This allows users to select the hospital branch or authority over certain tasks.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717664879/Screenshot_2024-06-06_143738_dihilo.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_143738_dihilo.png)
 
 - **Status -** This allows user to know the status of the doctor or the availability of the doctor.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717664970/Screenshot_2024-06-06_143907_u0hteu.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_143907_u0hteu.png)
 
 - **Download CSV Button -** Provides the ability to export data from the software into a CSV (Comma-Separated Values) file format.

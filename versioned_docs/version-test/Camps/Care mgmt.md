@@ -8,12 +8,12 @@ sidebar_position: 3
 
 By clicking on care management, user can see the details.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717062027/Screenshot_2024-05-30_150952_k3qgde.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-30_150952_k3qgde.png)
 
 ### By clicking on add care management, user can add the new care management.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717062394/Screenshot_2024-05-30_151551_d9xxq4.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-30_151551_d9xxq4.png)  
 User have to fill the details of care management like:-
 
 - Name
@@ -24,7 +24,7 @@ User have to fill the details of care management like:-
 ### By clicking on Add parameter, user can add the parameters
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717062744/Screenshot_2024-05-30_152145_zqqlpv.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-30_152145_zqqlpv.png)  
 User can fill the different parameters like:-
 
 - Parameter name
@@ -37,12 +37,12 @@ User can fill the different parameters like:-
 name, user can select the parameter
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717064495/Screenshot_2024-05-30_155043_fuoduw.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-30_155043_fuoduw.png)
 
 ### Camps>care mgmt>add new care mgmt>operator
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717064764/Screenshot_2024-05-30_155530_zltviz.png)  
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-30_155530_zltviz.png)  
 By clicking on operator user can select the operator:-
 
 - Greater
@@ -53,4 +53,4 @@ By clicking on operator user can select the operator:-
 
 By clicking on value type, user can select the value type.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717064991/Screenshot_2024-05-30_155857_azjdn2.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-30_155857_azjdn2.png)

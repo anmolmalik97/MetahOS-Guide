@@ -13,11 +13,11 @@ integration of partner organizations into hospital software enhances
 operational efficiency, improves patient care, and facilitates comprehensive
 management of hospital activities.  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717566564/Screenshot_2024-06-05_112422_ksdq7t.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-05_112422_ksdq7t.png)
 
 Click on **Partner Organizations**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717566930/Screenshot_2024-06-05_112815_zwvi1j.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-05_112815_zwvi1j.png)
 
 - **Refresh Button -** The refresh button updates the current view or report with the latest available data.
 - **Name -** Identifies the partner organization.
@@ -27,7 +27,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717566930/Screensh
 
 Click on **Add Organization**  
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717569924/Screenshot_2024-06-05_112955_sk9bk5.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-05_112955_sk9bk5.png)
 
 - **Name -** Identifies the partner organization.
 - **Description -** Provides additional details about the partner organization.

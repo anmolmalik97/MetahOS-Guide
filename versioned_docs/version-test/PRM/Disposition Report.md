@@ -13,7 +13,7 @@ interactions and communications and also helps in understanding how
 effectively patient inquiries and issues are resolved.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717145200/Screenshot_2024-05-31_142135_gnza8b.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_142135_gnza8b.png)
 
 - **Refresh Button -** The **Refresh** button is used to update the data displayed on the screen.
 
@@ -30,7 +30,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717145200/Screensh
 - **Download Option -** The download option enables users to export the generated agent report in various formats, commonly CSV, PDF, or Excel.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717145963/Screenshot_2024-05-31_143349_hmw5ba.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-05-31_143349_hmw5ba.png)
 
 - **Disposition Type** \- Explains the broad classification of the outcome of a patient interaction or call. It categorizes the final status or result of the interaction.
 

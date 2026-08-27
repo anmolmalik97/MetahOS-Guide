@@ -9,17 +9,17 @@ Patient Log Report
 - Upon successful **“Login”** , user will be directed to the “ _**Landing Page**_ ”.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717654592/Screenshot_2024-06-06_114615_eflhs2.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_114615_eflhs2.png)
 
 - Click the _**"Worklist"**_ module button on the landing page.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717654739/Screenshot_2024-06-06_114842_bktjob.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_114842_bktjob.png)
 
 - Choosing from a dropdown menu- **"Patient Log Report"**
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717667125/Screenshot_2024-06-06_151505_brxfcc.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_151505_brxfcc.png)
 
 - The **“Patient Log Report”** will present user with a visual overview of key information.  
   -This report provides a quick overview of key information about a patient’s medical history within the healthcare facility.  
@@ -37,7 +37,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717667125/Screensh
 9. **Gender:** The patient’s gender.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717667208/Screenshot_2024-06-06_151629_gj3b1m.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_151629_gj3b1m.png)
 
 - Filtering options for Patient Log Reports-  
   -Date Range (Start date and End date)  
@@ -46,7 +46,7 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717667208/Screensh
   -Download Function
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717667321/Screenshot_2024-06-06_151723_kovlpt.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_151723_kovlpt.png)
 
 - To retrieve data for a particular month, the Patient log report will include a date filter with the following details:
 
@@ -56,20 +56,20 @@ here](https://res.cloudinary.com/teleopdassets/image/upload/v1717667321/Screensh
 -These filters will be used to specify the exact month for which the Patient data is required, ensuring that only the relevant records within the specified date range are included in the report.
 
 ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717667385/Screenshot_2024-06-06_151922_jgzzww.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_151922_jgzzww.png)
 
 - **Department Filter:**  
   From the dropdown menu choose the department user want to filter by.  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717667474/Screenshot_2024-06-06_152049_dpiqrg.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_152049_dpiqrg.png)
 
 - **Doctor Filter:**  
   -From the dropdown menu choose the Doctor user want to filter by.  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717667572/Screenshot_2024-06-06_152227_q2aktl.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_152227_q2aktl.png)
 
 - **Download Function:**  
   This allows user to export the filtered report data into a format like CSV or
   PDF for further analysis or sharing.  
   ![enter image description
-here](https://res.cloudinary.com/teleopdassets/image/upload/v1717667634/Screenshot_2024-06-06_152340_rh5ki8.png)
+here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-06-06_152340_rh5ki8.png)
