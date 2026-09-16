@@ -23,6 +23,7 @@ const reducedMotion =
 let progressBar = null;
 let revealObserver = null;
 let scrollBound = false;
+let progressTicking = false;
 
 function isDocsRoute(pathname) {
   return /\/docs(\/|$)/.test(pathname || "");
@@ -36,19 +37,34 @@ function ensureProgressBar() {
   document.body.appendChild(progressBar);
 }
 
+// The bar is a full-width element scaled on the X axis rather than one whose
+// `width` is set per scroll event: `width` forces layout + paint on every
+// frame of a scroll, `transform` is composited. All measurements are taken
+// together at the top of the frame and the single write happens after them,
+// so a scroll never interleaves reads and writes (layout thrash).
 function updateProgress() {
   if (!progressBar) return;
   const doc = document.documentElement;
-  const scrollTop = doc.scrollTop || document.body.scrollTop;
-  const height = doc.scrollHeight - doc.clientHeight;
-  const pct = height > 0 ? (scrollTop / height) * 100 : 0;
-  progressBar.style.width = pct + "%";
+  const max = doc.scrollHeight - doc.clientHeight; // read
+  const top = window.pageYOffset || doc.scrollTop || 0; // read
+  const pct = max > 0 ? Math.min(Math.max(top / max, 0), 1) : 0;
+  progressBar.style.transform = "scaleX(" + pct.toFixed(4) + ")"; // write
+}
+
+// Coalesce bursts of scroll events down to one update per animation frame.
+function requestProgressUpdate() {
+  if (progressTicking) return;
+  progressTicking = true;
+  window.requestAnimationFrame(() => {
+    progressTicking = false;
+    updateProgress();
+  });
 }
 
 function bindScroll() {
   if (scrollBound || !isBrowser) return;
-  window.addEventListener("scroll", updateProgress, { passive: true });
-  window.addEventListener("resize", updateProgress, { passive: true });
+  window.addEventListener("scroll", requestProgressUpdate, { passive: true });
+  window.addEventListener("resize", requestProgressUpdate, { passive: true });
   scrollBound = true;
 }
 
@@ -510,6 +526,70 @@ function renderSteps() {
   });
 }
 
+/* ---------------------------------------------------------------------------
+ * Inline token decoration
+ * The reference pages are dense with two kinds of inline code that carry
+ * meaning beyond "this is code": permission keys and lifecycle statuses.
+ * Rendering them as chips lets a reader scan a table for the one they need
+ * instead of reading every row.
+ *
+ * Both matchers are deliberately narrow. A blanket "snake_case" or "UPPERCASE"
+ * rule would also catch field names (`session_id`), workflow views (`my_turn`),
+ * environment variables (`TWILIO_AUTH_TOKEN`), payment methods (`NEFT`),
+ * interpretation categories (`IC2`) and generated ids (`INDBOG5`) — none of
+ * which are permissions or statuses. Those stay as plain code.
+ * ------------------------------------------------------------------------- */
+
+// Every permission key in the product starts with an action verb.
+const PERMISSION_RE =
+  /^(?:access|create|edit|manage|approve|cancel|send|convert|extend|override|pack|dispatch|accept|bill|clear|view|delete|update|export|import|assign)_[a-z0-9]+(?:_[a-z0-9]+)*$/;
+
+// Allow-list of genuine lifecycle statuses, mapped to a tone. Tone is a
+// secondary cue only — the label itself always carries the meaning, so the
+// chip never depends on colour alone.
+const STATUS_TONE = (() => {
+  const map = {};
+  const add = (tone, names) => names.forEach((n) => (map[n] = tone));
+  add("ok", [
+    "APPROVED", "ACCEPTED", "COMPLETED", "PAID", "CLEARED", "RECEIVED",
+    "CONFIRMED", "CONVERTED", "FULLY_ADVANCED", "COLLECTED", "ACTIVE",
+    "RELEASED",
+  ]);
+  add("wait", [
+    "PENDING", "DRAFT", "SENT", "REQUESTED", "SUBMIT", "UNPAID", "PARTIAL",
+    "BILLED", "SAMPLE_PENDING", "REPORT_PENDING", "APPROVAL_PENDING",
+    "PENDING_APPROVAL", "PARTIALLY_ADVANCED", "PARTIALLY_COLLECTED",
+  ]);
+  add("bad", [
+    "REJECTED", "REJECTION", "CANCELED", "CANCELLED", "FAILED", "OVERDUE",
+    "EXPIRED", "SUPERSEDED", "DISCONTINUED", "CRITICAL", "NO_SHOW",
+    "NOT_RECEIVED", "NOT_COLLECTED",
+  ]);
+  return map;
+})();
+
+function decorateTokens() {
+  if (!isBrowser) return;
+  const root = document.querySelector(".theme-doc-markdown");
+  if (!root) return;
+  // `data-lumen` marks a node as already considered, so repeated passes
+  // (hydration, route changes) never re-walk the same code spans.
+  root.querySelectorAll("code:not([data-lumen])").forEach((el) => {
+    if (el.closest("pre")) return; // fenced blocks keep their syntax theme
+    el.setAttribute("data-lumen", "");
+    const text = (el.textContent || "").trim();
+    if (PERMISSION_RE.test(text)) {
+      el.classList.add("lumen-perm");
+      return;
+    }
+    const tone = STATUS_TONE[text];
+    if (tone) {
+      el.classList.add("lumen-pill");
+      el.setAttribute("data-tone", tone);
+    }
+  });
+}
+
 /* React hydration can render (or re-render) the doc body AFTER our first
  * conversion pass and restore the raw code block. So we watch the content and
  * re-convert whenever an unconverted ```steps / ```mermaid block appears. This
@@ -523,6 +603,7 @@ function scheduleRender() {
   renderTimer = window.setTimeout(() => {
     renderSteps();
     renderMermaid();
+    decorateTokens();
   }, 120);
 }
 
@@ -552,6 +633,7 @@ function applyForRoute(pathname) {
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         updateProgress();
+        decorateTokens();
         setupReveal();
         ensureIconFont();
         renderSteps();
@@ -561,7 +643,7 @@ function applyForRoute(pathname) {
     });
   } else if (progressBar) {
     progressBar.style.opacity = "0";
-    progressBar.style.width = "0%";
+    progressBar.style.transform = "scaleX(0)";
   }
 }
 

@@ -77,7 +77,7 @@ The sidebar is grouped by how a healthcare team actually works:
 
 - **Patient journey** — Patient Navigation, Pre-Doctor / Secretary, Clinician, IP, OT, MRD, Referral
 - **Diagnostics** — Laboratory & Diagnostics, Radiology
-- **Operations** — Human Resources, Facility & Inventory, Billing & Payments, ESI & CGHS
+- **Operations** — Human Resources, Facility & Inventory, Billing & Payments
 - **Growth & engagement** — Sales & CRM, Marketing, Queue TV, Notifications, Camps
 - **Integration & insight** — ABDM / ABHA, Analytics & AI Dashboards
 - **Build & extend** — Form Builder, Authentication, Security, Workflow Engine, Integration with MetahOS
@@ -96,7 +96,7 @@ Since the previous guide (v1.0.39), MetahOS added a lot. Highlights you'll find 
 - **Human Resources** — an attendance module with geofenced punches, merged leave requests & approvals, and richer user records.
 - **ABDM / ABHA** — ABHA creation, auto-linking, consent & data sharing, PHR, and scan-and-share.
 - **Analytics** — AI dashboards including Patient Acquisition and Brand Sentiment & NPS.
-- **Operations** — ESI monthly lab annexure, CGHS tools, bank/CIB payments, inventory barcodes and package management, and more.
+- **Operations** — bank/CIB vendor payouts with partial-payment reconciliation, inventory barcodes and package management, and more.
 
 ## Start today
 

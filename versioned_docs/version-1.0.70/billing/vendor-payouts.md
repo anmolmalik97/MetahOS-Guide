@@ -40,7 +40,7 @@ For sites integrated with a bank, vendor payouts are pushed to the bank's paymen
 2. **Initiate Payment** — you supply the OTP and optional remarks; the payment file is submitted and a **file sequence number** is returned and recorded.
 3. **Sync Payment Status** — the status of the submitted file is polled and each invoice's status is updated (e.g. **PROCESSING**, **SUCCESSFUL**, **PARTIAL PAID**).
 
-See [Bank Integration & Partial Payments](../esi-cghs/bank-integration-and-partial-payments.md) for the ICICI / CIB integration and how partial payments are handled.
+See [Bank Integration & Partial Payments](./bank-integration-and-partial-payments.md) for the ICICI / CIB integration and how partial payments are handled.
 
 ## Manual Payment Recording
 

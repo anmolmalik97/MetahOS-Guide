@@ -29,12 +29,11 @@ Queue TV settings are stored **per assigning authority** (site / facility). The 
 ## Setting up a screen at a site
 
 1. Make sure you are working under the correct **assigning authority** (the site whose screen you are configuring).
-2. Configure that site's ads and playlist in the **Marketing** configurables — see [Configuring Ads & the Playlist](./configuring-ads.md).
-3. Tune the layout and font in the **layout editor** (`/qtv-editor`) — see [Layouts, Vertical Screens & Fonts](./layouts-and-fonts.md).
-4. On the TV (or its media player), open the Queue TV screen URL in full-screen:
+2. Tune the layout and font in the **layout editor** (`/qtv-editor`) — see [Layouts, Vertical Screens & Fonts](./layouts-and-fonts.md).
+3. On the TV (or its media player), open the Queue TV screen URL in full-screen:
    - `/tvscreen` for the current smart-TV-optimised screen, or
    - `/queueTvScreen` for the earlier screen.
-5. Leave the screen running. It updates automatically as tokens are called and as you change the configuration.
+4. Leave the screen running. It updates automatically as tokens are called and as you change the configuration.
 
 ## Running different content per location
 
