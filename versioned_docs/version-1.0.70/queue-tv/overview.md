@@ -52,6 +52,5 @@ Queue TV settings are stored **per assigning authority** (site / facility). When
 
 ## In this section
 
-- [Configuring Ads & the Playlist](./configuring-ads.md)
 - [Layouts, Vertical Screens & Fonts](./layouts-and-fonts.md)
 - [Managing Multiple Screens](./managing-screens.md)

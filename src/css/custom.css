@@ -97,6 +97,21 @@ body.lumen-docs {
   --ifm-breadcrumb-item-background-active: var(--lumen-accent-soft);
   --lumen-code-bar: rgba(15, 42, 67, 0.06);
   --lumen-code-bar-border: rgba(15, 42, 67, 0.10);
+
+  /* Semantic tones for status pills. Tone is a secondary cue: the label
+     always states the status, so meaning never rests on colour alone. */
+  --lumen-ok-ink: #0a6b45;
+  --lumen-ok-bg: rgba(16, 150, 100, 0.12);
+  --lumen-ok-dot: #12a06a;
+  --lumen-wait-ink: #8a5a00;
+  --lumen-wait-bg: rgba(200, 140, 20, 0.14);
+  --lumen-wait-dot: #c88c14;
+  --lumen-bad-ink: #a32b20;
+  --lumen-bad-bg: rgba(200, 60, 50, 0.12);
+  --lumen-bad-dot: #d14a3c;
+  --lumen-perm-ink: #1f5f96;
+  --lumen-perm-bg: rgba(47, 134, 207, 0.10);
+  --lumen-perm-border: rgba(47, 134, 207, 0.24);
 }
 
 /* ---- Palette & tokens : dark (default mode) -----------------------------
@@ -118,6 +133,21 @@ html[data-theme='dark'] body.lumen-docs {
   --lumen-accent-soft: rgba(45, 212, 191, 0.13);
   --lumen-accent-soft-2: rgba(87, 166, 238, 0.13);
   --lumen-glass: rgba(16, 31, 44, 0.6);
+
+  /* Dark mode uses lighter tonal variants rather than the same inks — the
+     light-mode values do not meet contrast on a dark surface. */
+  --lumen-ok-ink: #6ee7b7;
+  --lumen-ok-bg: rgba(45, 212, 150, 0.16);
+  --lumen-ok-dot: #34d399;
+  --lumen-wait-ink: #fcd34d;
+  --lumen-wait-bg: rgba(251, 191, 36, 0.15);
+  --lumen-wait-dot: #fbbf24;
+  --lumen-bad-ink: #fca5a5;
+  --lumen-bad-bg: rgba(248, 113, 113, 0.16);
+  --lumen-bad-dot: #f87171;
+  --lumen-perm-ink: #8fc6f5;
+  --lumen-perm-bg: rgba(87, 166, 238, 0.14);
+  --lumen-perm-border: rgba(87, 166, 238, 0.28);
   --lumen-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 18px -10px rgba(0, 0, 0, 0.6);
   --lumen-shadow-md: 0 1px 2px rgba(0, 0, 0, 0.34), 0 20px 44px -20px rgba(0, 0, 0, 0.72);
   --lumen-shadow-lg: 0 1px 2px rgba(0, 0, 0, 0.34), 0 34px 70px -28px rgba(0, 0, 0, 0.8);
@@ -168,12 +198,17 @@ body.lumen-docs *::-webkit-scrollbar-track { background: transparent; }
   position: fixed;
   top: 0; left: 0;
   height: 3px;
-  width: 0%;
+  /* Full width, scaled on X: `transform` is composited, whereas animating
+     `width` would force layout + paint on every frame of a scroll. */
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  will-change: transform;
   z-index: 1000;
   background: linear-gradient(90deg, var(--lumen-accent), var(--lumen-accent-2));
   box-shadow: 0 0 12px var(--lumen-accent);
   border-radius: 0 3px 3px 0;
-  transition: width 0.12s linear, opacity 0.3s ease;
+  transition: transform 0.12s linear, opacity 0.3s ease;
   opacity: 0;
   pointer-events: none;
 }
@@ -414,6 +449,100 @@ body.lumen-docs .markdown table td { border: none; border-bottom: 1px solid var(
 body.lumen-docs .markdown table tbody tr { background: var(--lumen-surface); transition: background 0.16s ease; }
 body.lumen-docs .markdown table tbody tr:nth-child(2n) { background: var(--lumen-surface-2); }
 body.lumen-docs .markdown table tbody tr:hover { background: var(--lumen-accent-soft); }
+
+/* ---- Narrow-screen table scrolling --------------------------------------
+   The permission and status tables are wider than a phone viewport. Without
+   this the whole PAGE scrolls sideways.
+
+   This is done purely in CSS, on the table itself. An earlier version wrapped
+   each table in a scroll container from JS — but the markdown subtree belongs
+   to React, and moving a node out of it makes React's later removeChild fail,
+   which tears down the whole article (and with it the rendered diagrams).
+   Never restructure this subtree from script; style it instead. */
+@media (max-width: 996px) {
+  body.lumen-docs .markdown table {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+/* Figures in data columns line up when they share a width. */
+body.lumen-docs .markdown table { font-variant-numeric: tabular-nums; }
+
+/* ---- Inline tokens : permission keys & lifecycle statuses ---------------
+   Decorated by lumen.js (decorateTokens). Both are inline <code>, so they
+   inherit the code font and stay copy-pasteable. */
+
+/* Permission key — a grantable role permission. */
+body.lumen-docs .markdown code.lumen-perm {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.34em;
+  background: var(--lumen-perm-bg);
+  border: 1px solid var(--lumen-perm-border);
+  color: var(--lumen-perm-ink);
+  border-radius: 999px;
+  padding: 0.05em 0.6em 0.1em 0.55em;
+  font-size: 0.82em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+body.lumen-docs .markdown code.lumen-perm::before {
+  content: "";
+  flex: none;
+  align-self: center;
+  width: 0.82em;
+  height: 0.82em;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23000'%3E%3Cpath d='M15.75 1.5a6.75 6.75 0 00-6.651 7.906c.067.39-.032.717-.221.906l-6.5 6.499a3 3 0 00-.878 2.121v2.818c0 .414.336.75.75.75H6a.75.75 0 00.75-.75v-1.5h1.5A.75.75 0 009 20.25v-1.5h1.5a.75.75 0 00.53-.22l2.658-2.658c.19-.189.517-.288.906-.221A6.75 6.75 0 1015.75 1.5zm0 3a.75.75 0 000 1.5A2.25 2.25 0 0118 8.25a.75.75 0 001.5 0 3.75 3.75 0 00-3.75-3.75z'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23000'%3E%3Cpath d='M15.75 1.5a6.75 6.75 0 00-6.651 7.906c.067.39-.032.717-.221.906l-6.5 6.499a3 3 0 00-.878 2.121v2.818c0 .414.336.75.75.75H6a.75.75 0 00.75-.75v-1.5h1.5A.75.75 0 009 20.25v-1.5h1.5a.75.75 0 00.53-.22l2.658-2.658c.19-.189.517-.288.906-.221A6.75 6.75 0 1015.75 1.5zm0 3a.75.75 0 000 1.5A2.25 2.25 0 0118 8.25a.75.75 0 001.5 0 3.75 3.75 0 00-3.75-3.75z'/%3E%3C/svg%3E") center / contain no-repeat;
+  opacity: 0.75;
+}
+
+/* Lifecycle status — one value out of a documented set. */
+body.lumen-docs .markdown code.lumen-pill {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4em;
+  border-radius: 999px;
+  padding: 0.05em 0.62em 0.1em 0.55em;
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+body.lumen-docs .markdown code.lumen-pill::before {
+  content: "";
+  flex: none;
+  align-self: center;
+  width: 0.46em;
+  height: 0.46em;
+  border-radius: 50%;
+  background: currentColor;
+}
+body.lumen-docs .markdown code.lumen-pill[data-tone="ok"] {
+  background: var(--lumen-ok-bg);
+  color: var(--lumen-ok-ink);
+}
+body.lumen-docs .markdown code.lumen-pill[data-tone="ok"]::before { background: var(--lumen-ok-dot); }
+body.lumen-docs .markdown code.lumen-pill[data-tone="wait"] {
+  background: var(--lumen-wait-bg);
+  color: var(--lumen-wait-ink);
+}
+body.lumen-docs .markdown code.lumen-pill[data-tone="wait"]::before { background: var(--lumen-wait-dot); }
+body.lumen-docs .markdown code.lumen-pill[data-tone="bad"] {
+  background: var(--lumen-bad-bg);
+  color: var(--lumen-bad-ink);
+}
+body.lumen-docs .markdown code.lumen-pill[data-tone="bad"]::before { background: var(--lumen-bad-dot); }
+
+/* In a table the chips carry the row, so let them breathe a little. */
+body.lumen-docs .markdown table code.lumen-perm,
+body.lumen-docs .markdown table code.lumen-pill { font-size: 0.78em; }
 
 /* ---- Admonitions as frosted glass cards -------------------------------- */
 body.lumen-docs .theme-admonition,
