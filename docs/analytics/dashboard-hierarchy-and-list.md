@@ -32,7 +32,7 @@ The tree is made up of four node types:
 - **DLC** — District-level cluster.
 - **ALC** — Area-level cluster.
 - **LO** — Local office.
-- **MMU** — Mobile Medical Unit (the leaf node, each mapped to an assigning authority).
+- **MMU** — Mobile Medical Unit (the leaf node, each mapped to an assigning authority). The screenings done by each MMU can be reported in detail in the [MMU Beneficiary Report](../camps/mmu-beneficiary-report.md).
 
 Selecting a node shows the dashboards relevant to that node's scope. Selecting a single MMU also exposes its workflow instances, which can be filtered by date range, and any files associated with that authority.
 

@@ -43,7 +43,7 @@ Log in is not case-sensitive against the stored ID — a doctor typing their ID 
 
 ## Generating IDs in bulk
 
-For an existing estate of doctors, use **HR → Resources → Generate User IDs**. The action requires `manage_doctor_userids`.
+For an existing estate of doctors, use **HR → Resources → Generate User IDs**. The action is available to roles that can manage doctor user IDs.
 
 The modal shows how many doctors would be affected and what the next number will be, and recalculates as you change the option below.
 

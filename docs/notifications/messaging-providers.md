@@ -10,9 +10,9 @@ MetahOS sends patient and staff messages over several channels and supports mult
 
 ```steps
 fa-comment | Build message from template | Here is what happens at this step.
-fa-whatsapp | whatsappProvider (Twilio / MessageBird) | A WhatsApp message is sent.
+fa-whatsapp | Configured WhatsApp provider (Twilio / MessageBird) | A WhatsApp message is sent.
 fa-mobile | SMS Country / Twilio SMS | A text message is sent.
-fa-envelope | Email if SENDGRID_API_KEY set | An email is sent.
+fa-envelope | Email if SendGrid is set up | An email is sent.
 fa-whatsapp | WhatsApp delivered | We hand the report to the right person.
 fa-mobile | SMS delivered | We hand the report to the right person.
 fa-envelope | Email delivered | We hand the report to the right person.
@@ -24,7 +24,7 @@ When MetahOS sends a notification it can deliver it as an **SMS**, a **WhatsApp*
 
 ## WhatsApp Providers
 
-The WhatsApp provider is selected by the `whatsappProvider` configuration key. Supported providers include:
+The WhatsApp provider is chosen in a setting turned on by an administrator or the MetahOS team. Supported providers include:
 
 - **Twilio**
 - **Karix**
@@ -35,21 +35,19 @@ The WhatsApp provider is selected by the `whatsappProvider` configuration key. S
 
 MessageBird sends WhatsApp template messages and is the default WhatsApp dispatch path. It uses the configured channel and namespace, and template messages are addressed by their template name.
 
-:::note Environment
-- `MESSAGE_BIRD_KEY` — MessageBird API key. When it is not set, MessageBird messages are skipped.
+:::note Setup
+- The MessageBird account credentials are set up on the server by the MetahOS team. When they are not set up, MessageBird messages are skipped.
 :::
 
 ### Twilio
 
-Twilio can deliver both WhatsApp messages and plain SMS. Twilio is used for WhatsApp when `whatsappProvider` is set to `twilio`, and can also be used as an SMS channel (see below).
+Twilio can deliver both WhatsApp messages and plain SMS. Twilio is used for WhatsApp when Twilio is selected as the WhatsApp provider, and can also be used as an SMS channel (see below).
 
-:::note Environment
-- `TWILIO_ACCOUNT_SID` — Twilio Account SID.
-- `TWILIO_AUTH_TOKEN` — Twilio auth token.
-- `TWILIO_PHONE_NUMBER` — Twilio sender phone number used for SMS.
+:::note Setup
+- The Twilio account credentials and the sender phone number used for SMS are set up on the server by the MetahOS team.
 :::
 
-When the Twilio credentials are not configured, Twilio messages are skipped. Recipient numbers are normalised to the correct international format using the configured `countryCode`.
+When the Twilio credentials are not configured, Twilio messages are skipped. Recipient numbers are normalised to the correct international format using the country code configured for your deployment.
 
 ## SMS Providers
 
@@ -61,20 +59,20 @@ For text-message (SMS) delivery, MetahOS supports:
 
 SMS Country and Twilio SMS are each enabled per message and only send when their credentials are present.
 
-:::note Environment
-- `MSG_USER` — SMS Country gateway user.
-- `MSG_AUTH` — SMS Country authentication token.
-- `MSG_SENDER` — SMS sender ID / header.
-- `GUPSHUP_USERID`, `GUPSHUP_PASSWORD` — Gupshup SMS credentials.
-- `KARIX_ID`, `KARIX_TOKEN` — Karix SMS credentials.
+:::note Setup
+The account credentials for each SMS provider are set up on the server by the MetahOS team:
+
+- **SMS Country** — gateway account credentials and the SMS sender ID / header.
+- **Gupshup** — account credentials.
+- **Karix** — account credentials.
 :::
 
 ## Email
 
 Email is sent via SendGrid when configured.
 
-:::note Environment
-- `SENDGRID_API_KEY` — SendGrid API key. Email is skipped when it is not set.
+:::note Setup
+- The SendGrid account credentials are set up on the server by the MetahOS team. Email is skipped when they are not set up.
 :::
 
 ## Turning Patient Messaging Off

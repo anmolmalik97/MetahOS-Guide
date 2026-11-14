@@ -26,10 +26,10 @@ fa-user | User or resource saved | Here is what happens at this step.
 
 Creating or editing a user opens a tabbed form. Two fields worth calling out:
 
-- **Reg. No.** (field `registrationNumber`) — the professional registration number for
+- **Reg. No.** — the professional registration number for
   the user. This is captured on the form and **printed on bill invoices** beside the
   name of the person who raised the bill, shown as *Reg. No.: &lt;number&gt;*.
-- **Designation** (field `designation`) — the employee's job title, captured on the
+- **Designation** — the employee's job title, captured on the
   **Organization** tab under Employment Details.
 
 :::tip Registration number on invoices
@@ -48,6 +48,19 @@ employees with the same display name.
 Names are length-checked on save, so an over-long name cannot be stored and then be
 truncated inconsistently in tables, reports and printed documents.
 
+### Roles in the user and resource lists
+
+Both lists now show which roles each person holds, so an administrator can check access
+without opening every record:
+
+- **Manage Users** has a **Roles** column between **Type** and **Authority Access**.
+- **Manage Resources** (the doctors list) shows **Roles** where the **Qualification**
+  column used to be. The qualification is still stored on the doctor's record — it is
+  only no longer shown in this table.
+
+Roles are listed by name, separated by commas. A person with no role shows `-`. The
+column cannot be sorted.
+
 ### Profile photo
 
 A user's profile photo may be up to **5 MB**. A larger file is rejected as soon as
@@ -58,15 +71,39 @@ would fail.
 
 **Manage Resources** has a **Generate User IDs** action for issuing sign-in IDs to
 doctors in bulk — filling in doctors who have none, or renumbering the whole estate.
-It requires the `manage_doctor_userids` permission. See
+It requires the permission to manage doctor user IDs. See
 [Doctor User IDs](../security/doctor-user-ids.md).
 
 ## Managing roles
 
-Roles are edited from the HR module. The role editor lists permissions grouped by the
-module and screen they apply to, so a role can be given access to one worklist without
-opening up the rest of a module. Newly introduced permissions are never added to an
-existing role automatically — an administrator has to grant them deliberately.
+Roles are edited from **HR → Manage Roles** (needs access to Manage Roles). The role
+editor lists permissions grouped by the module and screen they apply to, so a role can be
+given access to one worklist without opening up the rest of a module. Newly introduced
+permissions are never added to an existing role automatically — an administrator has to
+grant them deliberately.
+
+### Role details
+
+The **Details** button on each role opens a **Role Details** window, so you can see who
+holds a role and what it allows before you change it.
+
+![Role Details window showing the role, its modules and status, and the Assigned Users tab](/img/v81/role-details.png)
+
+The header shows the role name, its description (or *No description provided*), and a
+badge for each module its permissions belong to. The window has two tabs:
+
+| Tab | What it shows |
+| --- | --- |
+| **Assigned Users** (opens first) | Every staff user and doctor who holds the role, sorted by name, with their user type. A disabled account carries a grey **Inactive** badge. The count appears at the top of the tab. |
+| **Permissions** | Each permission in the role, using the same label as the role editor (for example *CAN ACCESS LAB IP PENDING ?*), with the module it belongs to. A role that grants everything shows **All Permissions**. |
+
+:::note Who you can see
+If you can only access some authorities, the Assigned Users tab lists only users who share
+one of your authorities, plus users who can access every authority.
+:::
+
+If the user list cannot be loaded, the tab shows *Unable to load assigned users* with a
+retry button; the rest of the window still works.
 
 ## Designation & Authority
 

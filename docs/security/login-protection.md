@@ -47,7 +47,7 @@ lock are applied across all matching doctor records so the protection cannot be 
 
 ## Multi-Factor OTP
 
-When `hasMultifactorAuthentication` is enabled, a correct password is not enough — the
+When multi-factor authentication is enabled, a correct password is not enough — the
 platform sends a one-time password to the user's mobile and email, which must be entered
 to complete login. The OTP is valid for **10 minutes**, and resends are throttled to once
 per minute. Entering a wrong OTP counts as a failed attempt for lockout purposes.

@@ -73,11 +73,11 @@ Totals are calculated consistently across quotations, orders and invoices:
 
 - Each line has a quantity, rate, optional line discount and a GST percentage.
 - An **overall discount** can be applied as `NONE`, `PERCENT` or `AMOUNT`, and is allocated proportionally across lines before tax.
-- The system reports a `subTotal`, `discountTotal`, `taxableTotal`, `gstTotal` and `grandTotal` so the breakdown is always transparent.
+- The system reports a sub-total, discount total, taxable total, GST total and grand total so the breakdown is always transparent.
 
 ## Audit trail
 
-Every Sales record stores **createdBy** and **updatedBy** (name, user ID and user type). Orders additionally record **approvedBy / approvedAt**, **receivedBy / receivedAt** and **confirmedBy / confirmedAt**, and cancelled invoices and payments capture **canceledBy / canceledAt**. This gives you a complete history of each document.
+Every Sales record stores **who created it** and **who last updated it** (name, user ID and user type). Orders additionally record **who approved them and when**, **who received them and when** and **who confirmed them and when**, and cancelled invoices and payments capture **who cancelled them and when**. This gives you a complete history of each document.
 
 ## Where to go next
 

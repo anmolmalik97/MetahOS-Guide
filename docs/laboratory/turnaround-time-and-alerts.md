@@ -21,21 +21,28 @@ fa-user-md | Notify pathologists via messaging | A message is sent to say what h
 
 ## Turnaround time (TAT)
 
-Each lab test can carry a **turnaround time** value, stored as `tat` on the test (a non-negative number, configured under **Manage Test**). TAT expresses the expected time to deliver a result for that test and is used to flag and prioritise pending work.
+Each lab test can carry a **turnaround time**, configured under **Manage Test**. TAT expresses the expected time to deliver a result for that test and is used to prioritise pending work.
 
 To set TAT:
 
 1. Open the test under **Manage Test**.
-2. Enter the **TAT** value.
-3. Save.
+2. Enter the **TAT Value**.
+3. Choose the **TAT Unit** — **Minutes**, **Hours** or **Days**. It defaults to Minutes.
+4. Save.
+
+The Manage Test list shows each test's TAT with its unit (for example *4 Hours*), and the export has separate **TAT Value** and **TAT Unit** columns in place of the old *TAT (Minutes)*.
 
 :::note
-TAT is validated on save — only a numeric, non-negative value is stored. Leaving it blank stores no TAT for the test.
+The TAT value must be a **positive** number — zero is no longer accepted (*TAT value must be a positive number*). Leaving it blank stores no TAT; clearing it when editing removes the test's TAT. Tests that had a TAT before units were introduced are read as minutes, so nothing changes for them.
 :::
 
 ## The TAT warning on the Pending worklist
 
 When a test is close to breaching its turnaround time, a warning marker appears on its row in the **Pending** worklist. Click it to see how long is left.
+
+:::caution Not shown in v1.0.81
+The warning marker is switched off in this release, so it does not currently appear on the Pending worklist. The behaviour below describes it for when it is turned back on; TAT values you set now, in any unit, will be used.
+:::
 
 - The countdown starts from the **billed date** of the test and runs for the TAT configured on it.
 - The marker appears in the last **20 minutes** before the deadline, and the dialog shows the exact minutes remaining.

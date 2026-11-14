@@ -35,3 +35,7 @@ See [Doctor User IDs](../security/doctor-user-ids.md) for how the ID is built an
 ### Follow the onscreen instructions
 
 ![Reset Password](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Reset_Password_vncdqi.png)
+
+:::note
+Signing in and resetting your password keep working even when your deployment is in read-only mode for an overdue subscription. See [Subscription Status & Read-Only Mode](../security/subscription-status-and-read-only-mode.md).
+:::

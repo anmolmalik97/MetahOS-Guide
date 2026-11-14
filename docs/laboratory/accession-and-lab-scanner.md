@@ -31,14 +31,16 @@ Switching to single-stage accession changes only what is *required* and what is 
 :::
 
 :::note If you are switching over
-Tests that are already generally accepted but still awaiting department acceptance stay in **Sample Pending** until something else is written to them. Clearing the department accession queue before the switch avoids this entirely.
+Tests that are already generally accepted but still awaiting department acceptance stay in **Accession Pending** until something else is written to them. Clearing the department accession queue before the switch avoids this entirely.
 :::
 
 ## The Lab Scanner
 
-The **Lab Scanner** appears in the Lab sidebar for users with the `access_lab_scanner` permission. (On sites still running two accession stages it is labelled **Accession Scanner**.)
+The **Lab Scanner** appears in the Lab sidebar for users whose role includes the Lab Scanner permission. (On sites still running two accession stages it is labelled **Accession Scanner**.)
 
 It turns accession into a single physical motion: pick up the tube, scan the label, put it down. There is no need to find the patient in a list first.
+
+![The Lab Scanner with the authority, accession mode and Scan barcode field](/img/v81/lab-scanner.png)
 
 ### Using the scanner
 
@@ -49,7 +51,7 @@ It turns accession into a single physical motion: pick up the tube, scan the lab
 Both label types are understood:
 
 - **Sample barcodes** — accession every test that shares that sample.
-- **Package barcodes** — accession the single test the label belongs to.
+- **Package barcodes** — accession every test on the order that shares that label's tube (the same barcode identifier). Cleared tests are left alone.
 
 ### Reading the results
 
@@ -71,6 +73,29 @@ Each scan produces a coloured result card showing the patient, the order and the
 ### Scan history
 
 The scanner keeps a history of what was scanned, by whom and what the outcome was. Open it from the scanner screen to check a batch after the fact, or to confirm that a particular tube was handled.
+
+Each barcode in the history is a link. Clicking it opens the lab report page in a new tab, showing only the tests that scan touched.
+
+## Searching by barcode from any lab list
+
+You don't have to go to the Lab Scanner to find an order by its barcode. The lab lists — **Pending** and each of its status screens, **Completed**, **Cleared**, **Home Collection**, **IP Pending** and **IP Completed** — have a round **barcode button** in the bottom-right corner.
+
+```steps
+fa-barcode | Scan the tube | Scan anywhere on the list, or open the barcode box.
+fa-search | Order found | The barcode is matched to its bill.
+fa-file-text-o | Report opens | The lab report page opens on that order's tests.
+```
+
+- **Scan straight onto the page.** With a barcode gun you don't need to click anything first: a scan made anywhere on the list is picked up, as long as you are not typing in a field and no window is open. Scanning the same barcode twice in quick succession is ignored.
+- **Or type it.** Click the barcode button to open the **Scan barcode** box, then scan or type the barcode and press Enter.
+
+If one order matches, its report page opens — for a package barcode, showing just the tests in that tube. If several bookings match, you are asked to pick one (*N bookings match, pick one*), with each shown by bill number and date. A barcode that matches nothing shows *Not found*.
+
+:::note
+Searching finds **billed orders that have not been cleared**, within the authorities your scanner access covers. Cleared orders are not found, even from the Cleared list.
+:::
+
+Scanning to search only opens the order. It never accessions anything — use the Lab Scanner for that.
 
 ## Outsourced tests are never accessioned
 

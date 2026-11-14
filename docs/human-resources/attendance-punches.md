@@ -25,7 +25,7 @@ fa-file-text-o | Roll up into daily summary | Here is what happens at this step.
 
 ## How Punches Work
 
-Each punch stores the action (`checkin` or `checkout`), a timestamp, the employee, the
+Each punch stores the action (check-in or check-out), a timestamp, the employee, the
 assigning authority (site) the punch belongs to, and — when the device provides it — a
 selfie image and a GPS location. Punches are written to a dedicated attendance store
 and roll up into the employee's daily attendance summary at the end of the day.
@@ -68,8 +68,8 @@ action:
 - enforce-on-check-out (default disabled) — block check-outs taken outside the fence.
 
 When a punch is blocked, the employee is told how far away they are from the nearest
-allowed location. The recorded geofence status of each accepted punch (`inside`,
-`outside`, or `not_checked`) is visible in the Attendance Details view.
+allowed location. The recorded geofence status of each accepted punch (inside,
+outside, or not checked) is visible in the Attendance Details view.
 
 ### Leave override
 

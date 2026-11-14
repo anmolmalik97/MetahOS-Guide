@@ -24,13 +24,13 @@ fa-bell | Escalation | If it waits too long, a bigger boss is told.
 
 ## Key Concepts
 
-- **Workflow definition** — the template. It lists the **steps** (each with a `key`,
-  `label`, the `roleKey` that owns it, optional default assignees, and SLA hours) and the
+- **Workflow definition** — the template. It lists the **steps** (each with an identifier,
+  a display label, the role that owns it, optional default assignees, and SLA hours) and the
   **transitions** (from-step → action → to-step, optionally limited to certain roles).
 - **Workflow instance** — one record flowing through a definition. It tracks the
   **current** step/role, a full **history** of actions taken, and per-step SLA timing.
-- **Steps and transitions** — a definition has a `startStepKey` and one or more
-  `endStepKeys`. Reaching an end step via an **approve** action marks the instance
+- **Steps and transitions** — a definition has a start step and one or more
+  end steps. Reaching an end step via an **approve** action marks the instance
   **completed**.
 
 ## Actions

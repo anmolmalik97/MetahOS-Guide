@@ -22,8 +22,8 @@ fa-circle-o | External LIS | Here is what happens at this step.
 
 Use **Send Report** to email the report to the patient. MetahOS collects every available report URL for the order:
 
-- the combined report (`reportUrl`),
-- the external report (`externalReportUrl`, if the order came from an external LIS),
+- the combined report,
+- the external report (if the order came from an external LIS),
 - and the individual per-test report URLs (skipping tests handled entirely by the external LIS).
 
 The patient's email is required; if no report URL exists for the order the send is rejected.
@@ -41,25 +41,25 @@ MetahOS can send the report to the patient **automatically** once an order is fu
 On approval, MetahOS automatically:
 
 - Sends the report to the **referring doctor / referral source**.
-- For bills tied to a **corporate contract** (`contractType: corporate`) with a contact email, emails the report to that corporate contact, including the employee ID where present.
+- For bills tied to a **corporate contract** (a corporate-type contract) with a contact email, emails the report to that corporate contact, including the employee ID where present.
 
 ## External LIS integration
 
 For tests fulfilled by a third-party lab, MetahOS integrates with an **External LIS**.
 
-- An order can be flagged `isUsingExternalLIS`, with an `externalLISName`, a `remoteBookingID`, and an `externalReportUrl`.
-- Individual tests map to the external system through an **external mapping ID** (`externalMappingID`, set on the test).
+- An order can be marked as using an external LIS, and then records the external LIS name, the remote booking ID, and the external report link.
+- Individual tests map to the external system through an **external mapping ID** (set on the test).
 - A booking is tracked through an **External Lab Report Tracker** that records the booking status (e.g. `BOOKING FAILED`), remote booking ID, and success flag.
 
 ### Manual booking
 
-If an automatic external booking fails (or was never attempted), an order can be **booked manually** when `canBookManually` is set. MetahOS exposes:
+If an automatic external booking fails (or was never attempted), an order can be **booked manually** when manual booking is allowed for it. MetahOS exposes:
 
 - a **tracker** check that reports whether the order exists in the external system, whether it is booked, and whether manual booking is still allowed; and
-- a **manual booking** action that triggers the external booking and updates the order with the returned `remoteBookingID`.
+- a **manual booking** action that triggers the external booking and updates the order with the returned remote booking ID.
 
 :::caution
-Manual booking only applies to orders flagged `isUsingExternalLIS` that still have active external packages. If the order is already booked (an active tracker exists that did not fail), the manual booking is rejected with *"Lab item is already booked."*
+Manual booking only applies to orders marked as using an external LIS that still have active external packages. If the order is already booked (an active tracker exists that did not fail), the manual booking is rejected with *"Lab item is already booked."*
 :::
 
 :::tip

@@ -22,7 +22,7 @@ fa-whatsapp | Report delivered | We make a neat report to share.
 
 ## What the flag does
 
-The **`forceAllowParticularMessageForConsolidatedReport`** flag, when enabled, tells MetahOS to **force-allow** the consolidated report message during both the [bulk send](./consolidated-reports.md) and individual report-send flows. With it on:
+The **force-allow consolidated report message** setting (configured by the MetahOS team or an administrator), when enabled, tells MetahOS to **force-allow** the consolidated report message during both the [bulk send](./consolidated-reports.md) and individual report-send flows. With it on:
 
 - The consolidated report message (and its regional-language variant) is allowed through even when it might otherwise be filtered by the platform's general messaging eligibility checks.
 - The report PDF is still attached and sent through the same templates as usual.

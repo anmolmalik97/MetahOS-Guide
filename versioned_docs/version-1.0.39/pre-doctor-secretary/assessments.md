@@ -4,7 +4,7 @@
 
 You can create and manage assessments in care/assessments tab. Click add assessments to navigate to form builder to create new ones.
 
-![Consultation Screen in MetahOS](/img/assessments.png)
+![Consultation Screen in MetahOS](/img/Assessments.png)
 
 Left panel includes all the elements needed to create assessments, Click on them to open modal.
 

@@ -31,15 +31,15 @@ Once published, a public form is reachable through a public link that does not r
 The public-facing endpoints expose only what a public form needs:
 
 - The form definition (its name and fields) is fetched by id.
-- Submissions are posted back and stored as form responses, optionally tagged with an `entityId` and `uniqueId` for grouping; when those are not supplied, the current date is used.
+- Submissions are posted back and stored as form responses, optionally tagged with an entity and a unique identifier for grouping; when those are not supplied, the current date is used.
 - File/image uploads from a public form use short-lived, signed upload tokens so uploads are scoped to that specific form.
 
 Only forms that are of type **Public Forms** and not disabled can be opened or submitted publicly — any other id is rejected.
 
-:::note Environment
-- `PUBLIC_FORM_UPLOAD_TOKEN_SECRET` — secret used to sign public upload tokens (falls back to `HASH_KEY`).
-- `PUBLIC_FORM_UPLOAD_TOKEN_EXPIRES_IN` — upload token lifetime (default `30d`).
-- `PUBLIC_FORM_REFRESH_TOKEN_SECRET` / `PUBLIC_FORM_REFRESH_TOKEN_EXPIRES_IN` — refresh token secret and lifetime (default `180d`).
+:::note Setup
+- The keys used to sign public upload and refresh tokens are set up on the server by the MetahOS team.
+- Upload tokens are valid for 30 days by default.
+- Refresh tokens are valid for 180 days by default.
 :::
 
 :::caution

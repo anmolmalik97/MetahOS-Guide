@@ -17,7 +17,7 @@ fa-flask | Normal lab flow | From here the test behaves like any other lab order
 
 ## The Consultation Orders tab
 
-Open **Lab → Consultation Orders** to see the unbilled lab orders raised from consultations. The tab requires `access_lab_consultation_orders`.
+Open **Lab → Consultation Orders** to see the unbilled lab orders raised from consultations. You need access to Consultation Orders to see the tab.
 
 The list adds an **Ordered By** column showing the prescribing doctor, so it is always clear who raised the request.
 
@@ -51,7 +51,7 @@ The **Pay** button on the Consultation Orders table stays hidden until the lab s
 
 ## Creating an order from the lab screen
 
-Doctors can also raise a consultation order directly, without going through the Doctor App. The action sits next to **Refresh** in the unbilled Consultation Orders table and requires `create_lab_consultation_order`.
+Doctors can also raise a consultation order directly, without going through the Doctor App. The action sits next to **Refresh** in the unbilled Consultation Orders table and is available only to roles that can create a consultation order.
 
 1. Click **Create Consultation Order**.
 2. Pick an existing patient or create a new one, and create the bill.
@@ -66,11 +66,11 @@ Both the consultation and the lab booking are submitted with their own idempoten
 
 ## Permissions
 
-| Action | Permission |
+| Action | Permission needed |
 | --- | --- |
-| See the Consultation Orders tab | `access_lab_consultation_orders` |
-| Create a consultation order | `create_lab_consultation_order` |
-| Bill a consultation lab order | `bill_lab_order` |
-| Clear or unclear an order | `clear_and_unclear_lab` |
+| See the Consultation Orders tab | Access to Consultation Orders |
+| Create a consultation order | Create consultation orders |
+| Bill a consultation lab order | Bill lab orders |
+| Clear or unclear an order | Clear and unclear lab orders |
 
 Clearing a billed order reverses the lab package charges on the bill. Clearing an order that was never billed leaves the bill untouched.

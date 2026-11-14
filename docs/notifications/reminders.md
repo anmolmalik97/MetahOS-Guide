@@ -11,8 +11,8 @@ MetahOS can automatically remind patients and doctors about upcoming consultatio
 ```steps
 fa-calendar | Daily scan of next-day bookings | Someone asks to begin, like booking a ride.
 fa-bell | Upcoming consultation alert | Here is what happens at this step.
-fa-check | sendOpdReminder? | A friendly nudge so no one forgets.
-fa-check | sendTeleReminder? | A friendly nudge so no one forgets.
+fa-check | OPD reminder on? | A friendly nudge so no one forgets.
+fa-check | Tele reminder on? | A friendly nudge so no one forgets.
 fa-user-md | OPD reminder | A friendly nudge so no one forgets.
 fa-mobile | Tele reminder | A friendly nudge so no one forgets.
 fa-comment | Patient & doctor notified | A message is sent to say what happened.
@@ -31,7 +31,7 @@ OPD (in-person) and tele (video) consultations can each have their own reminder,
 Because the OPD and tele reminders are independent and each has its own lead time, a single consultation can trigger more than one reminder (for example a day-before reminder plus a shorter lead-time reminder closer to the appointment). Enable only the reminders relevant to your workflow to avoid over-messaging patients.
 
 :::tip
-Set `opdReminderBeforeMinutes` and `teleReminderBeforeMinutes` to match how far in advance your patients should be nudged. Keep `sendOpdReminder` / `sendTeleReminder` off for any channel you do not want to use.
+Ask an administrator or the MetahOS team to set the OPD and tele reminder lead times (in minutes) to match how far in advance your patients should be nudged, and to keep the OPD or tele reminder turned off for any channel you do not want to use.
 :::
 
 ## Other Patient Messages

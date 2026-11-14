@@ -23,6 +23,8 @@ fa-file-text-o | Goods Received Note (view / print) | We check the box and put t
 
 Open the item in **Item Manager** (or use the multi-item inward flow) and complete the inward form. Typical fields include batch number, quantity, free quantity, MRP, selling MRP, cost / buying price, GST, scheme discount, vendor, requisition number and the invoice date.
 
+The **HSN Code** field, on both the single-item and multi-item inward forms, accepts **digits only** (*HSN Code must contain only numeric characters*). It may be left blank.
+
 ## Invoice Date Rules
 
 By default the **Invoice Date** cannot be earlier than one year ago. This guards against accidental back-dating of stock receipts.
@@ -32,6 +34,10 @@ The expected **Invoice Due Date** is derived from the invoice date plus the cred
 ## Goods Received Notes (GRN)
 
 After an inward is saved, the receipt is recorded as a **Goods Received Note**. You can view and print the **Goods Received Notes (GRN)** for a receipt from the inward flow.
+
+The GRN lists an **Exp Date** column for every item, both on screen and on the printed GRN. The expiry is shown as month and year (*MM/YY*), taken from the batch details entered at inward.
+
+![A printed Goods Received Note with the Exp Date column next to Batch](/img/v81/grn-print-exp-date.png)
 
 :::note
 This document used to be labelled "Goods Receipt Note". It is now consistently called **"Goods Received Note"** throughout MetahOS. The behaviour is unchanged — only the wording was corrected.

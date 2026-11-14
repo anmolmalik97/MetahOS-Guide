@@ -22,7 +22,7 @@ fa-circle-o | Final combined PDF | Here is what happens at this step.
 
 ## Step 1: Open Export Bills
 
-From the Bills list, apply your filters (date range, assigning authority, camp, doctor, department, payment method, contract, IP/OP/Pharmacy, etc.) and open **Export Bills**.
+From the Bills list, apply your filters (date range, assigning authority, camp, doctor, department, payment method, contract, IP/OP/Pharmacy, etc.) and open **Export Bills**. Exported PDFs are the same as printed bills, so cancelled and refunded bills carry their status, cancellation and refund details.
 
 ## Step 2: Choose a folder
 

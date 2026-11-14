@@ -34,7 +34,7 @@ When a customer disputes a price or a delivery date, the audit history on the do
 
 The **Reports** tab summarises the sales pipeline, drawing on the same documents the worklists use, so the numbers reconcile with what the team sees day to day.
 
-Access requires `access_sales_reports`.
+Access requires the permission to view sales reports.
 
 Cancelled documents are excluded from the totals, so a cancelled order does not inflate the pipeline.
 

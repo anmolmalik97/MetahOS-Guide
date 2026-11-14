@@ -17,7 +17,7 @@ fa-key | Access resolved | The user reaches every site in the bucket.
 
 ## Creating and managing buckets
 
-Buckets are managed under **Facility Management → Bucket Authorities**, and require the `manage_bucket_authorities` permission.
+Buckets are managed under **Facility Management → Bucket Authorities**, and are available to roles that can manage bucket authorities.
 
 A bucket has a name and the list of sites it contains. Creating one does not change anyone's access until it is assigned to a user.
 
@@ -43,7 +43,7 @@ A user's effective sites are resolved when they sign in and whenever their acces
 :::
 
 :::note
-`canAccessAllAuthority` still overrides everything. A user with all-authority access reaches every site regardless of any bucket.
+Access to all authorities still overrides everything. A user with all-authority access reaches every site regardless of any bucket.
 :::
 
 :::caution

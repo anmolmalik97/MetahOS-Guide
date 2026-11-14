@@ -40,6 +40,8 @@ Clicking on EMAR would take you the
 
 ![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/WorkingDiagnosis_esgei2.png)
 
+The IP working diagnosis and prescription diagnosis pickers show each diagnosis's ICD-10 code and severity badge. See [Diagnosis Master & Severity Levels](../clinician/diagnosis-severity.md).
+
 ## Doctor Adding Progress Notes
 
 ![Doctor Adding Progress Notes](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/ProgressNotes_j0njsb.gif)
