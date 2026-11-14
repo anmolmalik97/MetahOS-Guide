@@ -28,9 +28,9 @@ fa-paper-plane | Submit and commit | We send it off to the next person.
 
 The primary filter answers "what do you want to see?":
 
-- **Action Required** (`my_turn`) — records currently sitting at a step owned by one of
+- **Action Required** — records currently sitting at a step owned by one of
   your roles. This is the default and is what you act on.
-- **My Past Actions** (`my_actions`) — records you have already acted on, so you can
+- **My Past Actions** — records you have already acted on, so you can
   follow up on their progress.
 
 ### User-wise filter
@@ -69,7 +69,7 @@ same time, the second submission is rejected with a "concurrent update" message 
 be retried safely.
 
 :::caution Signature requirement
-If the current step's role is configured in the definition's `signRequiredRoles`, you
+If the current step's role is one the definition marks as requiring a signature, you
 must have a valid signature on file. The platform checks that your stored signature image
 is reachable before allowing the action; if it is missing or invalid the action is
 blocked.

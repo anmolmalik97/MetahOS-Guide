@@ -1,0 +1,58 @@
+---
+sidebar_position: 51
+---
+
+# Package Management & Pricing
+
+A **package** bundles several services or items into one billable product (for example a health-check package or a surgery package). Package Management is available under **Facility**.
+
+## At a glance
+
+```steps
+fa-cubes | Add line items | Here is what happens at this step.
+fa-circle-o | Total (excl. GST) | Here is what happens at this step.
+fa-circle-o | GST Total | Here is what happens at this step.
+fa-circle-o | Net Total = Total + GST | Here is what happens at this step.
+fa-money | Override price set? | Here is what happens at this step.
+fa-cubes | Package Total = Net Total | Here is what happens at this step.
+fa-cubes | Package Total = fixed price + GST | Here is what happens at this step.
+fa-money | Billed; components shown on bill | Here is what happens at this step.
+```
+
+## Package name rules
+
+A package name is checked when you save, both in the form and on the server:
+
+- It is required and can be at most **100 characters** (previously 150).
+- It cannot start or end with a space.
+- It may contain letters, numbers, spaces and `@ & - _ + / ( )` only, and must contain at least one letter or number.
+- It must be **unique within the hospital or branch**, ignoring case — *Knee Package* and *KNEE PACKAGE* count as the same name.
+
+:::caution Renaming older packages
+An existing package whose name breaks these rules — too long, or containing other symbols — cannot be saved again until it is renamed.
+:::
+
+Long package names are shortened with an ellipsis in the Package Management list and on the lab, pharmacy, OPD and procedure worklists. Hover over a shortened name to see it in full.
+
+## Building a Package
+
+Add the constituent line items to the package. As you add items, MetahOS continuously calculates:
+
+- **Total** — the sum of the line items' prices, excluding GST.
+- **GST Total** — the GST across the line items.
+- **Net Total** — total plus GST.
+- **Package Total** — the final, billable package price (the whole package price you set, plus package-level GST). When you set a single overall package price, that price is used in place of the summed line-item net total.
+
+This means you can either let the package price roll up from its items, or override it with a fixed whole-package price; the **Package Total** always reflects the price the patient is actually billed.
+
+:::tip
+The package screen also shows the **original** totals (the pre-discount sum of the items) next to the package price, so you can see how much the bundle discounts against buying each item individually.
+:::
+
+:::caution Package Total Cost is required
+**Package Total Cost** must be filled in before a package can be saved. A package without a total cannot be priced on a bill, so it is validated at the point it is built rather than failing later at billing.
+:::
+
+## Packages on the Bill
+
+When a package is billed, the bill and the printed bill now itemise the **package's component items** underneath the package line, so patients and auditors can see exactly what the package contained. Package names print in full, including any *SURGICAL* or *OTHER* prefix. See [Bill Content & Printing](../billing/bill-content-and-printing.md) for details.

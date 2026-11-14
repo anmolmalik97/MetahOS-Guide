@@ -49,18 +49,18 @@ A proforma can require approval before it goes out, through a configured set of 
 
 | Action | Permission |
 | --- | --- |
-| View proforma invoices | `access_sales_proforma_invoice` |
-| Create | `create_sales_proforma_invoice` |
-| Edit | `edit_sales_proforma_invoice` |
-| Send to the customer | `send_sales_proforma_invoice` |
-| Approve | `approve_sales_proforma_invoice` |
-| Convert to an order | `convert_sales_proforma_invoice` |
-| Cancel | `cancel_sales_proforma_invoice` |
-| Extend validity | `extend_sales_proforma_validity` |
+| View proforma invoices | **View proforma invoices** |
+| Create | **Create proforma invoices** |
+| Edit | **Edit proforma invoices** |
+| Send to the customer | **Send proforma invoices** |
+| Approve | **Approve proforma invoices** |
+| Convert to an order | **Convert proforma invoices to orders** |
+| Cancel | **Cancel proforma invoices** |
+| Extend validity | **Extend proforma validity** |
 
 ## Extending validity
 
-A proforma has a validity period, after which it expires. Rather than re-issuing the document, a user with `extend_sales_proforma_validity` can **extend** it, which keeps the same reference and its history intact.
+A proforma has a validity period, after which it expires. Rather than re-issuing the document, a user with the permission to extend proforma validity can **extend** it, which keeps the same reference and its history intact.
 
 :::tip
 Extending is better than re-issuing when the customer is simply slow to respond — the advance payments and approvals already recorded against the proforma stay attached to it.

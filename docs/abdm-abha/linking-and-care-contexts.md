@@ -41,12 +41,12 @@ Before any record can be linked, ABDM issues a **link token** that ties your fac
 
 - **Request / init** — MetahOS asks the middleware to generate a link token for a patient who has an ABHA. The token starts in a `REQUESTED` state.
 - **Receive** — the middleware calls MetahOS back with the issued token, which is stored against the patient and marked `ACTIVE`. Tokens are kept for roughly six months.
-- **Per-address tokens** — because a patient can hold several ABHA addresses, MetahOS stores both a current `linkToken` and a historical `linkTokens` list, and always uses the token bound to the patient's preferred ABHA address.
+- **Per-address tokens** — because a patient can hold several ABHA addresses, MetahOS stores both the current link token and a history of earlier link tokens, and always uses the token bound to the patient's preferred ABHA address.
 - **Refresh** — a nightly job re-requests tokens that are near expiry or have failed.
 - **Error handling** — if the middleware reports a problem, the error message is captured on the token and surfaced through the link tracker, and the token is retried later rather than blocking other patients.
 
 :::note
-Per-patient linking only runs when **care-context linking** is enabled for the tenant (the `ENABLE_ABHA_CARE_CONTEXT_LINKING` feature flag, on top of ABDM being enabled). See *Configuration*.
+Per-patient linking only runs when **care-context linking** is enabled for the tenant by the MetahOS team (on top of ABDM being enabled). See *Configuration*.
 :::
 
 ## The link tracker
@@ -70,7 +70,7 @@ When ABDM is enabled, MetahOS schedules three recurring jobs:
 2. **Auto-link records (retry)** — cleans up successfully linked entries, drops stale failures, removes duplicate-link errors, and retries care contexts that previously failed.
 3. **Refresh link tokens** — re-requests tokens that are due for refresh based on the tracker.
 
-These jobs are throttled and idempotent: a record already marked as linked (`isABHALinked`, or `isPrescriptionLinked` for prescriptions) is skipped, and repeated requests for the same care context within a short window are suppressed.
+These jobs are throttled and idempotent: a record already marked as linked to ABHA (prescriptions are tracked separately) is skipped, and repeated requests for the same care context within a short window are suppressed.
 
 :::tip
 You don't normally need to do anything for linking to happen. Once a patient has an ABHA and the facility has a link token, new records they generate are picked up by the auto-link job and pushed to ABDM on their next run.
@@ -87,7 +87,7 @@ Manual linking is also where **link OTP** comes in: when ABDM requires the patie
 When ABDM confirms that care contexts were linked, the middleware calls MetahOS to **update link status**. MetahOS then:
 
 - marks the matching records as linked so they aren't re-sent,
-- records the ABHA address/number on the patient (adding it to `abhaAddresses` if new),
+- records the ABHA address/number on the patient (adding it to the patient's list of ABHA addresses if new),
 - writes a **link history** entry for each linked care context (patient, ABHA address, HI type and the record reference), and
 - recomputes the patient's link summary.
 

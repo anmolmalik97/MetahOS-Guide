@@ -26,7 +26,7 @@ Patients log in to the Patient Portal with their mobile number and a one-time pa
 
 Some deployments — for example camps or kiosks with intermittent SMS delivery — can enable a **default OTP** so patients can sign in with a known code instead of waiting for an SMS.
 
-When a patient registers or logs in using the default OTP, the system records this on the patient record via the `registeredThroughDefaultOTP` flag, so these patients can be identified later.
+When a patient registers or logs in using the default OTP, the system marks the patient record as registered through the default OTP, so these patients can be identified later.
 
 ### Bypass / Whitelist for Specific Numbers
 

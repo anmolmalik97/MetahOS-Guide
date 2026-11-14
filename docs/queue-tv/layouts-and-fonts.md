@@ -26,9 +26,9 @@ fa-check | Save per layout type | Here is what happens at this step.
 
 The editor offers three layout types:
 
-- **Horizontal Only (`shrinkH`)** — a horizontal ad along the bottom, queue above.
-- **Vertical Only (`shrinkV`)** — a vertical ad down one side, queue beside it.
-- **Combined (`shrink`)** — a vertical ad on the side *and* a horizontal ad on the bottom at once. This option appears when the combined layout is enabled in the Queue TV configuration.
+- **Horizontal Only** — a horizontal ad along the bottom, queue above.
+- **Vertical Only** — a vertical ad down one side, queue beside it.
+- **Combined** — a vertical ad on the side *and* a horizontal ad on the bottom at once. This option appears when the combined layout is enabled in the Queue TV configuration.
 
 ## Vertical Queue TV
 

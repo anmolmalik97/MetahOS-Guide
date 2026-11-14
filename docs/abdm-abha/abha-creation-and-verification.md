@@ -34,7 +34,7 @@ Before creating a duplicate record, MetahOS checks whether the person already ex
 
 When an ABHA number or ABHA address is supplied, MetahOS first attempts an **exact match** against existing records:
 
-- It searches for a patient whose `abhaNumber` matches, or whose preferred `abhaAddress` or historical `abhaAddresses` list contains the address.
+- It searches for a patient whose ABHA number matches, or whose preferred ABHA address or list of previously used ABHA addresses contains the address.
 - If an exact ABHA match is found, that single patient is returned and you can attach the ABHA to the existing record instead of creating a new one.
 
 If there is no ABHA match, MetahOS falls back to a **demographic similarity** search:
@@ -61,6 +61,6 @@ These actions are available from the patient's ABHA card buttons. The same card 
 
 After creation or verification, the patient record carries the ABDM identifiers used by the rest of the integration:
 
-- `abhaNumber` — the 14-digit ABHA number.
-- `abhaAddress` — the patient's **preferred** ABHA address.
-- `abhaAddresses` — the full list of ABHA addresses the patient has used (a patient may hold more than one).
+- **ABHA number** — the 14-digit ABHA number.
+- **ABHA address** — the patient's **preferred** ABHA address.
+- **All ABHA addresses** — the full list of ABHA addresses the patient has used (a patient may hold more than one).

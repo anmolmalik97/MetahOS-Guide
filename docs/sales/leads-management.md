@@ -64,7 +64,7 @@ Leads can be **cleared** (closed without a full resolution). When you switch the
 These columns only display when the cleared-leads view is active, keeping the default worklist focused on open leads.
 
 :::info
-Each lead stores `isCleared`, `clearedOn`, `clearedBy` and `reasonForClearing`, alongside the resolution fields `isResolved`, `resolvedAt`, `resolvedBy` and `resolvingReason`. This gives a clean separation between leads that were *cleared* and leads that were *resolved*.
+Each lead records whether it was cleared, when, by whom and why, alongside separate resolution details — whether it was resolved, when, by whom and the resolving reason. This gives a clean separation between leads that were *cleared* and leads that were *resolved*.
 :::
 
 ## Info button removal
@@ -76,5 +76,5 @@ The older per-row **Info** popover button on the leads worklist has been removed
 Camp follow-up leads can be exported to CSV with the **Export CSV** action, optionally filtered by camp and a date range. The export includes follow-up date, screening date, camp name, patient demographics, risk level and the user who created the lead.
 
 :::caution Patient privacy in exports
-When the `maskPatientDataInExport` configuration flag is enabled, sensitive patient fields (name, date of birth, age, gender, mobile, UHID and partner name) are masked in the exported CSV.
+When patient-data masking for exports is turned on for your site (a setting configured by the MetahOS team or an administrator), sensitive patient fields (name, date of birth, age, gender, mobile, UHID and partner name) are masked in the exported CSV.
 :::

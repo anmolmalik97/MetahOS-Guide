@@ -29,6 +29,8 @@ The Patient Longitudinal Record will load as following
 
 ![Patient Longitudinal Record](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Patient_Longitudinal_Record_in_MetahOS_u9lazw.png)
 
+Lab tests appear in the journey as soon as they are booked. A lab entry's **Lab Results** button lists that booking's tests with their current status, and lets you print completed results — see [Viewing lab results from the patient journey](../laboratory/report-navigation-and-audit.md#viewing-lab-results-from-the-patient-journey).
+
 When you click on an Activity it will load a modal with the details
 
 ![Patient Activity Modal](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Patient_Activity_Modal_in_MetahOS_jhs3ed.png)

@@ -23,8 +23,8 @@ An approved order moves through packing and dispatch, each gated by its own perm
 
 | Step | Permission |
 | --- | --- |
-| Pack the order | `pack_sales_order` |
-| Dispatch the order | `dispatch_sales_order` |
+| Pack the order | **Pack sales orders** |
+| Dispatch the order | **Dispatch sales orders** |
 
 ## Delivery challans and delivery notes
 
@@ -37,13 +37,13 @@ Both can be issued and cancelled, and both can be downloaded as a PDF to travel 
 
 | Action | Permission |
 | --- | --- |
-| View delivery | `access_sales_delivery` |
-| View challans | `access_sales_delivery_challan` |
-| Create a challan | `create_sales_delivery_challan` |
-| Cancel a challan | `cancel_sales_delivery_challan` |
-| View delivery notes | `access_sales_delivery_note` |
-| Create a delivery note | `create_sales_delivery_note` |
-| Cancel a delivery note | `cancel_sales_delivery_note` |
+| View delivery | **View sales delivery** |
+| View challans | **View delivery challans** |
+| Create a challan | **Create delivery challans** |
+| Cancel a challan | **Cancel delivery challans** |
+| View delivery notes | **View delivery notes** |
+| Create a delivery note | **Create delivery notes** |
+| Cancel a delivery note | **Cancel delivery notes** |
 
 :::note Partial dispatch is supported
 Quantities are tracked per line, so an order can be dispatched in more than one consignment. Each challan records what went in that consignment, and the order shows what is still outstanding.
@@ -61,10 +61,10 @@ A return is booked against what was delivered, and moves through its own short l
 
 | Action | Permission |
 | --- | --- |
-| View returns | `access_sales_returns` / `access_sales_return` |
-| Create a return | `create_sales_return` |
-| Accept a return | `accept_sales_return` |
-| Cancel a return | `cancel_sales_return` |
+| View returns | **View sales returns** |
+| Create a return | **Create sales returns** |
+| Accept a return | **Accept sales returns** |
+| Cancel a return | **Cancel sales returns** |
 
 ## Credit notes
 
@@ -72,9 +72,9 @@ An accepted return is settled with a **credit note**, which credits the customer
 
 | Action | Permission |
 | --- | --- |
-| View credit notes | `access_sales_credit_note` |
-| Create a credit note | `create_sales_credit_note` |
-| Cancel a credit note | `cancel_sales_credit_note` |
+| View credit notes | **View credit notes** |
+| Create a credit note | **Create credit notes** |
+| Cancel a credit note | **Cancel credit notes** |
 
 :::caution
 Accepting a return and issuing a credit note are separate steps with separate permissions. Accepting the goods back does not automatically credit the customer — that stays a deliberate commercial decision.

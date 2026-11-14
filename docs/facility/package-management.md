@@ -19,6 +19,21 @@ fa-cubes | Package Total = fixed price + GST | Here is what happens at this step
 fa-money | Billed; components shown on bill | Here is what happens at this step.
 ```
 
+## Package name rules
+
+A package name is checked when you save, both in the form and on the server:
+
+- It is required and can be at most **100 characters** (previously 150).
+- It cannot start or end with a space.
+- It may contain letters, numbers, spaces and `@ & - _ + / ( )` only, and must contain at least one letter or number.
+- It must be **unique within the hospital or branch**, ignoring case — *Knee Package* and *KNEE PACKAGE* count as the same name.
+
+:::caution Renaming older packages
+An existing package whose name breaks these rules — too long, or containing other symbols — cannot be saved again until it is renamed.
+:::
+
+Long package names are shortened with an ellipsis in the Package Management list and on the lab, pharmacy, OPD and procedure worklists. Hover over a shortened name to see it in full.
+
 ## Building a Package
 
 Add the constituent line items to the package. As you add items, MetahOS continuously calculates:
@@ -40,4 +55,4 @@ The package screen also shows the **original** totals (the pre-discount sum of t
 
 ## Packages on the Bill
 
-When a package is billed, the bill and the printed bill now itemise the **package's component items** underneath the package line, so patients and auditors can see exactly what the package contained. See [Bill Content & Printing](../billing/bill-content-and-printing.md) for details.
+When a package is billed, the bill and the printed bill now itemise the **package's component items** underneath the package line, so patients and auditors can see exactly what the package contained. Package names print in full, including any *SURGICAL* or *OTHER* prefix. See [Bill Content & Printing](../billing/bill-content-and-printing.md) for details.

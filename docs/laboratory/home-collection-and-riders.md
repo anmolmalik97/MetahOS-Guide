@@ -22,7 +22,7 @@ fa-file-text-o | Report delivered | We make a neat report to share.
 
 ## Step 1: Book a test for home collection
 
-When creating a lab appointment, choose **Home** as the booking mode (or tick *Book for home*). The system normalises this to a `bookingMode` of `HOME` and sets `bookForHome` on the order.
+When creating a lab appointment, choose **Home** as the booking mode (or tick *Book for home*). The system records the order as a home booking.
 
 For a home booking you can also capture:
 
@@ -46,19 +46,19 @@ To assign a rider to a home order:
 
 When you assign a rider, MetahOS records:
 
-- `assignedRider`, `riderAssignedAt`, and `riderAssignedBy`
-- an entry in `riderAssignmentHistory` (rider, timestamp, who assigned, and reason)
-- if not already set, `homeCollectionInitiatedAt` / `homeCollectionInitiatedBy`
+- the assigned rider, when they were assigned, and who assigned them
+- an entry in the rider assignment history (rider, timestamp, who assigned, and reason)
+- if not already set, when home collection was initiated and by whom
 
 :::caution
 A rider can only be assigned to a **home** booking. Attempting to assign a rider to a center booking returns *"Rider assignment is only for home bookings."* The selected rider must also hold rider access, or assignment is rejected with *"Selected rider does not have rider access."*
 :::
 
-To **unassign**, assign with an empty rider — this clears `assignedRider` and logs an `UNASSIGN` entry in the history.
+To **unassign**, assign with an empty rider — this clears the assigned rider and logs an unassignment entry in the history.
 
 ## Step 3: Initiate home collection
 
-Once a rider is assigned (when the rider module is enabled), the order can have home collection initiated. This stamps `homeCollectionInitiatedAt` / `homeCollectionInitiatedBy`.
+Once a rider is assigned (when the rider module is enabled), the order can have home collection initiated. MetahOS records when home collection was initiated and by whom.
 
 :::note
 If the rider module is enabled, you must assign a rider **before** initiating home collection, otherwise the action is rejected with *"Assign rider before initiating home collection."*
@@ -68,10 +68,10 @@ If the rider module is enabled, you must assign a rider **before** initiating ho
 
 When the rider reaches the patient, they:
 
-1. **Collect the sample** — recorded against the test's sample sub-record (see [Sample & Barcode Tracking](./sample-and-barcode-tracking.md)).
+1. **Collect the sample** — recorded against the test's sample sub-record (see [Sample & Barcode Tracking](./sample-and-barcode-tracking.md)). If the sample cannot be used, the rider can mark it **Rejected** with a reason; the order then shows a *Rejected* badge in the rider's orders and *Sample Rejected* in the lab's Pending worklist.
 2. **Collect payment** (optional) — a rider can record a cash payment toward the bill. MetahOS computes the amount due from the bill and collects either the requested amount or the full balance (whichever is lower). A rider can only collect payment for an order **assigned to them**.
 
-Delivery authority is also enforced: a rider may only deliver to an authority they are permitted to serve (driven by `labDeliveryAssigningAuthArray`, falling back to `assigningAuthArray`, unless the rider has `canAccessAllAuthority`).
+Delivery authority is also enforced: a rider may only deliver to an authority they are permitted to serve (their lab-delivery authorities, or their general assigned authorities if none are set), unless the rider is allowed to serve every authority.
 
 :::info
 Once the sample for a home order is collected, MetahOS automatically clears the linked lab appointment(s) for that bill/patient so the appointment list stays accurate.

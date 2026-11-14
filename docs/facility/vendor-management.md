@@ -11,6 +11,14 @@
 ![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-04-16_121525_xykxjn.png)
 
 **Input Vendor Information:** Enter the required details for each vendor. This usually includes vendor name, contact information, and any other pertinent information.
+
+:::info Field rules
+The vendor form checks these fields as you type:
+
+- **Vendor Name** and **Display Name** are required and may contain **letters and spaces only** — digits and symbols such as `&`, `.` and `-` are rejected. Leading and trailing spaces are trimmed.
+- The contact person's **First name** and **Last name** are optional, but if filled in may contain **letters only**, with no spaces.
+- **Bank Account No** and **Re-Enter Bank Account No** accept **digits only**, and the two must match. Pasting into these fields is blocked so the number is typed twice.
+:::
 ![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Screenshot_2024-04-16_121602_lues6j.png)
 
 **Choose from the following options for business type information**

@@ -43,14 +43,14 @@ roles** on the definition:
   *approve any consolidated*) acts as an all-doctor reviewer.
 - A doctor reviewing **their own** consolidated report acts in a self-review capacity.
 
-The definition's `reviewActionRoles` list names the roles entitled to take review
+The definition's list of review-action roles names the roles entitled to take review
 actions on the consolidated workflow, which is how the "self vs. all" reviewer
 distinction is enforced.
 
 ### Reviewing any doctor's bills without approving them
 
 A third capability sits between the two: **review any**
-(`DOCTOR_CONSOLIDATED_REVIEW_ANY`). It lets a user of **any** type — not only a
+(a separately granted capability). It lets a user of **any** type — not only a
 doctor — review **any** doctor's consolidated bills, while never being able to
 approve them.
 

@@ -68,7 +68,7 @@ flowchart TD
 
 ## How this guide is organized
 
-This guide is **versioned to match the product** — you're reading **v1.0.77**. Every module section opens with a *Workflow at a glance* diagram, followed by task-focused pages with the exact buttons, fields and permissions.
+This guide is **versioned to match the product** — you're reading **v1.0.81**. Every module section opens with a *Workflow at a glance* diagram, followed by task-focused pages with the exact buttons, fields and permissions.
 
 The sidebar is grouped by how a healthcare team actually works:
 
@@ -83,18 +83,23 @@ The sidebar is grouped by how a healthcare team actually works:
 Each *Workflow at a glance* diagram uses icons to show the steps and decisions in a flow. **Hover over any node** for a one-line explanation, and toggle the moon/sun in the top bar to switch between light and dark.
 :::
 
-## What's new in v1.0.77
+## What's new in v1.0.81
 
-Since v1.0.70, the biggest changes are in the laboratory, the sales module and access control:
+Since v1.0.77, the biggest changes are in the laboratory, printing and billing, and clinical risk reporting:
 
-- **Laboratory** — per-status pending worklists with their own permissions, a rejected-sample status, single-stage accession and a barcode **Lab Scanner**, outsourced tests merged into the ordinary report modal (and reportable in-house), lab orders raised during a consultation and billed onto the consultation bill, Prev/Next navigation through a worklist, audit history on results, and bulk report export as a ZIP.
-- **Sales & CRM** — Phase 3 adds proforma invoices with approvals and advances, delivery challans and notes, returns and credit notes, price lists, discount approval, credit limits and a reports tab.
-- **Security & access control** — bucket authorities for assigning sites as a bundle, and system-generated doctor user IDs that doctors can sign in with.
-- **Patient records** — structured allergies with severity and status history, next-of-kin details, identity-document expiry tracking, and a full patient edit history.
-- **Clinician** — age- and gender-aware vitals reference ranges, and consultations that can be booked without a named doctor.
-- **Facility & Inventory** — batch expiry carried through to the GRN and exports, corrected PAR and critical-PAR filters, and High-Risk / LASA medicine badges.
-- **Workflow** — a review-any capability on doctor consolidated bills, for teams that check bills without approving them.
-- **Queue TV** — an "Our Doctors" board on idle screens, and a monitor showing which screens are online.
+- **Laboratory** — a new **Accession Pending** status and worklist; outsourced tests tracked as Sample Collected → Sent → Uploaded → Completed, with external files released only once received and in-house reporting locked after an upload; the report opens as a full page that keeps your list's filters; scan a barcode from any lab list to open its order; rejecting a sample at collection with a mandatory reason; TAT in minutes, hours or days; an audit history for every test definition; and new permissions for IP Pending, IP Completed and three worklist columns.
+- **Print Settings** — bills, pharmacy bills and lab reports are now laid out **per authority**, with letterhead modes, a live PDF preview, an audit history of every change, and their own permissions.
+- **Billing** — who cancelled and who refunded a bill is shown in the lists, the payments report and the printout, with a new **Refunded** filter; unpaid pharmacy bills can be cancelled with their medicines returned to stock; and the payments report gains bill-number search, an OPD/IPD filter and pagination.
+- **Clinical** — a **diagnosis master** where every ICD-10 diagnosis can be rated Critical, High, Medium or Low, with severity badges in the diagnosis pickers.
+- **Camps** — an **MMU Beneficiary Report** of every screening by your mobile medical units, with high-risk diseases, vitals, investigations, medicines and ABHA status.
+- **Patients** — ages entered at registration now advance with time, and ages of 100 or more can be entered.
+- **HR** — roles shown in the user and doctor lists, and a Role Details view of who holds a role and what it allows.
+- **Inventory & Facility** — drug schedules X and G with a schedule badge, a drug-alert flag that requires the composition, and stricter vendor, HSN and package-name rules.
+- **Subscription** — deployments linked to the Super Admin Portal show payment reminders and can go read-only while a subscription is overdue.
+
+:::caution Upgrading from v1.0.77 — check your roles
+Several new permissions are not added to existing roles automatically: **Print Settings** (view, edit, and one per document type), **IP Pending / IP Completed** and the **Ordered By, Token Number and Resulting ICs** lab columns. Until they are granted, users without all permissions will not see these.
+:::
 
 ## Start today
 

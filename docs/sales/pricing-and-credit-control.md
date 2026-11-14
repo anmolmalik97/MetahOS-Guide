@@ -30,8 +30,8 @@ When a document is raised for a customer on a price list, the item rates are tak
 
 | Action | Permission |
 | --- | --- |
-| View price lists | `access_sales_price_list` |
-| Create and edit price lists | `manage_sales_price_list` |
+| View price lists | **View price lists** |
+| Create and edit price lists | **Manage price lists** |
 
 :::tip
 Deactivate a superseded price list rather than editing it. The documents already raised under it keep referring to the rates they were priced at, and the history stays readable.
@@ -46,7 +46,7 @@ A document showing a discount carries a status pill:
 - **Discount Approval Pending** — the discount is not yet authorised.
 - **Discount Approved** — it has been signed off.
 
-An **Approve Discount** action appears on the document for users holding `approve_sales_discount`. It only appears while the discount is actually pending, so it never shows on a document that needs nothing.
+An **Approve Discount** action appears on the document for users holding the permission to approve sales discounts. It only appears while the discount is actually pending, so it never shows on a document that needs nothing.
 
 ## Credit limits
 
@@ -54,7 +54,7 @@ Each customer can carry a **credit limit**. Their credit usage — the limit, wh
 
 When a transaction would take the customer past their limit, it is blocked and the reason is shown.
 
-A user holding `override_sales_credit_limit` can let the transaction through anyway. The override is a deliberate, permissioned action rather than a warning that can be clicked past.
+A user holding the permission to override customer credit limits can let the transaction through anyway. The override is a deliberate, permissioned action rather than a warning that can be clicked past.
 
 :::caution
 The credit check is based on outstanding invoiced value. Cancelled documents are excluded from the calculation, so cancelling an invoice releases the credit it was consuming.

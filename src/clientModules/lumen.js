@@ -542,7 +542,7 @@ function renderSteps() {
 
 // Every permission key in the product starts with an action verb.
 const PERMISSION_RE =
-  /^(?:access|create|edit|manage|approve|cancel|send|convert|extend|override|pack|dispatch|accept|bill|clear|view|delete|update|export|import|assign)_[a-z0-9]+(?:_[a-z0-9]+)*$/;
+  /^(?:access|create|edit|manage|approve|cancel|send|convert|extend|override|pack|dispatch|accept|bill|clear|view|delete|update|export|import|assign|print)_[a-z0-9]+(?:_[a-z0-9]+)*$/;
 
 // Allow-list of genuine lifecycle statuses, mapped to a tone. Tone is a
 // secondary cue only — the label itself always carries the meaning, so the
@@ -557,7 +557,8 @@ const STATUS_TONE = (() => {
   ]);
   add("wait", [
     "PENDING", "DRAFT", "SENT", "REQUESTED", "SUBMIT", "UNPAID", "PARTIAL",
-    "BILLED", "SAMPLE_PENDING", "REPORT_PENDING", "APPROVAL_PENDING",
+    "BILLED", "SAMPLE_PENDING", "ACCESSION_PENDING", "REPORT_PENDING",
+    "APPROVAL_PENDING",
     "PENDING_APPROVAL", "PARTIALLY_ADVANCED", "PARTIALLY_COLLECTED",
   ]);
   add("bad", [

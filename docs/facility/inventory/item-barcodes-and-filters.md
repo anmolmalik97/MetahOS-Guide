@@ -54,7 +54,7 @@ The par-level dropdown shows:
 
 ### Drug schedule
 
-For scheduled drugs, the schedule dropdown filters to **H1**, **H**, or **Show Both**.
+For scheduled drugs, the schedule dropdown filters to **H**, **H1**, **X** or **G**. Choose **Show Both** to clear the schedule filter (the label is kept from when there were only two schedules).
 
 ### ABC-VED matrix
 

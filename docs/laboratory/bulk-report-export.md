@@ -18,7 +18,7 @@ fa-list-alt | Manifest included | A list records what came out and what did not.
 ## Exporting
 
 1. Open the **Completed** worklist.
-2. Apply the filters that describe the batch you need — date range, department, authority and so on.
+2. Apply the filters that describe the batch you need — date range, department, authority and so on. The **Lab & Outsourced / Lab (In-house) / Outsourced** filter applies to the export too.
 3. Click **Download Reports (ZIP)**.
 
 The archive is assembled in your browser as each report is fetched, so progress is visible while it runs and a large batch does not have to finish before anything appears.

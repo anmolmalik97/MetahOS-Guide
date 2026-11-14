@@ -22,7 +22,7 @@ Screening list will show you the list of the patients who have active screenings
 
 ### Source of Data Collection (Web App or Mobile App)
 
-![Create New](/img/Camps.png)
+![Create New](/img/camps.png)
 
 ## New Screening
 

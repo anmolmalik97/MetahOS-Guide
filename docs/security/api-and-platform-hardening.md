@@ -33,7 +33,7 @@ re-checks that the session is still valid (not forced out or expired) before iss
 ## Token Expiry
 
 Access tokens are short-lived so a leaked token has a limited window of use. The
-`session_id` cookie issued at login is set with **HTTP-only**, **secure** (in
+session cookie issued at login is set with **HTTP-only**, **secure** (in
 production) and **same-site strict** flags and a **1-day** max-age, and patient login
 tokens are issued with a **1-day** expiry. Sessions are independently tracked and expire
 after a few days, so an old token cannot be refreshed indefinitely.

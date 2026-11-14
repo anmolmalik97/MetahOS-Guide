@@ -34,6 +34,8 @@ To update the symptoms of a patient click on symptoms and it will change to a te
 
 The Clinician can start keying in the diagnosis and MetahOS smart assistant will give you a dropdown list of International Classification of Diseases V10 (ICD10) and ICD-Oncology specific descriptions, The Providers can also key in any text and hit Return/Enter Key to save the diagnosis
 
+Each diagnosis in the list, and each one you have added, shows its **ICD-10 code** and — where one has been set — a coloured **severity** badge (Critical, High, Medium or Low). If your organisation has turned it on, adding a diagnosis that has no severity yet asks you to set one. See [Diagnosis Master & Severity Levels](./diagnosis-severity.md).
+
 ![Entering Diagnosis with Assistant](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Consultation%20Screen/Entering-Diagnosis-in-MetahOS_rc29rs.gif)
 
 ## Action Buttons for Consultants/Clinicians

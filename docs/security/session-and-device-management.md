@@ -11,7 +11,7 @@ extra logins, and lets a user log out their other devices when they hit the limi
 
 ```steps
 fa-check | Successful login | Here is what happens at this step.
-fa-lock | Under allowedNLogins? | Here is what happens at this step.
+fa-lock | Under the allowed-logins limit? | Here is what happens at this step.
 fa-lock | Record new session | Here is what happens at this step.
 fa-lock | Active-session conflict | Here is what happens at this step.
 fa-circle-o | Force logout others? | Here is what happens at this step.
@@ -44,7 +44,7 @@ when it started). The user can then choose to **log out their other devices** an
 Sessions carry their own expiry (a few days) and are validated on every token refresh:
 
 - Expired sessions are filtered out automatically, freeing up a slot under the
-  `allowedNLogins` limit.
+  account's allowed number of simultaneous logins.
 - On refresh, if the session is no longer in the account's valid list (for example
   because another device forced a logout), it is removed and the request is rejected as
   unauthorised — effectively logging that device out.

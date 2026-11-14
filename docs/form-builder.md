@@ -31,7 +31,7 @@ The validation for each field can be configured, you can change the control from
 - Category: Assign a Category for analytics purpose.
 - Hide Label: Can be True or False, Hides label of that field if true.
 - Inline Label: Can be True or False, Align Label and Field horizontally if true.
-- Required: Makes field mandatory.
+- Required: Makes field mandatory. Required fields are marked with a red **\*** for every field type, including attachments, video and checklists. When the form is submitted, every page of a multi-page form is checked; if a required field is empty the form jumps to the page with the first empty field and shows all the errors at once. A value made only of spaces counts as empty. Hidden and disabled fields, and layout elements (Divider, Copy, Header, Space, Label, Whiteboard, Markdown, Form List), are not checked.
 - Error: Text to be shown when invalid input.
 - Placeholder: Text to be shown when field is empty.
 - Default Value: Initial Value
@@ -79,6 +79,10 @@ It provides input field for text.
 All Common Properties.
 ```
 
+- Special Field: fills the field automatically from the patient or admission.
+  - Patient fields: Patient Name, Patient Uhid, Patient Email, Patient First Name, Patient Last Name, Patient Zip, Patient City, Patient State, Patient Street, Patient Id Number, Patient External Id.
+  - IP fields (for IP and discharge forms): IP NUMBER, IP PATIENT NAME, IP PATIENT UHID, IP PATIENT AGE, IP PATIENT GENDER, IP PATIENT PHONE NUMBER, IP PATIENT PERMANENT ADDRESS, IP PATIENT TEMPORARY ADDRESS, IP SERVICING DOCTOR.
+
 ![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Text_n9cnw2.png)
 
 #### TEXT AREA
@@ -92,6 +96,10 @@ It provides input field for long text.
 ```
 All Common Properties.
 ```
+
+- Special Field: fills the field automatically from the patient or admission.
+  - Patient fields: Patient Name, Patient Uhid, Patient Email, Patient First Name, Patient Last Name, Patient Zip, Patient City, Patient State, Patient Street, Patient Id Number, Patient External Id.
+  - IP fields (for IP and discharge forms): IP NUMBER, IP PATIENT NAME, IP PATIENT UHID, IP PATIENT AGE, IP PATIENT GENDER, IP PATIENT PHONE NUMBER, IP PATIENT PERMANENT ADDRESS, IP PATIENT TEMPORARY ADDRESS, IP SERVICING DOCTOR.
 
 ![enter image description here](https://m16-cloudinary-imported-assets.s3.ap-south-1.amazonaws.com/Guide/Form%20Builder/Text_Area_zy0a9n.png)
 

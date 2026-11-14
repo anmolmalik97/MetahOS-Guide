@@ -73,10 +73,24 @@ You can approve multiple orders at once. MetahOS processes each order, approves 
 
 The report is rendered as a PDF with a detailed header (patient demographics, bill/sample IDs, referred-by, prescribed-by, barcode, generated-by, qualification and assigning authority).
 
+Margins, letterhead and layout options for the printed report are set per authority in **Print Settings** — see [Lab Report Print Settings](./lab-report-print-settings.md).
+
+### The v2 report layout
+
+Sites using the **v2** report layout have a redesigned header and footer:
+
+- **Header, left:** Name, Age / Gender, Reg. ID, Barcode (printed as text) and Referred by.
+- **Header, right:** Source / Client (*Direct* when there is none), Sample Collected on, Sample Received on, Report Released on (the approval time) and Sample Type.
+- Each department's results open with a **DEPARTMENT: &lt;NAME&gt;** band, followed by **Investigation Performed:** and the test name.
+- Dates print as *DD MMM YYYY HH:mm*.
+- **Every page** ends with *Printed by: &lt;user&gt; on &lt;date&gt;* on the left and *Page X / Y* on the right. The last page can also print **End of the Report** (turn on *Show End Of Report* in Print Settings). This line prints even when the header and footer are hidden for pre-printed letterhead.
+
+The bordered grid of patient and sample fields, the Sample ID box with its barcode image, and the specimen type on each test line are no longer printed in v2.
+
 Key printing behaviours:
 
 - **Abnormal values are printed in bold.**
-- **Reference ranges marked `hiddenInPrint` are omitted** from the printed report.
+- **Reference ranges marked *Hide in print* are omitted** from the printed report.
 - **Print test-wise** — each test can be printed individually (per-package report URLs), or as a combined report.
 - Hidden ranges, interpretation labels and colour cues follow the configuration described in [Parameters & Interpretation](./parameters-and-interpretation.md).
 
